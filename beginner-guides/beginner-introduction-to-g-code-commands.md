@@ -1,3 +1,7 @@
+---
+description: A beginner introduction to G-code commands
+---
+
 # Beginner: Introduction to G-Code Commands
 
 Now that you are familiar with the coordinate system of the Promega, its orientation and direction, we can get started with learning and sending G-code commands. G-code commands are sent one line at a time, with one command per line. When you send a print file to your printer in order to print something, you are sending the printer a long list of G-code commands. It will look something like this \(but way longer!\):
@@ -65,7 +69,7 @@ You might be familiar with two of the G-code commands here `G91` and `G1`. `G91`
 
 Now that you are more familiar with G-code commands you can try to complete the steps below in order to see how the printer responds to you sending G-code commands directly to the printer itself.
 
-Find the _G-code Console_ tab in the Duet Web Console. 
+Find the _G-code Console_ tab in the Duet Web Console.
 
 ![G-Code Console in the Duet Web Console](../.gitbook/assets/ztlrwbqq28r8id6g-howtogcode.png)
 

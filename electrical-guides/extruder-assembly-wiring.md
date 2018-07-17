@@ -1,3 +1,7 @@
+---
+description: A guide about the wiring of the Promega 3D printer on the extruder side.
+---
+
 # Extruder Assembly Wiring
 
 The extruder assembly wiring is important to do correctly. Follow the guide below for an explanation of the extruder wiring. The first 50 printers will have an older cable assembly as mentioned
@@ -67,11 +71,11 @@ The new extruder assembly is printed in black ABS-R filament, pictured below. Th
 
 10. Place the thermistor connector S8 in the slot pictured below. Route the cable as shown. \(Color of wire in image is wrong, match the labels, not the colors\)
 
-     ![](../.gitbook/assets/new_extruder_wiring_s8.jpg) 
+    ![](../.gitbook/assets/new_extruder_wiring_s8.jpg)
 
 11. Place the other thermistor connector S6 in the slot pictured below. Route the cable as shown. \(Color of wire in image is wrong, match the labels, not the colors\)
 
-    ![](../.gitbook/assets/new_extruder_wiring_s6.jpg) 
+    ![](../.gitbook/assets/new_extruder_wiring_s6.jpg)
 
 12. Take the two stepper motor connectors P4 and P2 and place them as shown below.
 

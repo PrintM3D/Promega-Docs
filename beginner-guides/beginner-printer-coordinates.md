@@ -1,3 +1,7 @@
+---
+description: Beginner guide covering the promega printer coordinates.
+---
+
 # Beginner: Printer Coordinates
 
 In your math classes you have probably heard the term: _Cartesian Coordinates_. This intimidating term is not as bad as it sounds. It refers to the 3D coordinate system that is used almost every where, including the Promega. It features three different axes \(X, Y and Z\), all perpendicular to each other, as seen in the image below. The origin of the cartesian system is located at the intersection of the three different coordinate axes. At this point, the X, Y and Z position are all zero.
@@ -23,6 +27,4 @@ The Promega 3D printer uses millimeters as units. All the commands given to the 
 The Duet control board will keep track of its current position relative to its origin. Again, the origin is where the X, Y and Z position of the 3D printer are 0. The position of the printer can be found in the Duet Web Console on the top-right in a table labeled _Machine Status_. This can be seen in the image below where the printer displays a position of 300 mm in the X-direction and 300 mm in the Y-direction and 159.1 mm in the Z-direction. Remember that this is all relative to the origin of the printer.
 
 ![Duet Web Console Machine Status Table](../.gitbook/assets/38yr6g32ydtjmfdm-machinestatus.PNG)
-
-
 
