@@ -59,8 +59,12 @@ Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telli
 
 6. Once the bed is properly touching the nozzle record the Z-value in _Machine Status_ on the Duet Web Console_._ This value will be used in the next step.
 7. Open the _machine\_zendstop.g_ file in the _Settings_ tab of the Duet Web Console. This file is called during the homing process of the Z-axis. Find the `G92` command at the end of the file. This command sets the z-axis height.
-8. Update this value with the following formula:  $$new value = old value - step6value$$  For example: if the _machine\_zendstop.g_ file currently contains the command  `G92 Z376.4` and I obtained a value of -0.6. My new value would be 377mm, and I would remove the current command and enter `G92 Z377`
-9. Save the file and home the printer again. Although you should now be able to enter the command `G1 Z0` , I don't recommend it. Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.
+8. Update this value with the following formula:  $$new value = old value - step6value$$  For example: if the _machine\_zendstop.g_ file currently contains the command  `G92 Z376.4` and I obtained a value of -0.6. My new value would be 377mm, and I would remove the current command and enter `G92 Z377`.
+9. Save the file.
+10. Open the _machine\_axisdimension.g_ file in the _Settings_ tab of the Duet Web Console. This file defines the minimum and maximum dimensions of each axis and will be affected by changes to the z-axis end stop.
+11. Find the second `M208` command at the end of the file, the one that says `Set axis maxima` in the comment.
+12. Change the Z value to be the Z end stop value determined above, rounded up to the next integer. For example, if the Z end stop was at 376.4, max Z needs to be 377; if the Z end stop was 377.2, max Z needs to be 378 etc. If the Z end stop is already an integer, do not round up.
+13. Save the file and home the printer again. Although you should now be able to enter the command `G1 Z0`, I don't recommend it. Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.
 
 Continue on to the [Heating the Bed and Nozzles](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
