@@ -18,4 +18,5 @@ On GitHub, one can use the popular _Pull Request_ feature. To do so, you would c
 
 Thank you
 
-(Test)
+\(Test\)
+
