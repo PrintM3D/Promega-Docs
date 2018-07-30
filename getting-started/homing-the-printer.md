@@ -45,22 +45,23 @@ Follow the steps below to correctly home your printer.
 
 ## Tuning the Z-homing Procedure
 
-**Because the distance between the bed and the nozzle depends on your Promega configuration \(K'tana vs. Compound, Glass vs. no glass\). You will have to tune** _**machine\_zendstop.g**_ **for Z0 to line up.**
+**The relative distance between the bed and the nozzle depends on your Promega configuration \(K'tana vs. Compound, glass vs. no glass, etc.\)  The macro** _**machine\_zendstop.g**_ **allows for Z0 to line up properly.  We recommend tuning this macro once after receiving your printer, as well as following any configuration changes to the printer \(such as extruder style or print surface change\).**
 
-Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telling the printer to go to \(0,0,0\)\) the print bed will touch the nozzle. However, as outlined above, the difference between the bed and the nozzle varies depending on your setup. Follow the steps below to update your _machine\_zendstop.g_ file.
+Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telling the printer to go to \(0,0,0\)\) the print bed will touch the nozzle.  However, as outlined above, the relative distance between the bed and the nozzle varies depending on your setup.  Follow the steps below to update your _machine\_zendstop.g_ file.
 
-1. Home the printer if you have not already done so in the section above.
-2. Send the command `G29 S2` , this will disable bed leveling. Bed leveling can conflict with your homing value.
-3. Move the printer to Z10 with the command `G1 Z10`
-4. Move the printer head to the center with `G1 X200 Y200`
-5. Jog the bed up the nozzle with the buttons in machine control until the bed is touching the nozzle. Use the _Z1mm_ and _Z0.1mm_ buttons. Remember that you are about 10mm away from the nozzle.
+1. Verify your printer configuration is up to date before completing this procedure.  In particular, make sure the file _machine\_zendstop.g_ is present on the SD card.  To verify: in the web interface, choose _Settings_ and then _System Editor_.  Scroll down and ensure _machine\_zendstop.g_ is present.  If it is not, first review the instructions at [Updating SD Card Structure](updating-sd-card-structure.md) to update your printer, then return to this page to tune the Z-homing procedure. 
+2. Home the printer if you have not already done so \(see [Homing the Printer](homing-the-printer.md#homing-the-printer) section above\). 
+3. Send the command `G29 S2` to disable bed leveling.  Bed leveling can conflict with your homing value. 
+4. Move the printer to a height of Z = +10 mm with the command `G1 Z10`  
+5. Move the print head toward the center with `G1 X200 Y200`  
+6. Jog the bed up the nozzle with the buttons in machine control until the bed is touching the nozzle.  Use the _Z1mm_ and _Z0.1mm_ buttons.  Remember that you are about 10mm away from the nozzle.
 
-   ![](../.gitbook/assets/machinecontrol%20%281%29.png)
+   ![](../.gitbook/assets/machinecontrol%20%281%29.png)  
 
-6. Once the bed is properly touching the nozzle record the Z-value in _Machine Status_ on the Duet Web Console_._ This value will be used in the next step.
-7. Open the _machine\_zendstop.g_ file in the _Settings_ tab of the Duet Web Console. This file is called during the homing process of the Z-axis. Find the `G92` command at the end of the file. This command sets the z-axis height.
-8. Update this value with the following formula:  $$new value = old value - step6value$$  For example: if the _machine\_zendstop.g_ file currently contains the command  `G92 Z376.4` and I obtained a value of -0.6. My new value would be 377mm, and I would remove the current command and enter `G92 Z377`
-9. Save the file and home the printer again. Although you should now be able to enter the command `G1 Z0` , I don't recommend it. Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.
+7. Once the bed is properly touching the nozzle record the Z-value in _Machine Status_ on the Duet Web Console_._  This value will be used in the next step. 
+8. Open the _machine\_zendstop.g_ file in the _Settings_ tab of Duet Web Control.  This file is called during the homing process of the Z-axis.  Find the `G92` command at the end of the file.  This command sets the z-axis height when the bed is moved completely away from the nozzle \(that is, it is at the bottom of the printer and has triggered the Z maximum endstop\). 
+9. Update this value with the following formula:  $$new value = old value - step6value$$ For example: if the _machine\_zendstop.g_ file currently contains the command  `G92 Z376.4` and I obtained a value of -0.6, my new value would be 377mm.  I would remove the current G92 command from the _machine\_zendstop.g_ file and replace it with`G92 Z377`  
+10. Save the file and home the printer again.  Although you should now be able to enter the command `G1 Z0` , I don't recommend it.  Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.
 
 Continue on to the [Heating the Bed and Nozzles](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
