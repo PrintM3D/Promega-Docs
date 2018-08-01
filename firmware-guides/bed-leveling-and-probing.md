@@ -1,6 +1,6 @@
 # Bed Leveling & Probing
 
-This page serves as an indepth guide to bed leveling. A good bed level will allow you to print a consistent first layer across the entire bed.
+This page serves as an in depth guide to bed leveling. A good bed level will allow you to print a consistent first layer across the entire bed.
 
 ## Z-Probes
 
