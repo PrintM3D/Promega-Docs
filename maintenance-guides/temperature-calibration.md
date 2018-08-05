@@ -15,17 +15,17 @@ RepRap firmware has a built in auto-tune heater function. This allows you to tun
 
 **WARNING: The auto-tune function can rapidly heat your hot-end\(s\) to a high temperature. DO NOT leave your printer unattended while running** `M303`
 
-**Overview**
+### Overview
 
 The command `M303` will heat-up your hot-end to a set-point temperature and record data as it does so. Therefore, while your hot-end is undergoing it is important to replicate the conditions that your 3D printer prints in. For example, turning on your nozzle fans. First, the tuning process will heat the hot-end to your set temperature. It will likely overshoot the set-point. The nozzle will then cool-down to room temperature. If you instructed the control board to perform multiple cycles, it will repeat this process multiple times. Once complete, the firmware will return suggested control variable values.
 
-`M303` Parameters:
+#### `M303` Parameters:
 
 * `Hnnn`: Heater number \(by default: 0 is bed, 1 & 2 hot-ends\)
 * `Pnnn`: PWM percentage from 0 to 1.
 * `Snnn`: Set-point temperature in °C
 
-`M307` Parameters:
+#### `M307` Parameters:
 
 * `Hnnn`: Heater number \(by default: 0 is bed, 1 & 2 hot-ends\)
 * `Annn`: Gain constant
@@ -35,11 +35,20 @@ The command `M303` will heat-up your hot-end to a set-point temperature and reco
 * `Bn`: Bang-bang control enable \(1\)
 * `Snnn`: Maximum PWM
 * `Vnnn`: Vin at the time of calibration. Allows for compensation of power supply voltage variation.
-* Unload the filament from your hot-end. Once you are more familiar with the `M303` command, this step is not necessary. We recommend removing filament as it can burn and char inside your hot-end if the tuning process reaches a high temperature.
+
+### Auto-tune Procedure
+* **Do not leave the printer unattended.**
+* Unload the filament from your hot-end. 
+    * Once you are more familiar with the `M303` command, this step is not necessary. We recommend removing filament as it can burn and char inside your hot-end if the tuning process reaches a high temperature.
 * Wait for the heater to reach room temperature. **This is important to achieve a good result!**
-* Send the `M303` command. Change the `H` parameter to reflect the heater number. The PWM percentage can be changed with `P` if the heater is heating up too fast, and the firmware is unable to present control variables. The `S` parameter should be set to a typical printing temperature, such as 230°C. An example would be `M303 H1 P0.5 S230` in order to run auto-tune on hot-end 1, with 50% PWM and to 230°C.
-* Wait for auto-tune to complete. Do not leave the printer unattended.
-* The firmware should print out the calculated control variables. Sending `M303` should also display the control variables.
+* Send the `M303` command. 
+    * Change the `H` parameter to reflect the heater number. 
+    * The PWM percentage can be changed with `P` if the heater is heating up too fast, and the firmware is unable to present control variables. 
+    * The `S` parameter should be set to a **typical** printing temperature, such as 230°C. 
+    * An example would be `M303 H1 P0.5 S230` in order to run auto-tune on hot-end 1, with 50% PWM and to 230°C.
+* Wait for auto-tune to complete. **Do not leave the printer unattended.**
+* The firmware should print out the calculated control variables. 
+    * Sending `M303` should also display the control variables.
 * Use the `M307` command in order to set new control variables. Use the parameter list above to determine the proper syntax. 
 * Remember to replace the `M307` command in the configuration file _config.g_ with the command you just entered in order for your changes to take effect upon a system restart.
 
