@@ -1,10 +1,3 @@
----
-description: >-
-  Provides methods to gain better accuracy from your printer's Z homing.  This
-  should be completed once on printer receipt, and should be repeated after any
-  major configuration involving nozzle or bed.
----
-
 # Tuning the Z Homing Procedure
 
 {% hint style="warning" %}

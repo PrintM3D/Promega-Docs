@@ -1,7 +1,3 @@
----
-description: Any printed part that DIRECTLY attached to the aluminum frame.
----
-
 # Frame
 
 ## Exception:

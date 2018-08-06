@@ -1,7 +1,3 @@
----
-description: Anything DIRECTLY attached to either the bed or the rails.
----
-
 # Bed
 
 ## Exception:

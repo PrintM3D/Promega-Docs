@@ -1,7 +1,3 @@
----
-description: Anything DIRECTLY attached to the extruder head or the cable chain.
----
-
 # Extruder System
 
 ## Bed Limit Housing:
