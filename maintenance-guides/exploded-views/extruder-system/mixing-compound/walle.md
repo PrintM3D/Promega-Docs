@@ -1,4 +1,4 @@
-# WallE
+# Wall-E
 
 ## Front Components
 
