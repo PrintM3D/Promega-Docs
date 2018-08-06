@@ -35,6 +35,8 @@ Remove belt from the top z belt clamp.
 
 Locate M3 screws from the slider.
 
+{% gdrive %} https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/view?usp=sharing {% endgdrive %}
+
 Remove M3 screws from slider.
 
 ![](../../.gitbook/assets/image-edits-5.png)
