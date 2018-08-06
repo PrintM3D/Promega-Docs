@@ -1,3 +1,10 @@
 {
-    "plugins": ["google-drive-video"]
+    "gitbook": "2.x.x",
+    "plugins": ["google-drive-video"],
+    "links": {
+        "sidebar": {
+            "Contact us / Support": "https://www.gitbook.com/contact"
+        }
+    },
+    "pluginsConfig": {}
 }
