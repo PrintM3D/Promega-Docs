@@ -1,4 +1,4 @@
-# Welcome
+# Welcome!
 
 Welcome to the User Manual for the M3D Promega 3D Printer. A feature-packed, expandable, industrial 3D printer designed for manufacturing, assembly and design operations. Fully enclosed in a 20" all-metal frame, the 15.3"-cubed build volume makes printing just about anything possible. Please feel free to add suggestions to any of the guides by creating a pull-request or issue on [GitHub](https://github.com/PrintM3D/Promega-Docs/issues). This manual is hosted in Github.com via Gitbook.com.
 
@@ -13,7 +13,7 @@ If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gi
 ## **Q&A Promega Users** 
 
 | Updates | [https://airtable.com/shrU2gCdbWpQA5vIP](https://airtable.com/shrU2gCdbWpQA5vIP) |
-| --- | --- | --- |
+| :--- | :--- |
 | All Q&A Publicly Submitted | [https://airtable.com/shrpom63ctShedfxq](https://airtable.com/shrpom63ctShedfxq)  |
 | Form to add a new Q&A | [https://airtable.com/shrgfRK7MOC6eLSl7](https://airtable.com/shrgfRK7MOC6eLSl7)  \(Will be improved to new form in time\) |
 

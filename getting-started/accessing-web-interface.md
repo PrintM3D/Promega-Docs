@@ -37,7 +37,7 @@ The temperature graph provides helpful insight of the temperature of your tools 
 The machine status tab includes the position information of the printer. The head position information displays where the printer currently thinks it is. This is very important to keep track of to minimize the risk of crashing the printer. The X, Y and Z values represent the different axes of the 3D printer. Normal values for these fields are listed below in this table.
 
 |  | Axes Limits |  |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 |  | Max \(mm\) | Min \(mm\) |
 | X - Axis | 388 | 0 |
 | Y - Axis | 388 | 0 |
