@@ -35,7 +35,7 @@ Remove belt from the top z belt clamp.
 
 Locate M3 screws from the slider.
 
-{% embed data="{\"url\":\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/view?usp=sharing\",\"type\":\"video\",\"title\":\"ezgif.com-resize.mov\",\"icon\":{\"type\":\"icon\",\"url\":\"https://ssl.gstatic.com/docs/doclist/images/icon\_14\_video\_favicon.ico\",\"aspectRatio\":0},\"embed\":{\"type\":\"player\",\"url\":\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/preview\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\\\"><iframe src=\\\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/preview\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0}}" %}
+{% embed data="{\"url\":\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/view?usp=sharing\",\"type\":\"video\",\"title\":\"ezgif.com-resize.mov\",\"icon\":{\"type\":\"icon\",\"url\":\"https://ssl.gstatic.com/docs/doclist/images/icon\_14\_video\_favicon.ico\",\"aspectRatio\":0},\"embed\":{\"type\":\"player\",\"url\":\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/preview\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;\\\"><iframe src=\\\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/preview\\\" style=\\\"border: 0; top: 0; left: 0; width: 50%; height: 50%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0}}" %}
 
 Remove M3 screws from slider.
 
