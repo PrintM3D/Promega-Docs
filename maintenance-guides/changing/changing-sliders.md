@@ -37,6 +37,8 @@ Locate M3 screws from the slider.
 
 {% embed data="{\"url\":\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/view?usp=sharing\",\"type\":\"video\",\"title\":\"ezgif.com-resize.mov\",\"icon\":{\"type\":\"icon\",\"url\":\"https://ssl.gstatic.com/docs/doclist/images/icon\_14\_video\_favicon.ico\",\"aspectRatio\":0},\"embed\":{\"type\":\"player\",\"url\":\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/preview\",\"html\":\"<div style=\\\"left: 0; width: 50%; height: 0; position: relative; padding-bottom: 56.25%;\\\"><iframe src=\\\"https://drive.google.com/file/d/1PKNWXd7lMsGXcWJgdArls8MtNZRaKhpN/preview\\\" style=\\\"border: 0; top: 0; left: 0; width: 50%; height: 50%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":0}}" %}
 
+{% gdrive %} https://drive.google.com/file/d/12yyAYTldr82RhGU926Smcs8tFqEJd8al/view?usp=sharing {% gdrive %}
+
 Remove M3 screws from slider.
 
 ![](../../.gitbook/assets/image-edits-5.png)
