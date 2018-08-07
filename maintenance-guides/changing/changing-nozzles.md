@@ -1,10 +1,30 @@
+---
+description: Follow the steps below in order to mount a new nozzle on your 3D printer.
+---
+
 # Nozzles
 
-Follow the steps below in order to mount a new nozzle on your 3D printer.
+## Warning
 
-**Warning: Follow the steps listed in the guide closely. You will be working with heated hot-ends. Use appropriate tools.**  
-  
-Some of the following steps have to be performed with a heated hot-end in order to allow you to slide out and replace the nozzle. If you don't heat your nozzle cooled filament will act like glue and hold the components together. If you have an exceptionally clean or 
+Follow the steps listed in the guide _**closely**_. You will be working with heated hot-ends. Use appropriate tools.
+
+## Tools
+
+* Metal Pliers \(Recommendation: Slip-joint pliers\)
+* 1.5mm Hex Screwdriver
+* 1.3mm Hex Screwdriver
+* Heat-resistant surface
+
+## Additional Hardware
+
+* Mixing Compound PTFE Tube \(possibly, if current is not reusable\)
+* Single K'tana PTFE Tube \(possibly, if current is not reusable\)
+
+## How To Uninstall 
+
+### Notes
+
+Some of the following steps have to be performed with a heated hot-end in order to allow you to slide out and replace the nozzle. If you don't heat your nozzle cooled filament will act like glue and hold the components together.
 
 1. Unplug the 24V cold-section fan on the front of the extruder.
 2. Remove the cold-section fan. Follow: [Fan Installation and Replacement](https://promega.printm3d.com/~/edit/drafts/-LHdXavkB_zqUw_einTK/repair-guides/fan-installation-and-replacement) for help.
@@ -17,12 +37,19 @@ Some of the following steps have to be performed with a heated hot-end in order 
 9. Remove the screw indicated in the image below, this holds the nozzle inside the heater block. ![](../../.gitbook/assets/removenozzlesetscrew.jpg) 
 10. With another pair of pliers, carefully pull out the nozzle from the heater block.
 11. Place the **hot** nozzle on a heat-resistant surface. If you have a glass bed, you can place the nozzle on there.
-12. With the pliers, grab the new nozzle and place it into the heater block, pay attention to the orientation of the nozzle. The dimple should face the set-screw in the heater block. This keeps the heater block in place during operation. ![](../../.gitbook/assets/nozzle-dimple.jpg) 
-13. Tighten down the setscrew that holds the nozzle in place.
-14. Place the nozzle, with the heater block attached, back into the extruder.
-15. Tighten down the 1.5mm setscrews
-16. **You can now power off the heater.**
-17. You can attach the cold-section fan again and continue printing!
+
+## How To Install
+
+### Notes
+
+The following steps are a continuation from the "How To Uninstall" section of this page. 
+
+1. With the pliers, grab the new nozzle and place it into the heater block, pay attention to the orientation of the nozzle. The dimple should face the set-screw in the heater block. This keeps the heater block in place during operation. ![](../../.gitbook/assets/nozzle-dimple.jpg) 
+2. Tighten down the setscrew that holds the nozzle in place.
+3. Place the nozzle, with the heater block attached, back into the extruder.
+4. Tighten down the 1.5mm setscrews
+5. **You can now power off the heater.**
+6. You can attach the cold-section fan again and continue printing!
 
 
 

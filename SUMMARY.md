@@ -65,6 +65,8 @@
     * [Extruders](maintenance-guides/changing/changing-extruders.md)
     * [Nozzles](maintenance-guides/changing/changing-nozzles.md)
     * [Limit Switch Holders](maintenance-guides/changing/changing-limit-switches/README.md)
+      * [X](maintenance-guides/changing/changing-limit-switches/x.md)
+      * [Y](maintenance-guides/changing/changing-limit-switches/y.md)
       * [Z](maintenance-guides/changing/changing-limit-switches/z-limit-switch-holder.md)
     * [Sliders](maintenance-guides/changing/changing-sliders.md)
   * [Temperature Calibration](maintenance-guides/temperature-calibration.md)

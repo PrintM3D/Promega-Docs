@@ -1,4 +1,2 @@
 # Firmware Guides
 
-
-

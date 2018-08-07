@@ -2,33 +2,38 @@
 
 The Promega has two extruder heads the K'Tana and the Compound nozzle. The compound nozzle accepts two filaments as input and prints through one nozzle by mixing the two filaments. The K'Tana has two separate filament inputs and two seperate nozzles to print from. In order to switch between the two tools, you will have to perform a series of mechanical and software changes.
 
+## Warning
+
+Do not attempt to start the guide with a hot extruder. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
+
 ## Tools
 
 1. T10 Torx Screwdriver
 2. T30 Torx Screwdriver
-3. Needlenose pliers
+3. Needle-nose pliers
 4. Container to hold screws
 
-## **Preparation**
+## Additional Hardware
 
-Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](https://m3d.gitbook.io/promega-docs/getting-started/loading-and-unloading-filament) if you need help. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
+_**NONE**_
 
 ## How To Uninstall
 
-1. Take the T10 Torx screwdriver and remove the cold section fan from the extruder carriage. Collect the two screws and M4 nuts in a container and place them aside. Move the fan over to the back of the extruder carriage assembly so it is out of the way.
+1. Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](https://m3d.gitbook.io/promega-docs/getting-started/loading-and-unloading-filament) if you need help. 
+2. Take the T10 Torx screwdriver and remove the cold section fan from the extruder carriage. Collect the two screws and M4 nuts in a container and place them aside. Move the fan over to the back of the extruder carriage assembly so it is out of the way.
 
    ![PBezwNA9DMD3QPkF-RemoveFan.jpg](../../.gitbook/assets/pbezwna9dmd3qpkf-removefan.jpg)
 
-2. Use the T30 Torx screwdriver to remove the three different screws \(circled in red\) holding the extruder block to the coreXY gantry. Place these screws in the container.
+3. Use the T30 Torx screwdriver to remove the three different screws \(circled in red\) holding the extruder block to the coreXY gantry. Place these screws in the container.
 
    ![OnpOTWLP3ifIYRRy-RemoveWalle.jpg](../../.gitbook/assets/onpotwlp3ifiyrry-removewalle.jpg)
 
-3. Disconnect the heater cartridge and PT1000 cartridge thermistor cables at the back of the extruder carriage \(Circled in red\). The heater cartridge cables are red and the thermistor cables are beige. Needlenose pliers can be helpful to reach the cable connectors.
+4. Disconnect the heater cartridge and PT1000 cartridge thermistor cables at the back of the extruder carriage \(Circled in red\). The heater cartridge cables are red and the thermistor cables are beige. Needlenose pliers can be helpful to reach the cable connectors.
 
    ![ziM0XfjqbR6zB9AQ-RemoveHeaterCables.jpg](../../.gitbook/assets/zim0xfjqbr6zb9aq-removeheatercables.jpg)
 
-4. Now that all the screws and cables are detached from the extruder assembly, you should be able to remove the old extruder head.
-5. Look for two small bearings in the old extruder head. These bearings hold the extruder gears in place while printing. You can find them in the extruder head or on the tip of the extruder gears. Remove these bearings from the old extruder head or extruder gears and place them in the container, you will need them for the next step.
+5. Now that all the screws and cables are detached from the extruder assembly, you should be able to remove the old extruder head.
+6. Look for two small bearings in the old extruder head. These bearings hold the extruder gears in place while printing. You can find them in the extruder head or on the tip of the extruder gears. Remove these bearings from the old extruder head or extruder gears and place them in the container, you will need them for the next step.
 
    ![QLQlVWc4ZqJY4X0E-wheretofindbearings.jpg](../../.gitbook/assets/qlqlvwc4zqjy4x0e-wheretofindbearings.jpg)
 
