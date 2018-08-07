@@ -2,18 +2,18 @@
 
 The Promega has two extruder heads the K'Tana and the Compound nozzle. The compound nozzle accepts two filaments as input and prints through one nozzle by mixing the two filaments. The K'Tana has two separate filament inputs and two seperate nozzles to print from. In order to switch between the two tools, you will have to perform a series of mechanical and software changes.
 
-## Preparation
-
-Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](https://m3d.gitbook.io/promega-docs/getting-started/loading-and-unloading-filament) if you need help. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
-
-Tools and items you will need:
+## Tools
 
 1. T10 Torx Screwdriver
 2. T30 Torx Screwdriver
 3. Needlenose pliers
 4. Container to hold screws
 
-## Removing the Extruder
+## **Preparation**
+
+Be sure to turn off and unplug the printer. Retract and remove any filament currently in the nozzle. Use [this guide](https://m3d.gitbook.io/promega-docs/getting-started/loading-and-unloading-filament) if you need help. Wait for the hot end\(s\) of the printer to cool before continuing with this guide.
+
+## How To Uninstall
 
 1. Take the T10 Torx screwdriver and remove the cold section fan from the extruder carriage. Collect the two screws and M4 nuts in a container and place them aside. Move the fan over to the back of the extruder carriage assembly so it is out of the way.
 
@@ -32,7 +32,7 @@ Tools and items you will need:
 
    ![QLQlVWc4ZqJY4X0E-wheretofindbearings.jpg](../../.gitbook/assets/qlqlvwc4zqjy4x0e-wheretofindbearings.jpg)
 
-## Installing the new Extruder
+## How To Install
 
 1. Inspect the new extruder head. Ensure that there are PTFE tubes in the nozzle\(s\). Check that there are bearings underneath the black 3D printed cover. Make sure the nozzle\(s\) are fitted securely in the extruder head and in the correct orientation.
 2. Place the two bearings in the circled portion of the extruder head pictured below. Make sure they are seated flat and all the way into the hole. A pen or pencil can help to insert these bearings in place. Almost no force should be required. ![TLy4qxNyBKYbrzlC-ktanaextruderhead.jpg](../../.gitbook/assets/tly4qxnybkybrzlc-ktanaextruderhead.jpg) ![CNPjH9u6uV9Y3yZ9-compoundextruderhead.jpg](../../.gitbook/assets/cnpjh9u6uv9y3yz9-compoundextruderhead.jpg)

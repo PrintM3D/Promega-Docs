@@ -1,5 +1,22 @@
 # Z
 
+## Warning
+
+Exercise caution if you attempt to fit your head underneath the bed. The frame could potentially cause lacerations.  
+
+* Use protective headgear \(e.g. tear-resistant fabric\).
+* Enter slowly. Do not rush. 
+* Make sure the bed is properly restrained.
+
+## Tools
+
+* T10 Screwdriver
+* Flush Cutter \(or any cutting pliers will do\)
+
+## Additional Hardware
+
+* Nylon Zip tie \(1x\)
+
 ## How to Remove
 
 ### All Versions
@@ -28,6 +45,10 @@ Disconnect Z Limit Switch from Duet Board
 
 
 ## How To Install
+
+### Notes
+
+A zip tie must secure the Z Limit Switch wire. If not, it runs the risk of entangling \(and potentially breaking\) with a moving bed.
 
 ### Version: 051162\_B1
 

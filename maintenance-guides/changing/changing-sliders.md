@@ -1,12 +1,21 @@
 # Sliders
 
-## Warnings:
+## Warning
 
 Exercise caution if you attempt to fit your head underneath the bed. The frame could potentially cause lacerations.  
 
 * Use protective headgear \(e.g. tear-resistant fabric\).
 * Enter slowly. Do not rush. 
 * Make sure the bed is properly restrained.
+
+## Tools
+
+* T10 Screwdriver
+* T25 Screwdriver
+
+## Additional Hardware
+
+_**NONE**_
 
 ## How to Uninstall
 
