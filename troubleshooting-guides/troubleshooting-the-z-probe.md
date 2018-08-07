@@ -1,6 +1,8 @@
-# Troubleshooting the Z-probe
+---
+description: Covers various problems you might encounter when working with the Z-probe.
+---
 
-This guide will cover various problems that you might encounter while working with the Z-probe.
+# Troubleshooting the Z-probe
 
 ## Z-probe Not Triggering
 

@@ -61,7 +61,7 @@
         * [Wall-E](maintenance-guides/exploded-views/extruder-system/mixing-compound/walle.md)
       * [Single K'tana](maintenance-guides/exploded-views/extruder-system/single-ktana/README.md)
         * [Wall-E](maintenance-guides/exploded-views/extruder-system/single-ktana/walle.md)
-  * [Changing:](maintenance-guides/changing/README.md)
+  * [Changing](maintenance-guides/changing/README.md)
     * [Extruders](maintenance-guides/changing/changing-extruders.md)
     * [Nozzles](maintenance-guides/changing/changing-nozzles.md)
     * [Limit Switch Holders](maintenance-guides/changing/changing-limit-switches/README.md)

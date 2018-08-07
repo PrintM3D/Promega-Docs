@@ -1,8 +1,12 @@
+---
+description: Follow this guide in order to properly route the belts of the Z-assembly.
+---
+
 # Routing Z-belts
 
-## Routing Z-belts
+## Notes
 
-Follow this guide in order to properly route the belts of the Z-assembly. This guide will not cover how to properly tension and level the system. Belt tensioning and mechanical leveling is covered [here](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling).
+This guide will not cover how to properly tension and level the system. Belt tensioning and mechanical leveling is covered [here](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling).
 
 ## Belt Routing
 

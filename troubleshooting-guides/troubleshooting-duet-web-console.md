@@ -1,6 +1,10 @@
-# Troubleshooting Duet Web Console
+---
+description: >-
+  Walks through possible problems encountered when connecting to the Duet Web
+  Console (DWC).
+---
 
-This guide will walk through possible problems that can be encountered while connecting to the Duet Web Console.
+# Troubleshooting Duet Web Console
 
 ## Rejected by the Duet
 

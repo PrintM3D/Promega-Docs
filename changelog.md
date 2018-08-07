@@ -1,6 +1,8 @@
-# Changelog
+---
+description: 'Note: This is a work in progress.'
+---
 
-**Note: This is a work in progress.**
+# Changelog
 
 ## **1.19: Inception - June 26, 2018**
 
@@ -10,8 +12,6 @@
   * 051168\_B2 Y Limit Switch Holder
   * 051166\_C1 X Limit Switch Holder
   * 051112\_B1 Spool Holder
-
-
 
 ## **1.20: June 26, 2018**
 

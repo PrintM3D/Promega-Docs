@@ -1,8 +1,10 @@
+---
+description: How to fix common problems that might occur with the CoreXY.
+---
+
 # Repairing CoreXY
 
-Work in Progress
-
-This guide covers the coreXY system and how to fix common problems that might occur with it.
+Note: Work in Progress
 
 ## Belt Routing
 
