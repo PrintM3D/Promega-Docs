@@ -1,10 +1,26 @@
 # Sliders
 
+## Warnings:
+
+Exercise caution if you attempt to fit your head underneath the bed. The frame could potentially cause lacerations.  
+
+* Use protective headgear \(e.g. tear-resistant fabric\).
+* Enter slowly. Do not rush. 
+* Make sure the bed is properly restrained.
+
 ## How to Uninstall
+
+### Notes:
+
+Remove/Replace ONLY 1 slider at a time. You will find yourself scrambling to keep the bed aligned and in position if more than 1 slider, at any time, is removed.
 
 ### All versions
 
-Pick a side
+Place bed ~ 3/4s up the length of the rails.
+
+Restrain the Z motor \(closed loop\) belt using a small binder clip, or any clamp.
+
+Pick a side.
 
 ![](../../.gitbook/assets/image-edits%20%281%29.png)
 
@@ -46,6 +62,12 @@ Remove belts from the sliders.
 ![](../../.gitbook/assets/image-edits-6.png)
 
 ## How To Install
+
+### Notes:
+
+If you are performing more than one slider replacement, you may find it beneficial to keep the corresponding rails loose until the very end \(tightening them as the last step of the _entire_ procedure\). 
+
+* Definition of "Loose" : Partially unscrewed or Completely unscrewed.
 
 ### Version: ??
 
