@@ -83,11 +83,21 @@ Continue to the step below.
 {% endtab %}
 {% endtabs %}
 
-1. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your Ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid. ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif)
+{% tabs %}
+{% tab title="DHCP" %}
+1. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your Ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid.   ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif) 
 2. Once your printer has had the time to start up, open a browser tab on a computer **connected to the same network as the printer**. In the browser URL textfield enter:
-   * Your printer name followed by a forward slash "/" if you used DHCP. For example, `unicorn/`, if you named your printer "unicorn" \(nothing wrong with that!\).
-   * Your printer IP address if you used a static IP address with the M552 command. It could look like this `192.168.1.216`.
+   * Your printer name followed by a forward slash "/" if you used DHCP. For example, `unicorn/`, if you named your printer "unicorn" \(nothing wrong with that!\). 
 3. If the connection is successful the Duet Web Console should be shown. You have completed the network setup.
+{% endtab %}
+
+{% tab title="Static IP" %}
+1. When you have made the necessary changes to your network settings, save the _machine\_access.g_ file and safely eject the SD card. Insert the SD card back into the Duet board. Ensure that the Ethernet cable is connected properly to the Duet board and turn the board back on. It will take a while for your printer to boot and connect to the network \(~30 seconds\). When your Ethernet cable is properly connected to the board, the green LED should be flashing and the yellow LED should be solid.   ![1NXuMREA7qVlTdEd-flashingethernet.gif](../.gitbook/assets/1nxumrea7qvltded-flashingethernet.gif) 
+2. Once your printer has had the time to start up, open a browser tab on a computer **connected to the same network as the printer**. In the browser URL textfield enter:
+   * Your printer's IP address set in the configuration file with the M552 command. It could look like this `192.168.1.216`. 
+3. If the connection is successful the Duet Web Console should be shown. You have completed the network setup.
+{% endtab %}
+{% endtabs %}
 
 **Continue on to the** [**Accessing Web Interface**](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface)**, the next chapter in the** [**Getting Started**](https://m3d.gitbook.io/promega-docs/getting-started) **guide.**
 
