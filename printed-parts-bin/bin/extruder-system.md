@@ -58,7 +58,7 @@ description: Houses any part DIRECTLY attached to the extruder head or cable cha
 
 ### Beta
 
-* _**NONE**_
+{% file src="../../.gitbook/assets/nozzle-fan-duct-rv7\_6.STL" %}
 
 ## Plastic Insert \(Mixing Compound\):
 
