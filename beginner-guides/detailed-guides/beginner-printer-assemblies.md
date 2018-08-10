@@ -13,7 +13,7 @@ List of the core Promega Assemblies:
 * **Z-platform**: A heated bed that is actuated up and down with belts along the Z-axis.
 * **Electronics \(not shown\):** Located on the back of the printer. Includes the Duet Maestro, the "brains" of the Promega.
 
-![Promega Assemblies](../.gitbook/assets/vopgfun48dwpqitf-differentpromegaassemblies.jpg)
+![Promega Assemblies](../../.gitbook/assets/vopgfun48dwpqitf-differentpromegaassemblies.jpg)
 
-![The Duet Maestro Board](../.gitbook/assets/duetboard.jpeg)
+![The Duet Maestro Board](../../.gitbook/assets/duetboard.jpeg)
 
