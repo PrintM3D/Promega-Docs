@@ -11,3 +11,5 @@ Before starting the Beginner Guides guides, please complete the following steps 
 3. Complete the [Network Setup](../getting-started/network-setup.md) guide in order to connect your Promega to your local network.
 4. Continue on to the next guide!
 
+
+
