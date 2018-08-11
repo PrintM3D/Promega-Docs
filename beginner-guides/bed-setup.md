@@ -4,11 +4,35 @@
 
 ### Setup 1: BuildTak Bed
 
+Clean the bare surface \(no oil or dust\)
 
+Remove adhesive cover from BuildTak.
+
+Apply directly onto heated bed.
 
 ### Setup 2: Glass Bed
 
+Pick a position.
 
+![](../.gitbook/assets/clamp-location%20%283%29.JPG)
+
+Get Glass Bed Clamp
+
+Open Glass Bed Clamp with a flathead screwdriver
+
+![](../.gitbook/assets/flathed-with-clamp.jpg)
+
+Lay & Align glass bed onto the bed.
+
+Clamp bed.
+
+![](../.gitbook/assets/clamp-bed-one-position.jpg)
+
+Slide clamp all the way in.
+
+![](../.gitbook/assets/assets-2f-lh1zpqujrjmm5ql5c-2f-lh1za_0ze3gc48iotmt-2f-lh1zngp3eblyhhp3nxe-2fgu5weuo3pjg0h88h-slideon.gif)
+
+Repeat until all positions are clamped.
 
 ## Setup Bed Probe
 
