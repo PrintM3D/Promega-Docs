@@ -21,7 +21,8 @@ Look under the [All Screws](screw-and-tool-list.md#all-screws) section to view a
 * T6 Torx Screwdriver
 * 1.5mm Hex
 * 1.3mm Hex
-* Pliers
+* 5mm and 7mm nut driver OR 
+* Pliers/Adjustable Wrench
 * Needle-nose pliers
 
 ### All Screws
