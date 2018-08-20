@@ -2,13 +2,41 @@
 
 ## Setup Your Bed
 
-### Setup 1: BuildTak Bed
+### Setup 1: Print Bed Sheet
 
 Clean the bare surface \(no oil or dust\)
 
-Remove adhesive cover from BuildTak.
+Remove some of the adhesive cover from the Bed Sheet.
 
-Apply directly onto heated bed.
+![](../.gitbook/assets/img_0972.JPG)
+
+Pick the front left corner.
+
+![](../.gitbook/assets/img_0973.JPG)
+
+Stick the corner of the Bed Sheet to the bed.
+
+![NOT ALIGNED](../.gitbook/assets/img_0974%20%281%29.JPG)
+
+Line up the edges.
+
+![ALIGNED](../.gitbook/assets/img_0975.JPG)
+
+Slowly press the Bed Sheet corner into bed.
+
+Check the edges line up \(again\).
+
+Continue pressing down the rest of the Bed Sheet in a WIPING motion.
+
+![](../.gitbook/assets/swivel-motion.JPG)
+
+Check the edges line up \(again\).
+
+Remove the rest of the adhesive cover.
+
+![](../.gitbook/assets/img_0976.JPG)
+
+Finish sticking the rest of the Bed Sheet in a WIPING motion.
 
 ### Setup 2: Glass Bed
 
