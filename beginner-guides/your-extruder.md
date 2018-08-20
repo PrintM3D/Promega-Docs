@@ -19,7 +19,7 @@ G90
 G1 X200 Y200
 ```
 
-The block above is called G-code.
+The block above is called G-code. Enter the G-code above.
 
 #### Method 1: How To Input G-code
 
@@ -59,6 +59,8 @@ Hit Enter or press Send button.
 
 Select Mixing.
 
+Check whether it is selected.
+
 ![SELECTED \(Focus on the UNDERLINE\)](../.gitbook/assets/mixing-tool-selection.PNG)
 
 ![NOT SELECTED \(Focus on the UNDERLINE\)](../.gitbook/assets/mixing-tool-not-selected.PNG)
@@ -69,7 +71,7 @@ Type 205.
 
 Hit Enter.
 
-Wait until it completely heats.
+Wait until it reaches temperature.
 
 #### Single K'tana
 
@@ -89,7 +91,7 @@ Locate filament entrance.
 
 Locate Extruder Control
 
-![](../.gitbook/assets/extruder-control-location%20%281%29.PNG)
+![](../.gitbook/assets/extruder-control-location%20%282%29.PNG)
 
 Press 10 Feed Amount Button
 
@@ -111,7 +113,7 @@ Release when filament is pulled.
 
 Make sure both filaments are caught.
 
-WARNING: Do not continue to next step until BOTH filaments are caught. This will cause **a clog**.
+**WARNING:** Do not continue to next step until BOTH filaments are caught. This will cause **a clog**.
 
 #### Single K'tana
 
@@ -130,6 +132,8 @@ Press 5 Feedrate Button
 Press Extrude Button
 
 Wait for the filament to extrude.
+
+
 
 You are ready to set up your bed. 
 
