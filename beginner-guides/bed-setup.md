@@ -84,7 +84,7 @@ Wait for bed to reach its temperature.
 
 ![ENGAGED](../.gitbook/assets/engage-bed-probe.JPG)
 
-### Move Bed Up
+### Move To Position
 
 ```text
 G1 Z30
@@ -121,10 +121,10 @@ G31 P999 X-40 Y28.5 Z###
 M564 S1
 ```
 
-### Move Bed Down
+### Move Bed To Position
 
 ```text
-G1 Z20
+G1 Z30
 ```
 
 ### Engage Bed Probe \(Again\)
@@ -183,6 +183,12 @@ Assumption: Your bed probe has been setup.
 
 ```text
 M140 S60
+```
+
+### Move Bed To Position
+
+```text
+G1 Z30
 ```
 
 ### Engage Bed Probe
