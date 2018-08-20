@@ -6,5 +6,3 @@ description: >-
 
 # Electrical Guides
 
-
-

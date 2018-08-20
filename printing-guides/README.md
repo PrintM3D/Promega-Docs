@@ -1,4 +1,2 @@
 # Printing Guides
 
-
-

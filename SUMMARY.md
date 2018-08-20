@@ -82,7 +82,7 @@
   * [Troubleshooting the Z-probe](troubleshooting-guides/troubleshooting-the-z-probe.md)
   * [Heater Troubleshooting](troubleshooting-guides/heater-troubleshooting.md)
 * [Community Guides](community-guides/README.md)
-  * [Community Guide Template](community-guides/community-guide-template.md)
+  * [Sample Page](community-guides/community-guide-template.md)
 * [Changelog](changelog.md)
 * [Your Printer's 3D Parts](printed-parts-bin/README.md)
   * [Latest Parts](printed-parts-bin/bin/README.md)
