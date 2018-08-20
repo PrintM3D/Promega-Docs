@@ -1,9 +1,3 @@
----
-description: >-
-  Fix any problems you might encounter with the heater cartridges, PT1000 or
-  heated bed.
----
-
 # Heater Troubleshooting
 
 ## PT1000 Problems

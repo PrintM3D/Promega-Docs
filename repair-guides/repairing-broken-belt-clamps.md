@@ -1,7 +1,3 @@
----
-description: Covers repair of broken belt Z-axis belt clamps
----
-
 # Repairing Broken Belt Clamps
 
 This can occur if you crash the bed into the nozzle or place too much weight on the bed. The Z-axis belt is held in place with two different 3D printed clamps on the top and the bottom. If either of these two clamps break you can follow the guide below for instructions on how to replace them. The belt clamps are 3D printed, so you are welcome to print replacement belt clamps to fix the printer.

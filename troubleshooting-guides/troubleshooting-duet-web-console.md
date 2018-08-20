@@ -1,9 +1,3 @@
----
-description: >-
-  Walks through possible problems encountered when connecting to the Duet Web
-  Console (DWC).
----
-
 # Troubleshooting Duet Web Console
 
 ## Rejected by the Duet

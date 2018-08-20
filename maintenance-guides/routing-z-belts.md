@@ -1,7 +1,3 @@
----
-description: Follow this guide in order to properly route the belts of the Z-assembly.
----
-
 # Routing Z-belts
 
 ## Notes

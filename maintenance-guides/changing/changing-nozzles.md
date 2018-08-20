@@ -1,7 +1,3 @@
----
-description: Follow the steps below in order to mount a new nozzle on your 3D printer.
----
-
 # Nozzles
 
 ## Warning

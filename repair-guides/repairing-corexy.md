@@ -1,7 +1,3 @@
----
-description: How to fix common problems that might occur with the CoreXY.
----
-
 # Repairing CoreXY
 
 Note: Work in Progress

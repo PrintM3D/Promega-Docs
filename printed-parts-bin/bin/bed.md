@@ -1,7 +1,3 @@
----
-description: Houses any part DIRECTLY attached to the bed.
----
-
 # Bed
 
 ## Exception:

@@ -1,7 +1,3 @@
----
-description: Prevents the bed from falling fast when your z motor skips.
----
-
 # Slowing Down Your Bed
 
 If you bed crashes against the nozzle or another part of the extruder it will cause the Z-axis motor to skip. The motor skips to prevent damage to a glass bed or the Z-platform itself. This skip can also cause your bed to misalign, if this occurs, follow the [Belt Tensioning and Mechanical Leveling](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling#z-assembly) guide to fix this issue.

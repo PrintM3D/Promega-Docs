@@ -1,7 +1,3 @@
----
-description: 'Note: This is a work in progress.'
----
-
 # Changelog
 
 ## **1.19: Inception - June 26, 2018**

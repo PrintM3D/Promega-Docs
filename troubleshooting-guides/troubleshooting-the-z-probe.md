@@ -1,7 +1,3 @@
----
-description: Covers various problems you might encounter when working with the Z-probe.
----
-
 # Troubleshooting the Z-probe
 
 ## Z-probe Not Triggering

@@ -1,7 +1,3 @@
----
-description: Easily fix possible slack developed in the CoreXY or Z-assembly belts.
----
-
 # Belt Tensioning and Mechanical Leveling
 
 As the Promega is used over time it is possible slack develops in the CoreXY or Z-assembly belts. This can be fixed easily by following the guides below. Properly tensioning your belts will address problems with backlash and XY skipping.

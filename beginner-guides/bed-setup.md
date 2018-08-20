@@ -73,7 +73,10 @@ S\#\#\# = Bed Temperature \( Celsius\)
 ```text
 G31 P999 X-40 y28.5 Z0
 G29 S2
+M564 S0
 ```
+
+Wait for bed to reach its temperature.
 
 ### Engage Bed Probe
 
@@ -84,7 +87,7 @@ G29 S2
 ### Move Bed Up
 
 ```text
-G1 Z20
+G1 Z30
 ```
 
 ### Probe
@@ -200,6 +203,8 @@ Check for any signs of green.
 ![](../.gitbook/assets/heightmap.PNG)
 
 Click close.
+
+### Disengage Bed Probe
 
 You are ready to print.
 

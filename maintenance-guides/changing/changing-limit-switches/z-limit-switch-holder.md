@@ -1,7 +1,3 @@
----
-description: Sample
----
-
 # Z
 
 ## Warning
