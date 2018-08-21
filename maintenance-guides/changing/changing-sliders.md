@@ -78,45 +78,7 @@ If you are performing more than one slider replacement, you may find it benefici
 
 * Definition of "Loose" : Partially unscrewed or Completely unscrewed.
 
-### Version: ??
+### Version: TBD
 
-### Version: ??
 
-Tap the M3 holes
-
-Insert \_\_ Bearing
-
-Screw in a M3 x \_\_ screw
-
-Insert nut into slot
-
-Insert \_\_ Bearing
-
-Screw in a M3 x \_\_ screw
-
-Insert nut into slot
-
-Route belt into the slider
-
-Move the slider into position
-
-Pull loose belt tight
-
-Snap belt into position.
-
-Check for any tangled belts.
-
-Screw in M3 x \_\_ screws
-
-Route belt through the top z belt clamp
-
-Insert top z belt clamp into rail.
-
-Tighten top portion of the belt
-
-Tighten bottom portion of the belt.
-
-Route belt around bottom M5 screw
-
-Tighten bottom M5 screw.
 
