@@ -112,7 +112,7 @@ Wait for bed to reach its temperature.
 
 ![ENGAGED](../.gitbook/assets/engage-bed-probe.JPG)
 
-### Move To Position
+### Move Bed To Position
 
 ```text
 G1 Z30
@@ -124,7 +124,19 @@ G1 Z30
 G30
 ```
 
+### Move Bed To Position
+
+```text
+G1 Z30
+```
+
 ### Disengage Bed Probe
+
+### Move Bed To Position
+
+```text
+G1 Z5
+```
 
 ### Move Bed To Nozzle
 
@@ -132,7 +144,7 @@ Use these two buttons to move the bed up.
 
 ![Ignore the yellow home blocks \(for now\).](../.gitbook/assets/z-buttons.PNG)
 
-Switch to a smaller step when you get close to the nozzle
+Switch to the smaller 0.1 mm step when you get close to the nozzle
 
 ### Record Z offset
 
@@ -161,6 +173,12 @@ G1 Z30
 
 ```text
 G30
+```
+
+### Move Bed To Position
+
+```text
+G1 Z30
 ```
 
 ### Disengage Bed Probe \(Again\)
@@ -237,6 +255,12 @@ Check for any signs of green.
 ![](../.gitbook/assets/heightmap.PNG)
 
 Click close.
+
+### Move Bed To Position
+
+```text
+G1 Z100
+```
 
 ### Disengage Bed Probe
 
