@@ -12,10 +12,7 @@ If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gi
 
 ## **Q&A Promega Users** 
 
-| Updates | [https://airtable.com/shrU2gCdbWpQA5vIP](https://airtable.com/shrU2gCdbWpQA5vIP) |
-| :--- | :--- |
-| All Q&A Publicly Submitted | [https://airtable.com/shrpom63ctShedfxq](https://airtable.com/shrpom63ctShedfxq)  |
-| Form to add a new Q&A | [https://airtable.com/shrgfRK7MOC6eLSl7](https://airtable.com/shrgfRK7MOC6eLSl7)  \(Will be improved to new form in time\) |
+[Submit Issue](https://github.com/PrintM3D/Promega/issues).   Allows you to search for existing issues to upvote them and submit a new issue if you do not find one.
 
 ## **Other Resources:**
 
