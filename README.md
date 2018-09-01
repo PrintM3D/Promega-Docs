@@ -10,17 +10,17 @@ If you are a complete beginner to 3D printing and just got the Promega, please s
 If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gitbook.io/promega-docs/getting-started). This guide will get you set-up and walk you through your first print.
 {% endhint %}
 
-## **Q&A Promega Users** 
+## **Q&A Promega Users**
 
-[Submit Issue](https://github.com/PrintM3D/Promega/issues).   Allows you to search for existing issues to upvote them and submit a new issue if you do not find one.
+[Submit Issue](https://github.com/PrintM3D/Promega/issues). Allows you to search for existing issues to upvote them and submit a new issue if you do not find one.
 
 ## **Other Resources:**
 
-[Firmware/Software](https://github.com/PrintM3D?tab=repositories)   
-[Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)   
-[Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)   
-[Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)   
-[Google Drive Beta Files](https://drive.google.com/open?id=1xCP-VTzXjAUguB1sH5uztxn9ODNFzm_j) 
+[Firmware/Software](https://github.com/PrintM3D?tab=repositories)  
+[Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)  
+[Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)  
+[Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)  
+[Google Drive Beta Files](https://drive.google.com/open?id=1xCP-VTzXjAUguB1sH5uztxn9ODNFzm_j)
 
 ## Contributing
 

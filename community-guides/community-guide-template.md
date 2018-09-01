@@ -1,7 +1,3 @@
----
-description: Sample Community Guide Page
----
-
 # Sample Page
 
 ## Sample Community Guide Page

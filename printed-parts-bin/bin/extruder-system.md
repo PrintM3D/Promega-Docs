@@ -46,15 +46,15 @@
 
 ### Current
 
-{% file src="../../.gitbook/assets/058052\_a2-nozzle-fan-guide.STL" %}
+{% file src="../../.gitbook/assets/058052\_a3-nozzle-fan-guide.STL" %}
 
 ### Legacy
 
-* _**NONE**_
+{% file src="../../.gitbook/assets/058052\_a2-nozzle-fan-guide.STL" %}
 
 ### Beta
 
-{% file src="../../.gitbook/assets/nozzle-fan-duct-rv7\_6.STL" %}
+* _**NONE**_
 
 ## Plastic Insert \(Mixing Compound\):
 
