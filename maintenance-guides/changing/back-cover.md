@@ -2,7 +2,7 @@
 
 ## What is a Back Cover
 
-![](../../.gitbook/assets/image2.jpg)
+![A black sheet metal user to cover the rear contents of the ProMega.](../../.gitbook/assets/image10.jpg)
 
 ## How To Install
 
@@ -45,5 +45,9 @@ Secure the Back Cover to the standoffs with the remaining M4 pan-head screws
 
 Add filament and enjoy!
 
+
+
 ![](../../.gitbook/assets/image10.jpg)
+
+
 
