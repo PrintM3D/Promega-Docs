@@ -10,10 +10,6 @@
 
 {% file src="../../.gitbook/assets/051174\_a1-bed-limit-housing.STL" %}
 
-### Beta
-
-* _**NONE**_
-
 ## Bed Limit Slider:
 
 ### Current
@@ -23,10 +19,6 @@
 ### Legacy
 
 {% file src="../../.gitbook/assets/051176\_a1-bed-limit-slider.STL" %}
-
-### Beta
-
-* _**NONE**_
 
 ## Extruder Dampener:
 
@@ -38,23 +30,17 @@
 
 * _**NONE**_
 
-### Beta
-
-* _**NONE**_
-
 ## Nozzle Fan Guide:
 
 ### Current
 
-{% file src="../../.gitbook/assets/058052\_a3-nozzle-fan-guide.STL" %}
+{% file src="../../.gitbook/assets/058052\_a4-nozzle-fan-guide.STL" %}
 
 ### Legacy
 
+{% file src="../../.gitbook/assets/058052\_a3-nozzle-fan-guide.STL" %}
+
 {% file src="../../.gitbook/assets/058052\_a2-nozzle-fan-guide.STL" %}
-
-### Beta
-
-* _**NONE**_
 
 ## Plastic Insert \(Mixing Compound\):
 
@@ -66,10 +52,6 @@
 
 * _**NONE**_
 
-### Beta
-
-* _**NONE**_
-
 ## Plastic Insert \(Single K'tana\):
 
 ### Current
@@ -77,10 +59,6 @@
 {% file src="../../.gitbook/assets/058122\_a5-plastic-insert-single-ktana.STL" %}
 
 ### Legacy
-
-* _**NONE**_
-
-### Beta
 
 * _**NONE**_
 
@@ -100,10 +78,6 @@
 
 {% file src="../../.gitbook/assets/058302\_a1-front-cable-harness-base.STL" %}
 
-### Beta
-
-* _**NONE**_
-
 ## Cable Harness \(Front, Cover\):
 
 ### Current
@@ -116,10 +90,6 @@
 
 {% file src="../../.gitbook/assets/058304\_a1-front-cable-harness-cover.STL" %}
 
-### Beta
-
-* _**NONE**_
-
 ## Cable Harness \(Rear, Base\):
 
 ### Current
@@ -129,10 +99,6 @@
 ### Legacy
 
 {% file src="../../.gitbook/assets/051108\_c1-rear-cable-harness\_base.STL" %}
-
-### Beta
-
-* _**NONE**_
 
 ## Cable Harness \(Rear, Support\):
 
@@ -146,10 +112,6 @@
 
 {% file src="../../.gitbook/assets/051134\_a1-rear-cable-harness-support.STL" %}
 
-### Beta
-
-* _**NONE**_
-
 ## Cable Harness \(Rear, Bearing-Standoff Height Offset\):
 
 _Note: This is a tool used to help assemble the Cable Harness \(Rear, Base\)._
@@ -162,7 +124,5 @@ _Note: This is a tool used to help assemble the Cable Harness \(Rear, Base\)._
 
 * _**NONE**_
 
-### Beta
 
-* _**NONE**_
 
