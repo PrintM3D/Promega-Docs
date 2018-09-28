@@ -20,8 +20,7 @@ If you are a more experienced 3D printer user: [Get Started Here](https://m3d.gi
 [Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)  
 [Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)  
 [Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)  
-[General Public Google Drive](https://drive.google.com/drive/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w?usp=sharing)
-[Promega Printed Part STL Files](https://drive.google.com/drive/folders/1yybcyyfY810PdtaINye7ZYTCsnBpoVmX?usp=sharing)
+[General Public Google Drive](https://drive.google.com/drive/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w?usp=sharing) >> [Promega Printed Part STL Files](https://drive.google.com/drive/folders/1yybcyyfY810PdtaINye7ZYTCsnBpoVmX?usp=sharing)
 
 ## Contributing
 
