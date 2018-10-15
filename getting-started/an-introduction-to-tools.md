@@ -28,5 +28,8 @@ The temperature table on the Duet Web Console includes textfields for both Activ
 
 > Currently there is a bug in RepRap firmware with extruder movement. The feedrate of a 50/50 mixing extrude only move will extrude sqrt\(2\) slower than the given `F` parameter.
 
+A Note about High Temp nozzles:
+> High temp nozzles are NOT intended for use with low temp materials, like PLA. High temp nozzles are specifically designed for use with self-lubricating high temp materials, such as nylon. High temp nozzles differ from standard/low temp nozzles most importantly in the inner coating. The low temp nozzles have a coating to reduce friction of the low temp materials that is not compatible with the high heats of the high temp nozzles. High temp nozzles do not have this coating, and because of this, low temp materials will not print well and may clog frequently or flow poorly. In general, only use the high temp nozzles with materials that require a high temp for printing. 
+
 Continue on to the [Important G-Code Commands](https://m3d.gitbook.io/promega-docs/getting-started/important-g-code-commands), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
