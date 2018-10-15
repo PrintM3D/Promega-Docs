@@ -1,4 +1,0 @@
-# Slicers and Printer Settings
-
-
-

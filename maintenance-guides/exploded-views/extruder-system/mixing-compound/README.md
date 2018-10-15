@@ -1,4 +1,0 @@
-# Mixing Compound
-
-
-

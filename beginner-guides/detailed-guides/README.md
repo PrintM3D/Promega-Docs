@@ -1,4 +1,0 @@
-# Detailed Beginner's Guide
-
-
-
