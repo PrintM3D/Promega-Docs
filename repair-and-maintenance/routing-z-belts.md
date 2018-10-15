@@ -8,7 +8,7 @@ This guide will not cover how to properly tension and level the system. Belt ten
 
 ## Belt Routing
 
-The Z-belts are clamped at the top and bottom by 3D printed clamps. From there, the belt enters a 3D printed block mountedf to the Z-platform called the Z-slider.
+The Z-belts are clamped at the top and bottom by 3D printed clamps. From there, the belt enters a 3D printed block mounted to the Z-platform called the Z-slider.
 
 ![Z-slider](../.gitbook/assets/unyfc5q5yhxmiplc-z-slider.jpg)
 

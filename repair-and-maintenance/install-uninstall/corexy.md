@@ -30,7 +30,7 @@ Follow the steps below in order to reroute the coreXY belts. The following steps
 7. The belt will then go around the final bearing and then should go to the extruder carriage.  ![](../../.gitbook/assets/finalbearingupperloop.jpg) 
 8. You have now completed the first loop of  the belt system. It helps to tighten down the motor in the back right corner while putting a bit of tension on the belt system in order keep the belts in place.
 9. Repeat this same process for the lower belt loop.
-10. Follow the [Belt Tensioning and Mechanical Leveling]() guide in order to tension your coreXY system and make sure it is square.
+10. Follow the [Belt Tensioning](../belt-tensioning.md) guide in order to tension your coreXY system and make sure it is square.
 
 
 

@@ -39,7 +39,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 
 ## Automatic Bed Leveling Compensation
 
-To accommodate for small discrepancies in the bed level of the Promega, you can enable bed leveling with `G29` , however, this command will require a _heightmap.csv_ file. Each _heightmap.csv_ file will be unique to your Promega, and sometime even unique to a specific time. If you stall your printer or otherwise misalign your bed, you will have to re-run mesh bed leveling. Bed leveling compensation can compensate for about 2mm of error. If your error is greater, follow the [mechanical leveling guide]() via skipping. Follow the steps below to generate a _heightmap.csv_ file and enable bed leveling compensation.
+To accommodate for small discrepancies in the bed level of the Promega, you can enable bed leveling with `G29` , however, this command will require a _heightmap.csv_ file. Each _heightmap.csv_ file will be unique to your Promega, and sometime even unique to a specific time. If you stall your printer or otherwise misalign your bed, you will have to re-run mesh bed leveling. Bed leveling compensation can compensate for about 2mm of error. If your error is greater, follow the [mechanical leveling guide](mechanical-bed-leveling.md) via skipping. Follow the steps below to generate a _heightmap.csv_ file and enable bed leveling compensation.
 
 1. Home the printer if you have not already done so.
 2. Heat up the print bed to your preferred printing temperature. The Promega's bed will warp differently depending on what temperature it is heated up to.

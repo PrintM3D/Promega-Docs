@@ -1,7 +1,5 @@
 # Help! My Extruders Are Backwards
 
-
-
 Whenever you are changing or updating configuration files it is possible that your heaters or extruders will be wrongly configured. This could result in your extruder drivers going the wrong way, or the left extruder spinning when you want the right extruder to spin.
 
 ## Flipping Extruder Directions
@@ -33,7 +31,7 @@ It is possible that your extruder directions are flipped because the extruder dr
 
 ## Flipping Extruder Drives
 
-This section will fix extruder drives that are flipped. If you actuate what you think is the right drive and it results in the left drive spinning and vice versa. **The inherent problem here lies in wiring, so be aware, the fix you are applying is temporary.** The wiring is intended to have the left extruder wired to extruder drive 0 and the right extruder to extruder drive 1. If you implement this fix, and in the future update to new configuration files, it will undo these changes. To fix this permanently fix the wiring of your Promega in the [Extruder Wiring]() guide. The fix below is fine to implement, but will provide a temporary solution.
+This section will fix extruder drives that are flipped. If you actuate what you think is the right drive and it results in the left drive spinning and vice versa. **The inherent problem here lies in wiring, so be aware, the fix you are applying is temporary.** The wiring is intended to have the left extruder wired to extruder drive 0 and the right extruder to extruder drive 1. If you implement this fix, and in the future update to new configuration files, it will undo these changes. To fix this permanently fix the wiring of your Promega in the [Extruder Wiring](../../documentation/electronics/extruder-assembly-wiring.md) guide. The fix below is fine to implement, but will provide a temporary solution.
 
 1. Connect to the Promega's Duet Web Console
 2. To check your extruder drives go to the _Machine Control_ tab in the Duet Web Console and select drive 0 or 1 in _Extruder Control._ If you have extruder drive 0 selected and press extrude it should move the left extruder. For extruder drive 1, the right extruder should move.  It is also possible to change the extruder drives in the section below.   ![](../../.gitbook/assets/machinecontrol.png) 

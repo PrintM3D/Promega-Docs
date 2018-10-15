@@ -6,7 +6,7 @@
 
 Look under the All Tools header for each assembly to see all the possible tools you will need to maintain, assemble or repair the Promega .
 
-Look under the [All Screws]() section to view a more in-depth list of the screw types and their location.
+Look under the [All Screws](screw-and-tool-list.md#all-screws) section to view a more in-depth list of the screw types and their location.
 
 ## Brief Overview
 

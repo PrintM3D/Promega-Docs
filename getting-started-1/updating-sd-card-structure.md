@@ -48,5 +48,5 @@ A _.zip_ file is a compressed folder. You will have to first extract the file be
 
 ## Testing and Tuning
 
-Once you have updated the SD Card files on the microSD card. Test all your motors and heaters one by one to ensure the new settings are compatible with your wiring and board. If you changed any settings in your previous configuration, you will have to add these settings and commands in your new updated version. If any of the motors or heaters are flipped, [this guide]() will help.
+Once you have updated the SD Card files on the microSD card. Test all your motors and heaters one by one to ensure the new settings are compatible with your wiring and board. If you changed any settings in your previous configuration, you will have to add these settings and commands in your new updated version. If any of the motors or heaters are flipped, [this guide](../how-to-troubleshoot/common-troubleshooting/help-my-extruders-are-backwards.md) will help.
 
