@@ -1,6 +1,6 @@
 # Fan Installation and Replacement
 
-On the Promega you will find two different fans. The nozzle fan, located on the bottom of the extruder assembly, and the cold-section fan. This guide will cover their removal and installation. You might need to remove either of these fans in order to get to the components below.
+On the Promega you will find two different fans. The nozzle fan, located on the bottom of the extruder assembly, and the cold-section fan, located in the front. 
 
 ## Fan Location
 

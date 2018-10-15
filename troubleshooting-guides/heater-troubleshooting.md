@@ -1,7 +1,5 @@
 # Heater Troubleshooting
 
-This guide serves to fix any problems you might have with the heater cartridges, PT1000 or the heated bed.
-
 ## PT1000 Problems
 
 ## Heater Problems

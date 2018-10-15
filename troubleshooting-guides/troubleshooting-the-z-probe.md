@@ -1,7 +1,5 @@
 # Troubleshooting the Z-probe
 
-This guide will cover various problems that you might encounter while working with the Z-probe.
-
 ## Z-probe Not Triggering
 
 ### Problem

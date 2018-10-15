@@ -48,5 +48,5 @@ Follow the guides in this Getting Started chapter of the Promega Docs to properl
 * [Preparing a Print](preparing-a-print.md): A guide on how to slice files and import slicer settings.
 * [Running a Print](running-a-print.md):  To run a print on the Promega
 * [An Introduction to Tools](an-introduction-to-tools.md): Explains the operations of tools.
-* I[mportant G-code commands](important-g-code-commands.md): A list of useful G-code commands to know.
+* [Important G-code commands](important-g-code-commands.md): A list of useful G-code commands to know.
 

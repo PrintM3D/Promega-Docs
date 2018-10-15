@@ -1,10 +1,8 @@
 # Belt Tensioning and Mechanical Leveling
 
-## Belt Tensioning and Mechanical Leveling
-
 As the Promega is used over time it is possible slack develops in the CoreXY or Z-assembly belts. This can be fixed easily by following the guides below. Properly tensioning your belts will address problems with backlash and XY skipping.
 
-## CoreXY Assembly
+## CoreXY Tuning
 
 1. In order to tension the CoreXY loosen the three screws as indicated below.
 
@@ -19,6 +17,10 @@ As the Promega is used over time it is possible slack develops in the CoreXY or 
 In the image below you can see a coreXY assembly that is not square. The left side is not pulled in as far as the right side. This is because the right side of the gantry is being tugged backwards harder than the left. The solution would be to tension the right side tighter.
 
 ![A Not Square CoreXY Assembly](../.gitbook/assets/notsquarecorexy.jpg)
+
+## Other CoreXY Tuning Links
+
+{% embed url="https://reprap.org/forum/read.php?397,530210" %}
 
 ## Z-assembly
 

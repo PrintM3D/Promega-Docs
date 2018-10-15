@@ -1,7 +1,5 @@
 # Troubleshooting Duet Web Console
 
-This guide will walk through possible problems that can be encountered while connecting to the Duet Web Console.
-
 ## Rejected by the Duet
 
 ![](../.gitbook/assets/rejectedbytheduet.png)

@@ -22,25 +22,29 @@ Follow the steps below to correctly home your printer.
 
 1. To ensure that the printer homes correctly, we recommend moving the coreXY gantry manually to the limit switches located in the back right corner when the motors are not powered. If you need to unpower the motors you can use the G-code command `M84` to stop the idle hold of the motors. Watch out as this will disable **all** motors, and could cause the bed to drop. Remove all items from inside of the printer before homing. The PTFE filament tubes on the extruder carriage cable assembly should be clicked in place \(shown in the image below\), or they could cause problems when homing the X-axis.
 
-   ![tXK2bR1RP6wPsEGA-PTFECheck.jpg](../.gitbook/assets/txk2br1rp6wpsega-ptfecheck.jpg)
+   ![tXK2bR1RP6wPsEGA-PTFECheck.jpg](../.gitbook/assets/txk2br1rp6wpsega-ptfecheck.jpg)  
 
 2. Move the coreXY gantry against the Y-limit switch, listen for the click of the limit switch. **Warning: when manually moving the gantry be careful not to move the extruder carriage past the limit switch tab as you can easily break it off**.
 
-   ![90nsbbYgUkrZWDvj-Y-limit.gif](../.gitbook/assets/90nsbbygukrzwdvj-y-limit.gif)
+   ![90nsbbYgUkrZWDvj-Y-limit.gif](../.gitbook/assets/90nsbbygukrzwdvj-y-limit.gif)  
 
 3. Then move the coreXY gantry against the X-limit switch.
 
-   ![deUkxjexf1j1MZLn-X-Limit.gif](../.gitbook/assets/deukxjexf1j1mzln-x-limit.gif)
+   ![deUkxjexf1j1MZLn-X-Limit.gif](../.gitbook/assets/deukxjexf1j1mzln-x-limit.gif)  
 
 4. Make sure the bed is resting on the Z-limit switch and that there is nothing underneath the bed.
 
 ### Homing the Printer
 
+{% hint style="warning" %}
+It is recommended that you tune the Z homing of the printer once after receipt of your Promega, and any time you make a configuration change that changes the relative distances of the bed/printing surface and the nozzle \(bed glass installation, nozzle replacement, extruder swapped from K'Tana to Compound, etc.\)  See details on this process at [Tuning the Z Homing Procedure](../firmware-guides/tuning-the-z-homing-procedure.md).
+{% endhint %}
+
 1. You are now ready to home the printer. There are multiple ways to initiate the homing process. You can press the _Home All_ button located in the _Machine Control_ tab of the Duet Web Console. You can also send the G-code command G28. These two operations will both execute the same file _homeall.g_, located on the microSD card.
 
-   ![vMOKr4toGvCnhyX8-homeallbutton.png](../.gitbook/assets/vmokr4togvcnhyx8-homeallbutton.png)
+   ![vMOKr4toGvCnhyX8-homeallbutton.png](../.gitbook/assets/vmokr4togvcnhyx8-homeallbutton.png)  
 
-2. The coreXY gantry should move toward the Y-limit switch located at the back of the printer first. Once it has hit that limit switch, it will move toward the x-limit switch. Next, the bed will lift itself up and back down slowly, until it has hit its limit switch.
+2. The coreXY gantry should move toward the Y-limit switch located at the back of the printer first. Once it has hit that limit switch, it will move toward the x-limit switch. Next, the bed will lift itself up and back down slowly, until it has hit its limit switch. 
 3. Now all axes are homed. Remember that your motors are now powered and you will not be able to move any of the assemblies by hand. Use the `M84` command to temporarily disable idle hold current on your stepper motors, allowing you to move the motors. Your \(0,0,0\) is located at the top-front-left of the printer. 
 
 ## Tuning the Z-homing Procedure
@@ -65,6 +69,8 @@ Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telli
 11. Find the second `M208` command at the end of the file, the one that says `Set axis maxima` in the comment.
 12. Change the Z value to be the Z end stop value determined above, rounded up to the next integer. For example, if the Z end stop was at 376.4, max Z needs to be 377; if the Z end stop was 377.2, max Z needs to be 378 etc. If the Z end stop is already an integer, do not round up.
 13. Save the file and home the printer again. Although you should now be able to enter the command `G1 Z0`, I don't recommend it. Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.
+=======
+## 
 
 Continue on to the [Heating the Bed and Nozzles](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
 
