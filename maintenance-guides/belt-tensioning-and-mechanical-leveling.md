@@ -20,7 +20,7 @@ In the image below you can see a coreXY assembly that is not square. The left si
 
 ## Other CoreXY Tuning Links
 
-{% embed data="{\"url\":\"https://reprap.org/forum/read.php?397,530210\",\"type\":\"link\",\"title\":\"CoreXY Tunning.\",\"description\":\"Hello everyone, I have just built my corexy machine and found the scale of X, Y has some problem. Searching a lot and still cannot find a piece of information for turning the machine. After studying the equation again and again, doing a lot of trial and error, resulting my steps to tunning my corex\",\"icon\":{\"type\":\"icon\",\"url\":\"https://reprap.org/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="https://reprap.org/forum/read.php?397,530210" %}
 
 ## Z-assembly
 

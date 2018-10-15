@@ -114,29 +114,21 @@ The `G31` command sets the z-probe status:
 
 **Calibrating the IR Probe**
 
-To discover the z-offset of the IR probe to the nozzle follow the steps below: 
+To discover the z-offset of the IR probe to the nozzle follow the steps below:
 
-   1. Home the printer and move to `X200 Y200 Z50`, probing in the center of the bed is the best idea as that is where the most printing occurs. 
-   
-   2. Heat up your bed and wait for it to reach temperature. Ensure that your print bed is clean. 3. Heat up your nozzle in order to remove any filament or debris on the nozzle tip. 
-   
-   3. Turn off bed leveling with `G29 S2`, bed leveling can interfere with probing the bed.
+1. Home the printer and move to `X200 Y200 Z50`, probing in the center of the bed is the best idea as that is where the most printing occurs.
+2. Heat up your bed and wait for it to reach temperature. Ensure that your print bed is clean. 3. Heat up your nozzle in order to remove any filament or debris on the nozzle tip.
+3. Turn off bed leveling with `G29 S2`, bed leveling can interfere with probing the bed.
 
-> Always disable bed leveling before probing or bed leveling, they will interfere with each other!!! < 
+> Always disable bed leveling before probing or bed leveling, they will interfere with each other!!! &lt;
 
-   4. Check that the z-probe is functioning correctly by **manually** jogging the bed to the nozzle. You should see the Z-probe value in the Duet Web Console _Machine Status_ table change **before** the nozzle hits the bed. Remember the trigger value of the z-probe, this will vary per print surface. 
-   
-   5. Enter the command `G31 Pn Z1.0` where `n` is a value less than what you recorded in the previous step. The z-probe will trigger whenever it detects a value greater than `n`. `Z1.0` represents a stop gap to prevent a crash if you do send `G30`. 
-   
-   6. Jog the bed up until the bed is touching the nozzle, a piece of paper can help to determine when the nozzle is touching the bed. When the nozzle and bed are touching send command `G92 Z0`. This will set the current z-height of the printer to 0. 
-   
-   7. Move the bed to `Z20` with `G1 Z20`. 7. Send the command `G30 S-1` this will print out the z-height of the bed when the probe is triggered. It will **not** update your z-height value. Record the value that is printed out. To ensure that you are getting consistent values, you can repeat this step multiple times. Move the bed to `Z20` between every probe or you will get an error. 
-   
-   8. Send the `G31` command with your z-probe offset value set to the value you obtained in the step above. `G31 P450 X-30.4 Y-30.7 Znnn`, `nnn` is the value from the step above. 
-   
-   9. If you want these changes to affect your board permenantly, then copy and paste the command above into your _config.g_ file. Be sure to remove all other `G31` commands or comment them. 
-   
-   10. You have now successfully calibrated your IR probe. Send the command `G30` in order to probe the z axis. You can then move your bed up to your nozzle manually and verify that at `Z0` the nozzle is touching the bed.
+1. Check that the z-probe is functioning correctly by **manually** jogging the bed to the nozzle. You should see the Z-probe value in the Duet Web Console _Machine Status_ table change **before** the nozzle hits the bed. Remember the trigger value of the z-probe, this will vary per print surface.
+2. Enter the command `G31 Pn Z1.0` where `n` is a value less than what you recorded in the previous step. The z-probe will trigger whenever it detects a value greater than `n`. `Z1.0` represents a stop gap to prevent a crash if you do send `G30`.
+3. Jog the bed up until the bed is touching the nozzle, a piece of paper can help to determine when the nozzle is touching the bed. When the nozzle and bed are touching send command `G92 Z0`. This will set the current z-height of the printer to 0.
+4. Move the bed to `Z20` with `G1 Z20`. 7. Send the command `G30 S-1` this will print out the z-height of the bed when the probe is triggered. It will **not** update your z-height value. Record the value that is printed out. To ensure that you are getting consistent values, you can repeat this step multiple times. Move the bed to `Z20` between every probe or you will get an error.
+5. Send the `G31` command with your z-probe offset value set to the value you obtained in the step above. `G31 P450 X-30.4 Y-30.7 Znnn`, `nnn` is the value from the step above.
+6. If you want these changes to affect your board permenantly, then copy and paste the command above into your _config.g_ file. Be sure to remove all other `G31` commands or comment them.
+7. You have now successfully calibrated your IR probe. Send the command `G30` in order to probe the z axis. You can then move your bed up to your nozzle manually and verify that at `Z0` the nozzle is touching the bed.
 
 ## Bed Leveling
 
