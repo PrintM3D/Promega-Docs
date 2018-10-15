@@ -21,7 +21,7 @@ Look under the [All Screws](screw-and-tool-list.md#all-screws) section to view a
 * T6 Torx Screwdriver
 * 1.5mm Hex
 * 1.3mm Hex
-* 5mm and 7mm nut driver OR 
+* 5mm , 5.5mm, and 7mm nut driver OR 
 * Pliers/Adjustable Wrench
 * Needle-nose pliers
 
@@ -147,4 +147,8 @@ Look under the [All Screws](screw-and-tool-list.md#all-screws) section to view a
 * Bed Terminals
 * Power Supply Terminals
 * Duet Board Terminals
+
+* Heated Bed Screws
+** T10 Torx
+** 5.5mm net driver for the underside nylock nuts
 
