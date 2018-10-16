@@ -32,5 +32,5 @@ The lower tool number will apply to the left extruder and heater and the higher 
 
 ## Deviating from the Standard
 
-In the configuration files and the wiring of the Promega you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/firmware-guides/help-my-extruders-are-backwards) guide. For wiring read [Duet Maestro Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/duet-maestro-wiring) and [Extruder Assembly Wiring](https://promega.printm3d.com/~/edit/drafts/-LHcd83qhBiRw2GAgwN_/electrical-guides/extruder-assembly-wiring).
+In the configuration files and the wiring of the Promega you can deviate from this standard. To change the tool definition in the configuration files, read the [Help! My Extruders are Backwards](../../how-to-troubleshoot/common-troubleshooting/help-my-extruders-are-backwards.md) guide. For wiring read [Duet Maestro Wiring](duet-maestro-wiring.md) and [Extruder Assembly Wiring](extruder-assembly-wiring.md).
 

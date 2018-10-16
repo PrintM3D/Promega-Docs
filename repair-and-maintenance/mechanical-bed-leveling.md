@@ -2,7 +2,7 @@
 
 ### Leveling the Bed
 
-After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](https://m3d.gitbook.io/promega-docs/printing-guides/slicers-and-printer-settings/bed-leveling-and-probing) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners. If your is extremely unlevel, it will not be movable by hand.
+After you change out belt clamps, your bed might be misaligned. As covered in the [Bed Leveling & Probing](../advanced-setup-guides/bed-leveling-and-probing.md) guide, bed leveling compensation will work for differences of about 3mm across the entire bed. Leveling your bed can be done by skipping teeth on the bed in specific corners. If your is extremely unlevel, it will not be movable by hand.
 
 1. Look at your bed and determine if one side is visibly higher than the other side.
 2. Remove the binder clip if you have placed one on the Z-motor belt

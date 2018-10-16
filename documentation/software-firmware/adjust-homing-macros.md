@@ -1,6 +1,6 @@
 # Adjust Homing Macros
 
-Whenever you press the homing buttons located on the _Machine Control_ tab of the Duet Web Interface macros are called. This guide will cover the possible changes you can make to your homing G-code files. For assistance in homing your printer checkout the [Homing the Printer](https://m3d.gitbook.io/promega-docs/getting-started/homing-the-printer) guide.
+Whenever you press the homing buttons located on the _Machine Control_ tab of the Duet Web Interface macros are called. This guide will cover the possible changes you can make to your homing G-code files. For assistance in homing your printer checkout the [Homing the Printer](../../beginners-setup-guides/homing-the-printer.md) guide.
 
 ## Homing Macros
 

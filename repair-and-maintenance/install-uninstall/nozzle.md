@@ -23,7 +23,7 @@ Follow the steps listed in the guide _**closely**_. You will be working with hea
 Some of the following steps have to be performed with a heated hot-end in order to allow you to slide out and replace the nozzle. If you don't heat your nozzle cooled filament will act like glue and hold the components together.
 
 1. Unplug the 24V cold-section fan on the front of the extruder.
-2. Remove the cold-section fan. Follow: [Fan Installation and Replacement](https://promega.printm3d.com/~/edit/drafts/-LHdXavkB_zqUw_einTK/repair-guides/fan-installation-and-replacement) for help.
+2. Remove the cold-section fan. Follow: [Nozzle Fan Uninstall Guide](nozzle-fan.md#nozzle-fan) for help.
 3. Connect to the Duet Web Console.
 4. Heat-up the nozzle and retract any filament inside.
 5. **Keep the nozzle hot for the next steps! Hold the heater block with pliers as shown in the images below.**  ![](../../.gitbook/assets/howtoholdcompound.jpg)

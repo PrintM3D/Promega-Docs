@@ -1,6 +1,6 @@
 # Duet Maestro Wiring
 
-This guide covers the wiring of the Promega along with possible wiring solutions to problems. Properly understanding the wiring of the Promega is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](https://m3d.gitbook.io/promega-docs/getting-started/critical-warnings-and-information). The Duet Maestro board can be easily damaged or broken by:
+This guide covers the wiring of the Promega along with possible wiring solutions to problems. Properly understanding the wiring of the Promega is extremely important. Shorting the Duet Maestro board can be done easily. Follow and acknowledge the warnings listed in [Critical Warnings](../../getting-started-1/critical-warnings-and-information.md). The Duet Maestro board can be easily damaged or broken by:
 
 1. Wiring the board incorrectly and causing a short
 2. Electro-static Discharge
@@ -97,4 +97,6 @@ There is way more to the electronics of the Duet Maestro board. Follow the links
 2. [Duet Maestro Hardware Overview](https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Hardware_Overview#Section_Wiring_and_pinout) 
 3. [M3D Support](https://printm3d.com/support) 
 4. [Duet3D forum](https://forum.duet3d.com/): A great place for very specific Duet Maestro and RepRap firmware questions
+
+
 
