@@ -6,7 +6,7 @@ Before you start printing or moving any component of the ProMega, we recommend h
 
 ![](../.gitbook/assets/promegacoordinateaxes.jpg)
 
-In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface). **Positive Z is down and negative Z is up!**
+In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](../getting-started-1/setup-your-network.md#the-web-interface). **Positive Z is down and negative Z is up!**
 
 The origin of this coordinate frame is in the top-front-left corner of the printer. This can be seen at the intersection of the three red axes of the 3D printer in the image above.
 
@@ -33,14 +33,14 @@ Follow the steps below to correctly home your printer.
 #### Homing the Printer
 
 {% hint style="warning" %}
-It is recommended that you tune the Z homing of the printer once after receipt of your Promega, and any time you make a configuration change that changes the relative distances of the bed/printing surface and the nozzle \(bed glass installation, nozzle replacement, extruder swapped from K'Tana to Compound, etc.\) See details on this process at [Tuning the Z Homing Procedure]().
+It is recommended that you tune the Z homing of the printer once after receipt of your Promega, and any time you make a configuration change that changes the relative distances of the bed/printing surface and the nozzle \(bed glass installation, nozzle replacement, extruder swapped from K'Tana to Compound, etc.\) See details on this process at [Tuning the Z Homing Procedure](homing-the-printer.md#tuning-the-z-homing-procedure).
 {% endhint %}
 
 1. You are now ready to home the printer. There are multiple ways to initiate the homing process. You can press the _Home All_ button located in the _Machine Control_ tab of the Duet Web Console. You can also send the G-code command G28. These two operations will both execute the same file _homeall.g_, located on the microSD card.
 
    ![vMOKr4toGvCnhyX8-homeallbutton.png](../.gitbook/assets/vmokr4togvcnhyx8-homeallbutton.png)
 
-2. The coreXY gantry should move toward the Y-limit switch located at the back of the printer first. Once it has hit that limit switch, it will move toward the x-limit switch. Next, the bed will lift itself up and back down slowly, until it has hit its limit switch.
+2. The CoreXY gantry should move toward the Y-limit switch located at the back of the printer first. Once it has hit that limit switch, it will move toward the x-limit switch. Next, the bed will lift itself up and back down slowly, until it has hit its limit switch.
 3. Now all axes are homed. Remember that your motors are now powered and you will not be able to move any of the assemblies by hand. Use the `M84` command to temporarily disable idle hold current on your stepper motors, allowing you to move the motors. Your \(0,0,0\) is located at the top-front-left of the printer. 
 
 ### Tuning the Z-homing Procedure
@@ -66,5 +66,5 @@ Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telli
 12. Change the Z value to be the Z end stop value determined above, rounded up to the next integer. For example, if the Z end stop was at 376.4, max Z needs to be 377; if the Z end stop was 377.2, max Z needs to be 378 etc. If the Z end stop is already an integer, do not round up.
 13. **Save the file and home the printer again. Although you should now be able to enter the command `G1 Z0`, I don't recommend it. Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.**
 
-Continue on to the [Heating the Bed and Nozzles](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
+Continue on to the next phase: [Get Your Bed Ready](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles).
 

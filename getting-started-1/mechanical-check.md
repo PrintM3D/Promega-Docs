@@ -13,17 +13,17 @@ First of all, check for any nuts and bolts in and around the frame. It is possib
 
 ### **Belt Routing**
 
-All the belts should be riding on bearings or driven by pulleys. If the belt tension became too low during the trip it is possible that one of the belts moved from its desired place. If you notice a coreXY belt which is not seated on a bearing or pulley. Follow the [Repairing CoreXY](https://m3d.gitbook.io/promega-docs/repair-guides/repairing-broken-belt-clamps) guide.
+All the belts should be riding on bearings or driven by pulleys. If the belt tension became too low during the trip it is possible that one of the belts moved from its desired place. If you notice a CoreXY belt which is not seated on a bearing or pulley. Follow the [Repairing CoreXY](../repair-and-maintenance/install-uninstall/corexy.md) guide.
 
 ### **Belt Tension**
 
-Check the belt tension in the CoreXY, you can do this by feeling the force on the belt as shown in the picture below. The first picture shows a tight coreXY belt, the second picture a loose belt. Once you release the belt, it should spring back and vibrate. If this does not happen, it might be another indicator of a loose coreXY belt.
+Check the belt tension in the CoreXY, you can do this by feeling the force on the belt as shown in the picture below. The first picture shows a tight CoreXY belt, the second picture a loose belt. Once you release the belt, it should spring back and vibrate. If this does not happen, it might be another indicator of a loose CoreXY belt.
 
 ![Tight CoreXY Belt](../.gitbook/assets/rcddv9mpq6xxvcaj-tightcorexy.jpg)
 
 ![Loose CoreXY Belt](../.gitbook/assets/c19sx7dzd5bezvvy-loosecorexy.jpg)
 
-If your CoreXY belt system is loose follow the [Belt Tensioning Guide](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling#corexy-assembly).
+If your CoreXY belt system is loose follow the [Belt Tensioning Guide](../repair-and-maintenance/belt-tensioning.md#corexy-tuning).
 
 ## Z-Platform
 
@@ -35,7 +35,7 @@ The Z-sliders are 3D printed parts that allow the Z-platform to ride along the f
 
 ### Lifting the Bed
 
-Next, we will checkout the Z-assembly. During transport it is possible that your Z-assembly became misaligned. If you cannot lift your bed as outlined in the steps below because the bed is too far off level, follow the steps in the [Leveling the Bed](https://promega.printm3d.com/repair-guides/repairing-broken-belt-clamps#leveling-the-bed) section.
+Next, we will checkout the Z-assembly. During transport it is possible that your Z-assembly became misaligned. If you cannot lift your bed as outlined in the steps below because the bed is too far off level, follow the steps in the [Leveling the Bed](../repair-and-maintenance/mechanical-bed-leveling.md) section.
 
 1. Grab your bed from two points opposite from each-other, as shown in the image below.  ![](../.gitbook/assets/wheretoholdbed%20%281%29.jpg) 
 2. Gently and slowly lift the bed up. Never pull up the bed too fast. Remember that moving motors by hand will generate a current and power your printer. While you are lifting the bed you will notice your Cold-section fan spinning. The board can tolerate a significant amount of voltage, but lifting the bed up too fast can fry it.

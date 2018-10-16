@@ -28,14 +28,6 @@ A Note about High Temp nozzles:
 
 > High temp nozzles are NOT intended for use with low temp materials, like PLA. High temp nozzles are specifically designed for use with self-lubricating high temp materials, such as nylon. High temp nozzles differ from standard/low temp nozzles most importantly in the inner coating. The low temp nozzles have a coating to reduce friction of the low temp materials that is not compatible with the high heats of the high temp nozzles. High temp nozzles do not have this coating, and because of this, low temp materials will not print well and may clog frequently or flow poorly. In general, only use the high temp nozzles with materials that require a high temp for printing.
 
-Continue on to the [Important G-Code Commands](https://m3d.gitbook.io/promega-docs/getting-started/important-g-code-commands), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
-
-
-
-
-
-This guide serves as a brief introduction to G-code commands. It will list the most useful and important commands to allow proper control of the Promega.
-
 ## An Introduction to G-Code
 
 G-code is frequently used programming language to control machine tools, such as a 3D printer. G-code is sent to the printer and promptly executed by a control board, in the Promega's case, the Duet Maestro. What each G-code command does depends on the firmware type the board is running. The Promega runs Reprap firmware, you can find an in-depth list of all supported G-code commands on the [Duet3D Wiki: G-code](https://duet3d.dozuki.com/Wiki/Gcode).
@@ -53,6 +45,8 @@ G-code commands are sent and interpreted one line at a time. G-code commands typ
   * `S` Enables or disables the endstop check. If the endstop is toggled while moving the printer stops, the `S1` flag enables detection, `S0` disables detection.
 * `Tnnn`: Tool select G-code. Where `nnn` defines the tool
 * `M106 Snnn`: Turn on fans with speed `nnn`. `nnn`    can be a value between 0 and 255. For older versions of _config.g_ `M106 P2 Snnn` will enable fan control.
-* `G30`: This command allows a single Z-probe at the current location. The z-probe should be properly configured before sending this command. Follow the [Z-Probe Calibration & Bed Leveling](https://promega.printm3d.com/~/edit/drafts/-LHcmtefoysyNAUG9AZG/getting-started/z-probe-calibration) guide for more explanation on this topic.
+* `G30`: This command allows a single Z-probe at the current location. The z-probe should be properly configured before sending this command. Follow the [Z-Probe Calibration & Bed Leveling](../advanced-setup-guides/bed-leveling-and-probing.md) guide for more explanation on this topic.
 * `G29` : This command runs the bed leveling procedure. Please properly deploy the Z-probe prior to sending this command, use the link above.
+
+
 

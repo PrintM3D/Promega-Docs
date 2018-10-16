@@ -10,9 +10,9 @@ While your printer was being shipped, it is possible that a new SD card structur
 
 The latest SD card files released by M3D can be found on the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Follow the steps below in order to download the latest version for your printer. Always be careful when downloading the latest version of the SD card files. New SD card files can cause unintended results such as flipped motor directions or wrongly configured heaters. **Always test all motors and heaters carefully before printing after downloading a new update.**
 
-Read the [Accessing Your SD Card](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card) for more help on getting to the SD card files.
+Read the [Accessing Your SD Card](setup-your-electronics.md#accessing-the-microsd) for more help on getting to the SD card files.
 
-Read the [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started/sd-card-structure) guide for more explanation on the files and directories on the SD card.
+Read the [SD Card Structure](../documentation/software-firmware/sd-card-structure.md) guide for more explanation on the files and directories on the SD card.
 
 {% tabs %}
 {% tab title="Downloading Official Release" %}

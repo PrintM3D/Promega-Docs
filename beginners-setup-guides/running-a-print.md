@@ -1,6 +1,6 @@
 # Running A Print
 
-Running a print is best done using the Duet Web Console. To connect to your Duet via a network, visit the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide. For an introduction on the Duet Web Console visit the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface) guide.
+Running a print is best done using the Duet Web Console. To connect to your Duet via a network, visit the [Network Setup](../getting-started-1/setup-your-network.md#network-setup) guide. For an introduction on the Duet Web Console visit the [Accessing Web Interface](../getting-started-1/setup-your-network.md#the-web-interface) guide.
 
 This guide assumes you have properly configured your printer with all the previous guides. That means:
 
@@ -11,7 +11,7 @@ This guide assumes you have properly configured your printer with all the previo
 
 ## Uploading the Print
 
-In order to print something from the Duet board you must first upload the print to the Duet Board. This can be done via the Duet Web Console or by ejecting the SD card and uploading it with a computer. **Uploading a print via the Duet Web Console is the easiest way**. To print on the Duet board your print must have a _.gcode_ file extension. To create a G-code file you must slice a model with a slicer. Look at the [Preparing a Print]() guide for guidance on how to create a _.gcode_ file.
+In order to print something from the Duet board you must first upload the print to the Duet Board. This can be done via the Duet Web Console or by ejecting the SD card and uploading it with a computer. **Uploading a print via the Duet Web Console is the easiest way**. To print on the Duet board your print must have a _.gcode_ file extension. To create a G-code file you must slice a model with a slicer. Look at the [Preparing a Print](../advanced-setup-guides/what-is-slicing.md) guide for guidance on how to create a _.gcode_ file.
 
 **Uploading via Duet Web Console**
 
@@ -44,5 +44,5 @@ Once the file is uploaded, you can click the file in order to print it. A window
 2. Aside from these controls the Duet Web Console displayes a heap of cool statistics such as Layer time and length of filament required. Remember that these statistics are estimates!
 3. At any point during a print you can pause the print with the orange _Pause Print_ button. This will execute a file on the microSD card called _pause.g_. This will remove the extruder head from the print, and retract filament but keep the temperature steady. You will then be able to execute G-code commands. Be careful as you can easily damage your print and printer if you move the extruder into the print. Whenever you want to continue printing you can press _Resume_. This will execute _resume.g_. If you want to stop your print, you can press the _Cancel_ button. This will execute _stop.g_, this file is also called at the end of a print.
 
-Continue on to the [An Introduction to Tools](https://m3d.gitbook.io/promega-docs/getting-started/an-introduction-to-tools), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
+Continue on to the phase: [Common Terminology](common-terminology.md).
 

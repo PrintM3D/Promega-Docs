@@ -14,7 +14,7 @@ If the First-time start-up connection did not work, or you want to set-up your o
 
 ### Changing the Network Settings via SD
 
-1. Before removing your microSD card from your printer, we recommend you turn off your printer. This reduces the risk of damaging your Duet Maestro. Once the printer is powered off, press the SD card into the board in order to remove it. For more guidance on the SD card check out [this guide.](https://m3d.gitbook.io/promega-docs/getting-started/accessing-your-sd-card)
+1. Before removing your microSD card from your printer, we recommend you turn off your printer. This reduces the risk of damaging your Duet Maestro. Once the printer is powered off, press the SD card into the board in order to remove it. For more guidance on the SD card check out [this guide.](../documentation/software-firmware/sd-card-structure.md)
 2. Insert the microSD card into your computer with the microSD card reader. Open the _machine\_access.g_ file. This file will be in the _sys/_ folder and configures the network settings of your Promega. It is best to open the file with a text editor like [Notepad++](https://notepad-plus-plus.org/download/v7.5.6.html) or WordPad \(Default Windows Accessory\). The default Windows Accessory _Notepad_ is not recommended as it does not separate the G-code commands into individual lines.
 3. There are two options for configuring your network: DHCP and static IP. If you utilize DHCP, your network router will assign the control board an IP address. You will then be able to connect to the printer using the printer name you define in the configuration file. **DHCP is the recommended option if you are unfamiliar with networking.** Using a static IP means that you give the Promega a unique and free IP address on your network. You will then be able to connect to the Promega by entering that IP address into a browser tab. Choose the tab below \(DHCP or static IP\) depending on your choice.
 
@@ -97,8 +97,6 @@ Continue to the step below.
 {% endtab %}
 {% endtabs %}
 
-**Continue on to the** [**Accessing Web Interface**](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface)**, the next chapter in the** [**Getting Started**](https://m3d.gitbook.io/promega-docs/getting-started) **guide.**
-
 **Network Bridging**
 
 If you are unable to connect your ProMega to your internal network it is possible to use the ethernet cable to connect the printer directly to your computer. In order to do this, complete the _Connecting to the Promega via SD: Static IP_ section, remember the static IP you give the printer, but instead of connecting the ethernet cable to your network, connect it to your computer and follow the guide below.
@@ -115,8 +113,6 @@ If you are unable to connect your ProMega to your internal network it is possibl
 
 3. This will create a new Network Adapter called _Network Bridge_. You should now be able to connect to the ProMega with the static IP address you determined earlier. Enter the static IP address into a browser URL textfield.
 
-Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
-
 ### Configuring Multiple Devices to the Same Network
 
 If you are adding multiple different Promegas to the network it will change the procedure. This is because a network will require a unique machine name or IP address in order to work.
@@ -131,8 +127,6 @@ If you want to configure multiple Promegas with static IP addresses you will hav
 {% endtab %}
 {% endtabs %}
 
-Continue on to the [Accessing Web Interface](https://m3d.gitbook.io/promega-docs/getting-started/accessing-web-interface), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
-
 For additional help connecting to the printer via USB and Network setup, visit the following links:
 
 1. [Duet3D Network Setup](https://duet3d.dozuki.com/Guide/1.%29+Getting+Connected+to+your+Duet/7)
@@ -142,7 +136,7 @@ For additional help connecting to the printer via USB and Network setup, visit t
 
 ## The Web Interface
 
-The Duet Maestro allows control via the Duet Web Console. We highly recommend connecting to your Promega via your network so that you can make use of this! Follow the guide below to learn more about the Duet Web Console. If you have not yet connected your printer to your network, follow the [Network Setup](https://m3d.gitbook.io/promega-docs/getting-started/network-setup) guide.
+The Duet Maestro allows control via the Duet Web Console. We highly recommend connecting to your Promega via your network so that you can make use of this! Follow the guide below to learn more about the Duet Web Console. If you have not yet connected your printer to your network, follow the [Network Setup](setup-your-network.md#network-setup) guide.
 
 ### The Duet Web Console
 
@@ -160,7 +154,7 @@ On the left half is a table that allows you to monitor the temperature of the di
 
 ![Temperature Readings](../.gitbook/assets/jm1k1cnqkqqtq02c-temperaturereadings.png)
 
-By clicking on the textfields of the tools in the table you can change the temperature of the tools. Press enter to update the temperature. You should see a slow increase in temperature. The _Active_ column represents the temperature of a tool when it is **selected**, the _Standby_ column represents the temperature of a tool when it is **not selected ,** but was previously selected. It is best to have a low standby temperature for a tool, so it does not heat up unexpectedly.
+By clicking on the text-fields of the tools in the table you can change the temperature of the tools. Press enter to update the temperature. You should see a slow increase in temperature. The _Active_ column represents the temperature of a tool when it is **selected**, the _Standby_ column represents the temperature of a tool when it is **not selected ,** but was previously selected. It is best to have a low standby temperature for a tool, so it does not heat up unexpectedly.
 
 By clicking on the tool names in the _Tool_ column you can change your currently selected tool.
 
@@ -243,5 +237,5 @@ Utilize this tab in order to define printer filament settings. This can also be 
 * Duet3D Wiki: [Duet Web Control Manual](https://duet3d.dozuki.com/Wiki/Duet_Web_Control_Manual#main)
 * [Duet Web Control GitHub Repository](https://github.com/chrishamm/DuetWebControl)
 
-Continue on to the [SD Card Structure](https://m3d.gitbook.io/promega-docs/getting-started/sd-card-structure), the next chapter in the [Getting Started](https://m3d.gitbook.io/promega-docs/getting-started) guide.
+Continue on to the [Updating SD Card Structure](updating-sd-card-structure.md), the next chapter in the [Getting Started](./) guide.
 
