@@ -1,2 +1,2 @@
-# Beginner's Setup Guides
+# Beginner's Guides
 

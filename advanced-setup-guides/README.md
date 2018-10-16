@@ -1,2 +1,2 @@
-# Advanced Setup Guides
+# Advanced Guides
 

@@ -1,7 +1,5 @@
 # Routing Z Belts
 
-
-
 ## Notes
 
 This guide will not cover how to properly tension and level the system. Belt tensioning and mechanical leveling is covered [here](https://m3d.gitbook.io/promega-docs/maintenance-guides/belt-tensioning-and-mechanical-leveling).

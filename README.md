@@ -4,7 +4,7 @@ Welcome to the User Manual for the M3D Promega 3D Printer. A feature-packed, exp
 
 If you are a complete beginner to 3D printing and just got the Promega, please start at the [Beginner Guides](beginners-setup-guides/).
 
-If you are a more experienced 3D printer user: [Advanced Setup Guides](advanced-setup-guides/). This guide will get you set-up and walk you through your first print.
+If you are a more experienced 3D printer user: [Advanced Guides](advanced-setup-guides/). This guide will get you set-up and walk you through your first print.
 
 ## **Q&A Promega Users**
 
@@ -16,7 +16,7 @@ If you are a more experienced 3D printer user: [Advanced Setup Guides](advanced-
 [Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)  
 [Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)  
 [Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)  
-[General Public Google Drive](https://drive.google.com/drive/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w?usp=sharing) &gt;&gt; [Promega Printed Part STL Files](https://drive.google.com/drive/folders/1yybcyyfY810PdtaINye7ZYTCsnBpoVmX?usp=sharing)
+[Promega Printed Part Model \(STL\) Files](https://drive.google.com/drive/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
 
 ## Contributing
 

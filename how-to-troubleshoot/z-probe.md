@@ -1,7 +1,5 @@
 # Z Probe
 
-
-
 ## Z-probe Not Triggering
 
 ### Problem

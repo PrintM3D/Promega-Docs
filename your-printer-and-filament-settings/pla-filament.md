@@ -1,4 +1,4 @@
 # PLA Filament
 
-Under Construction. Will be up soon.
+Under Construction. Coming soon.
 

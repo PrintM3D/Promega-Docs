@@ -1,7 +1,5 @@
 # Duet Web Console \(DWC\)
 
-
-
 ## Rejected by the Duet
 
 ![](../.gitbook/assets/rejectedbytheduet.png)

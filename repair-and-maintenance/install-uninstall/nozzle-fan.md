@@ -1,7 +1,5 @@
 # Nozzle Fan
 
-
-
 On the Promega you will find two different fans. The nozzle fan, located on the bottom of the extruder assembly, and the cold-section fan, located in the front. 
 
 ## Fan Location

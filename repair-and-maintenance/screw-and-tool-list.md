@@ -1,7 +1,5 @@
 # Screw & Tool List
 
-
-
 ## Notes
 
 Look under the All Tools header for each assembly to see all the possible tools you will need to maintain, assemble or repair the Promega .
