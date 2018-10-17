@@ -8,7 +8,13 @@ If you are a more experienced 3D printer user: [Advanced Guides](advanced-setup-
 
 ## **Q&A Promega Users**
 
-[Submit Issue](https://github.com/PrintM3D/Promega/issues). Allows you to search for existing issues to upvote them and submit a new issue if you do not find one.
+* [Submit General Design Issue](https://github.com/PrintM3D/Promega/issues)  
+  * Allows you to search for existing issues to upvote them and submit a new issue if you do not find an existing one. 
+  * **Note:** This is not intended for personal or order related issues. Use the Personal Printer Issue link below for those. 
+* [Submit Personal Printer Issue](https://store.printm3d.com/pages/contact)  
+  * Allows you to submit an issue relating to your specific order or printer.
+* [M3D Discord](https://discord.gg/ZatNr)
+  * Allows realtime chat with other users and M3D staff for general troublshooting or discussions. Often a useful first step.
 
 ## **Other Resources:**
 
