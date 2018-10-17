@@ -15,7 +15,7 @@ This indicates a broken Z-probe or a problem with the Z-probe wiring.
 The limit switch has an extension cable that extends into the cable chain as it goes to the Duet Board. It is possible that the Z-probe become disconnected from the extension cable during printer use.
 
 1. Turn off the printer
-2. Open the cable chain segments until you find the connection of the Z-probe limit switch cable to the extension cable. Read [this guide]() for more instructions on how to open the cable chain.  ![](../.gitbook/assets/zprobeconnector%20%281%29.jpg) 
+2. Open the cable chain segments until you find the connection of the Z-probe limit switch cable to the extension cable. Read [this guide](../repair-and-maintenance/install-uninstall/cable-chain.md#how-to-open) for more instructions on how to open the cable chain.  ![](../.gitbook/assets/zprobeconnector%20%281%29.jpg) 
 3. Make sure the cable is properly plugged in. Polarity does not matter as it is a switch.
 4. You can apply glue to the connector to ensure that the connector stays in place. Also make sure that the cable overall has enough slack for the gantry to move around the entire coreXY plane.
 
