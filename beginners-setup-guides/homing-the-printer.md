@@ -66,5 +66,5 @@ Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telli
 12. Change the Z value to be the Z end stop value determined above, rounded up to the next integer. For example, if the Z end stop was at 376.4, max Z needs to be 377; if the Z end stop was 377.2, max Z needs to be 378 etc. If the Z end stop is already an integer, do not round up.
 13. **Save the file and home the printer again. Although you should now be able to enter the command `G1 Z0`, I don't recommend it. Manually jog your bed to the nozzle again to ensure that Z0 is when the bed is touching the nozzle.**
 
-Continue on to the next phase: [Get Your Bed Ready](https://m3d.gitbook.io/promega-docs/getting-started/heating-the-bed-and-nozzles).
+Continue on to the next phase: [Get Your Bed Ready](get-your-bed-ready.md).
 
