@@ -2,7 +2,11 @@
 
 ## Check Your Power Supply's Input Voltage
 
-Failure to do so will damage the power supply. There are two input wall voltages: 115V or 230V. Choose the appropriate settings. 
+{% hint style="warning" %}
+Failure to do so will damage the power supply. 
+{% endhint %}
+
+There are two input wall voltages: 115V or 230V. Choose the appropriate settings. 
 
 {% embed url="https://www.worldstandards.eu/electricity/plug-voltage-by-country/" %}
 
