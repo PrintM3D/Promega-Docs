@@ -14,13 +14,44 @@ OR
 
 The nozzle is scraping against the bed.  Little or no filament is extruding. 
 
-### Solution
+### Temporary Solution
 
- Your Bed Switch's Height Offset parameter not calibrated.
+{% hint style="info" %}
+This solution only applies during a print. 
+{% endhint %}
+
+Open the "Print Status" Tab.
+
+![](../.gitbook/assets/print-status-tab.PNG)
+
+Look for the "Z Baby Stepping" section.
+
+![](../.gitbook/assets/baby-stepping-tab%20%281%29.PNG)
+
+Use the two buttons below. 
+
+```text
++ 0.05 mm = Moving the Bed DOWN
+- 0.05 mm = Moving the Bed UP
+```
+
+{% hint style="info" %}
+Use the buttons LIBERALLY. 0.05 mm increments are hard to visually see.
+
+The goal is to manually set nozzle bed height to a desired level. 
+{% endhint %}
+
+Mesh grid compensation is NOT disabled. It is shifted, holistically. 
+
+
+
+###  Solution
+
+Your Bed Switch's Height Offset parameter not calibrated.
 
 Follow the [Setup Bed Probe](../beginners-setup-guides/get-your-bed-ready.md) guide.
 
-If you notice any skipping of the bed from the last mesh compensation probing \(G29\), follow the[ Read The Map](../beginners-setup-guides/get-your-bed-ready.md#map-the-bed) guide.
+If you notice any skipping of the bed since the last time mesh compensation probing \(G29\) was preformed, follow the[ Read The Map](../beginners-setup-guides/get-your-bed-ready.md#map-the-bed) guide.
 
 If not, proceed with printing.
 
@@ -29,7 +60,7 @@ Do Not Home The Z after performing a G30. Homing Z _**OVERRIDES**_ any bed level
   
 Homing Z serves 2 purposes: 
 
-1\) Allow movements of given the axis. 
+1\) Allow movements \(No movement can occur without homing first\).
 
 2\) Used for power recovery.
 {% endhint %}
