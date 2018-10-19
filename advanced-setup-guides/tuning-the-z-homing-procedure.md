@@ -1,8 +1,12 @@
 # Tuning The Z Homing Procedure
 
+{% hint style="warning" %}
 CAUTION: This procedure involves heating the nozzle to high temperatures. Be very careful to not touch the nozzle or heater block, as they WILL BE HOT!
+{% endhint %}
 
+{% hint style="warning" %}
 CAUTION: This procedure heats the print bed. Do not touch the bed as it WILL BE HOT!
+{% endhint %}
 
 ## Tuning the Z-homing: Automated Procedure {#tuning-the-z-homing-automated-procedure}
 
