@@ -11,7 +11,7 @@ This guide assumes you have properly configured your printer with all the previo
 
 ## Uploading the Print
 
-In order to print something from the Duet board you must first upload the print to the Duet Board. This can be done via the Duet Web Console or by ejecting the SD card and uploading it with a computer. **Uploading a print via the Duet Web Console is the easiest way**. To print on the Duet board your print must have a _.gcode_ file extension. To create a G-code file you must slice a model with a slicer. Look at the [Preparing a Print](../advanced-setup-guides/what-is-slicing.md) guide for guidance on how to create a _.gcode_ file.
+In order to print something from the Duet board you must first upload the print to the Duet Board. This can be done via the Duet Web Console or by ejecting the SD card and uploading it with a computer. **Uploading a print via the Duet Web Console is the easiest way**. To print on the Duet board your print must have a _.gcode_ file extension. To create a G-code file you must slice a model with a slicer. Look at the [What is Slicing?](../advanced-setup-guides/what-is-slicing.md) guide for guidance on how to create a _.gcode_ file.
 
 **Uploading via Duet Web Console**
 
