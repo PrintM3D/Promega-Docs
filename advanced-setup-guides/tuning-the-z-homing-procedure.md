@@ -98,7 +98,10 @@ The post-it will slide relatively easily until there is a 0.1 mm gap between the
 
 * If you step the bed closer to the nozzle in 0.1 mm increments, you can use the post-it note as a feeler gauge. 
 * When you feel resistance to the motion of the post-it, remove it from the gap between the nozzle and bed. If the post-it slides out from between the two without much resistance, we recommend moving 0.1 mm closer \(again, use \(-\) buttons\). 
-* This dialog will show a Z= value, but it is not important at this point to make note of that value. 
+
+{% hint style="info" %}
+This dialog will show a Z= value, but it is not important at this point to make note of that value. 
+{% endhint %}
 
 Once the bed and nozzle are touching, choose _OK_.
 
@@ -112,22 +115,126 @@ Then, continue stepping through the automated process, following the on-screen p
 
 The printer will raise the bed until it just makes contact with the deployed probe, at which point the Z value in the _Machine Status_ display is a measure of the distance between the nozzle and the height at which the probe triggers. **The next step will have you place this value in your machine configuration files so that the printer powers on with the proper Z calibration routines in the future.**
 
-Follow the on-screen prompts, making note of the Z value in the _Machine Status_ area of the Duet Web Control page. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LImMBgcvLb7rLUzlEy8%2F-LImP-ztvLO9_J94nnbH%2Fed_auto_z_homing_cal_1x7.png?alt=media&token=5e8c7e0d-51c9-4496-9b95-51525ac7a878) In the example shown, the bed triggered the Z probe at a height of 5.74 mm. We will now transfer this value to the configuration file _machine\_zprobe.g_. After viewing the remaining prompts, choose the _Settings_ tab, then _System Editor_, and scroll down to the _machine\_zprobe.g_ file. Click on the filename to open the file for editing. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LImPriSl1P7dXK8bsOG%2F-LImRs0_FByeyf9DzGlI%2Fauto_z_homing_cal_1x9.png?alt=media&token=650c5260-75a7-4b58-a38c-2b4a23d42317) ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LImPriSl1P7dXK8bsOG%2F-LImdBAP3xU-GWMhWhTk%2Fed_auto_z_homing_cal_1x10.png?alt=media&token=663c1af8-ac80-44be-a4ea-093b1544993e) Near the very bottom of the file, you will see a line that begins "G31" that we will update with our new Z offset value. In the image above, you can see our printer had an old Z value of 7.51 mm. Update the Z value by changing just the numeric part to the value from the _Machine Status_ area of Duet Web Control. In our example, "Z7.51" changes to "Z5.74". There is no space between the letter 'Z' and the numeric value. Choose _Save Changes_ after you have updated the value. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LImPriSl1P7dXK8bsOG%2F-LImdBAQjzvbgTV4eLVd%2Fed_auto_z_homing_cal_1x11.png?alt=media&token=db00a2e0-2b2f-4a17-b6ce-efe531a0ebc7)
+Follow the on-screen prompts, making note of the Z value in the _Machine Status_ area of the Duet Web Control page. ​
+
+![](../.gitbook/assets/macros4.png)
+
+In the example shown, the bed triggered the Z probe at a height of 5.74 mm. 
+
+We will now transfer this value to the configuration file _machine\_zprobe.g_. 
+
+After viewing the remaining prompts
+
+1. Choose the _Settings_ tab. Then _System Editor._
+2. Scroll down to the _machine\_zprobe.g_ file. 
+3. Click on the filename to open the file for editing.
+
+![](../.gitbook/assets/macros5.png)
+
+![](../.gitbook/assets/macros6.png)
+
+Near the very bottom of the file, you will see a line that begins "G31" that we will update with our new Z offset value. In the image above, you can see our printer had an old Z value of 7.51 mm.
+
+Update the Z value by changing just the numeric part to the value from the _Machine Status_ area of Duet Web Control. In our example, "Z7.51" changes to "Z5.74". 
+
+{% hint style="info" %}
+There is no space between the letter 'Z' and the numeric value. 
+{% endhint %}
+
+Choose _Save Changes_ after you have updated the value.
+
+![](../.gitbook/assets/macros7.png)
 
 ### Step 3: Full Z Travel Calibration
 
-1. Next, we will teach our printer the precise distance the bed travels from the bottom of the printer, when it has just made contact with the Z maximum endstop, to the top of the printer \(Z=0\) where prints begin. **The Z probe should be stowed. If the probe is deployed, please retract it now.** Run _\_2\_Set\_Z\_Endstop\_Height.g_: choose the _Macros_ tab in Duet Web Control, enter the _Printer Setup_ folder, and click the _\_2\_Set\_Z\_Endstop\_Height.g_ file. When asked to confirm running the macro, choose _Yes_. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LImio-ZGFUOGllAL0Q9%2Fauto_z_homing_cal_2x1.png?alt=media&token=cfbd4912-e88f-4cb5-be8d-c4a3126b11bc)
+Next, we will teach our printer the precise distance the bed travels from the bottom of the printer, when it has just made contact with the Z maximum endstop, to the top of the printer \(Z=0\) where prints begin. **The Z probe should be stowed. If the probe is deployed, please retract it now.** 
 
-   At times, the visual prompts may disappear while the printer continues to operate. This is normal, and you should wait for the next dialog requiring user input.
+Run _**\_2\_Set\_Z\_Endstop\_Height.g**_: 
 
-2. After homing, heating and bringing the bed within ~20 mm of the nozzle, the macro will ask for your input to move the bed so that it just makes contact with the nozzle. Make sure your Z probe is stowed, then use the \(-\) buttons to move the bed closer to the nozzle. \(The process is the same as what's described in step 3 above, if you would like more detail.\) We have measured the adjustment necessary to the current configuration value for Z maximum extent. **The next step will have you place this value in your machine configuration files so that the printer powers on with the proper Z calibration routines in the future.**
-3. Follow the on-screen prompts, making note of the Z value in the _Machine Status_ area of the Duet Web Control page. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LImu7N0eEiSEMHhC_6M%2Fed_auto_z_homing_cal_2x6.png?alt=media&token=df047379-1989-4746-bd43-be5f006c40e0) In the example shown, the bed made contact with the nozzle at a height the printer believes to be 4.5 mm. We need this contact to occur at a height the printer believes is actually 0 mm, meaning the Z extent programmed in the printer is currently 4.5 mm too large.
-4. We will use the value from the previous step to update the configuration files _machine\_zendstop.g_ and _machine\_axisdimension.g_. After viewing the remaining prompts, choose the _Settings_ tab, then _System Editor_, and scroll down to the _machine\_zendstop.g_ file. Click on the filename to open the file for editing. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LImvw36fkGWQPcfs_kF%2Fed_auto_z_homing_cal_2x14.png?alt=media&token=6b2b7ea9-0d13-4c98-bac0-0c0e91750082) Near the very bottom of the file, you will see a line that begins "G92" that we will update with our new achievable Z value. In the image above, you can see our printer had an old Z value of 378.4 mm. We need to update this with a value calculated as: ​new value = old value - step8valuenewvalue=oldvalue−step8value For example: if the _machine\_zendstop.g_ file currently contains the command `G92 Z378.4` and I obtained a value of 4.5 mm, my new value would be 373.9 mm. I would replace the current Z value in the G92 command so that the line reads `G92 Z373.9` Choose _Save Changes_ after you have updated the value. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LImvw38VT-xxrX4h4RB%2Fed_auto_z_homing_cal_2x15.png?alt=media&token=ebb91b2f-2599-4906-bbe1-803f0783201e) The values in _machine\_axisdimension.g_ implement safety and convenience features to avoid damage to the machine when everything is in working order and properly homed, and also need to be updated based on the result of step 8. These values prevent your bed, for example, from attempting to travel a large distance beyond the physical extent of your printer \(sometimes known as "crashing"\). Choose the _Settings_ tab, then _System Editor_, and scroll down to the _machine\_axisdimension.g_ file. Click on the filename to open the file for editing. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LImvw3Asm60kTwsQmIv%2Fed_auto_z_homing_cal_2x18.png?alt=media&token=1004ecab-7cb6-4bcc-8574-f824e5f8f63c) Near the very bottom of the file, you will see a line that begins "M208 S0" that we will update with our new practical Z range. In the image above, you can see our printer had an old Z value of 379 mm. We will update the Z extent value contained in _machine\_axisdimension.g_ to reflect the achievable Z travel from step 8. In practice, we do the following: take the value just set in _config\_zendstop.g_, round to the next largest whole number, and set this value in _machine\_axisdimension.g_. For example: we just set our Z value for the G92 command in _machine\_zendstop.g_ to 373.9. We will therefore set the Z value in _machine\_axisdimension.g_ to 374. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LImvw38VT-xxrX4h4RB%2Fed_auto_z_homing_cal_2x15.png?alt=media&token=ebb91b2f-2599-4906-bbe1-803f0783201e) Choose _Save Changes_ after you have updated the value.
-5. For best results, we recommend repeating step 8. In a properly calibrated printer, the resulting value of that process should be a Z of 0 mm. If the value is not 0 mm, repeat step 9 using the attained value.
+1. Choose the _Macros_ tab in Duet Web Control. Enter the _Printer Setup_ folder.
+2. Click the _\_2\_Set\_Z\_Endstop\_Height.g_ file. 
+
+When asked to confirm running the macro, choose _Yes._
+
+![](../.gitbook/assets/macros8.png)
+
+At times, the visual prompts may disappear while the printer continues to operate. This is normal, and you should wait for the next dialog requiring user input.
+
+After homing, heating and bringing the bed within ~20 mm of the nozzle, the macro will ask for your input to move the bed so that it just makes contact with the nozzle. 
+
+Make sure your Z probe is stowed, then use the \(-\) buttons to move the bed closer to the nozzle.
+
+We have measured the adjustment necessary to the current configuration value for Z maximum extent. **The next step will have you place this value in your machine configuration files so that the printer powers on with the proper Z calibration routines in the future.**
+
+Follow the on-screen prompts, making note of the Z value in the _Machine Status_ area of the Duet Web Control page.
+
+![](../.gitbook/assets/macros9.png)
+
+In the example shown, the bed made contact with the nozzle at a height the printer believes to be 4.5 mm. We need this contact to occur at a height the printer believes is actually 0 mm, meaning the Z extent programmed in the printer is currently 4.5 mm too large.
+
+We will use the value from the previous step to update the configuration files _machine\_zendstop.g_ and _machine\_axisdimension.g_. 
+
+After viewing the remaining prompts:
+
+1. Choose the _Settings_ tab. Then _System Editor._
+2. Scroll down to the _machine\_zendstop.g_ file. 
+3. Click on the filename to open the file for editing.
+
+![](../.gitbook/assets/macros10.png)
+
+Near the very bottom of the file, you will see a line that begins "G92" that we will update with our new achievable Z value. In the image above, you can see our printer had an old Z value of 378.4 mm. We need to update this with a value calculated as: ​
+
+$$
+new value = old value - step8valuenewvalue=oldvalue−step8value
+$$
+
+For example: 
+
+> If the _machine\_zendstop.g_ file currently contains the command `G92 Z378.4` and I obtained a value of 4.5 mm, my new value would be 373.9 mm. 
+>
+> I would replace the current Z value in the G92 command so that the line reads `G92 Z373.9`
+
+Choose _Save Changes_ after you have updated the value.
+
+![](../.gitbook/assets/macros11.png)
+
+The values in _machine\_axisdimension.g_ implement safety and convenience features to avoid damage to the machine when everything is in working order and properly homed, and also need to be updated based on the result of step 8. These values prevent your bed, for example, from attempting to travel a large distance beyond the physical extent of your printer \(sometimes known as "crashing"\). 
+
+1. Choose the _Settings_ tab. Then _System Editor._
+2. Scroll down to the _machine\_axisdimension.g_ file. 
+3. Click on the filename to open the file for editing.
+
+![](../.gitbook/assets/macros12.png)
+
+Near the very bottom of the file, you will see a line that begins "M208 S0" that we will update with our new practical Z range. In the image above, you can see our printer had an old Z value of 379 mm. 
+
+We will update the Z extent value contained in _machine\_axisdimension.g_ to reflect the achievable Z travel from step 8. 
+
+In practice, we do the following: 
+
+* Take the value just set in _config\_zendstop.g_, round to the next largest whole number, and set this value in _machine\_axisdimension.g_. 
+
+For example: 
+
+> We just set our Z value for the G92 command in _machine\_zendstop.g_ to 373.9. We will therefore set the Z value in _machine\_axisdimension.g_ to 374.
+
+![](../.gitbook/assets/macros13.png)
+
+Choose _Save Changes_ after you have updated the value.
+
+For best results, we recommend repeating step 8. In a properly calibrated printer, the resulting value of that process should be a Z of 0 mm. If the value is not 0 mm, repeat step 9 using the attained value.
 
 ### Step 4: Mesh Bed Leveling
 
-1. Finally, we perform a multi-point bed probe to allow the printer to correct for small variances in the level and flatness of the bed. Run _\_3\_Mesh\_Bed.g_: choose the _Macros_ tab in Duet Web Control, enter the _Printer Setup_ folder, and click _\_3\_Mesh\_Bed.g_. When asked to confirm running the macro, choose _Yes_. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LIn-CeDlmWVZhWIDVqz%2Fauto_z_homing_cal_6x1.png?alt=media&token=d24c0f4c-1235-4a90-9f9e-edda42a73759) This macro takes several minutes to run. Once completed, you will see a graphical view of the probing results. ​![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1ZPQUJrjMM5Ql5c--%2F-LIme_9dWGCc3_-CKeO_%2F-LIn5uy_x03wkYdk0ZfV%2Fauto_z_homing_cal_6x5.png?alt=media&token=16351711-ae5d-4607-ab26-4b34f787b6b5) These results are automatically saved and ready for use during this printing session and each time you power on the printer, so you have completed tuning your Z homing and no further action is necessary at this time. If you'd like to learn more about mesh bed compensation, however, you can read more at [Bed Leveling & Probing](https://promega.printm3d.com/~/edit/drafts/-LOsd42LlDMsCQgG4bzO/firmware-guides/bed-leveling-and-probing).
+Finally, we perform a multi-point bed probe to allow the printer to correct for small variances in the level and flatness of the bed. Run _\_3\_Mesh\_Bed.g_: choose the _Macros_ tab in Duet Web Control, enter the _Printer Setup_ folder, and click _\_3\_Mesh\_Bed.g_. When asked to confirm running the macro, choose _Yes_. 
+
+![](../.gitbook/assets/macros14.png)
+
+This macro takes several minutes to run. Once completed, you will see a graphical view of the probing results.
+
+![](../.gitbook/assets/macros15.png)
+
+These results are automatically saved and ready for use during this printing session and each time you power on the printer, so you have completed tuning your Z homing and no further action is necessary at this time. If you'd like to learn more about mesh bed compensation, however, you can read more at [Bed Leveling & Probing](https://promega.printm3d.com/~/edit/drafts/-LOsd42LlDMsCQgG4bzO/firmware-guides/bed-leveling-and-probing).
 
 ## Tuning the Z-homing: Manual Procedure {#tuning-the-z-homing-manual-procedure}
 
