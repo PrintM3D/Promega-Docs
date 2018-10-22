@@ -8,7 +8,7 @@ CAUTION: This procedure involves heating the nozzle to high temperatures. Be ver
 CAUTION: This procedure heats the print bed. Do not touch the bed as it WILL BE HOT!
 {% endhint %}
 
-## Tuning the Z-homing: Automated Procedure {#tuning-the-z-homing-automated-procedure}
+## Tuning the Z-homing: Automated Procedure <a id="tuning-the-z-homing-automated-procedure"></a>
 
 We offer an automated procedure for tuning the Z-homing in addition to a manual process. The automated procedure is preferred \(continue reading just below\), although if your printer encounters any issues during this process, the manual procedure steps at [Tuning the Z-homing: Manual Procedure](tuning-the-z-homing-procedure.md#tuning-the-z-homing-manual-procedure) may help you troubleshoot the particular error.
 
@@ -236,7 +236,7 @@ This macro takes several minutes to run. Once completed, you will see a graphica
 
 These results are automatically saved and ready for use during this printing session and each time you power on the printer, so you have completed tuning your Z homing and no further action is necessary at this time. If you'd like to learn more about mesh bed compensation, however, you can read more at [Bed Leveling & Probing](https://promega.printm3d.com/~/edit/drafts/-LOsd42LlDMsCQgG4bzO/firmware-guides/bed-leveling-and-probing).
 
-## Tuning the Z-homing: Manual Procedure {#tuning-the-z-homing-manual-procedure}
+## Tuning the Z-homing: Manual Procedure <a id="tuning-the-z-homing-manual-procedure"></a>
 
 **If you have already successfully run the procedure at** [**Tuning the Z-homing: Automated Procedure**](tuning-the-z-homing-procedure.md#tuning-the-z-homing-automated-procedure)**, you can ignore this section. The automated process is the preferred procedure. This manual procedure is meant to accomplish the same end result, but allows for additional diagnostics during the process, should they be required.**
 

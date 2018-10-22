@@ -51,7 +51,7 @@ M566 X# Y# Z#
 ## Compound Mixing: Extruder Motor Settings
 
 {% hint style="info" %}
-E parameter format: E\[ Left Motor Value \] : \[ Right Motor Value \]
+E parameter format: E \[ Left Motor Value \] : \[ Right Motor Value \]
 {% endhint %}
 
 ### Feedrate \(Speed\)
@@ -77,7 +77,7 @@ Right motor feedrate \(speed\): 6000 mm/min
 Input Code:
 
 ```text
-M203 E9000:6000
+M203 E#:#
 ```
 
 ### 
@@ -105,7 +105,7 @@ Right motor acceleration: 3000 mm/sec^2
 Input Code:
 
 ```text
-M201 E2000:3000
+M201 E#:#
 ```
 
 
@@ -133,13 +133,13 @@ Right motor Jerk: 600 mm/min
 Input Code:
 
 ```text
-M566 E900:600
+M566 E#:#
 ```
 
 ## Single K'Tana: Extruder Motor Settings
 
 {% hint style="info" %}
-E parameter format: E\[ Left Motor Value \] : \[ Right Motor Value \]
+E parameter format: E \[ Left Motor Value \] : \[ Right Motor Value \]
 {% endhint %}
 
 ### Feedrate \(Speed\)
@@ -165,7 +165,7 @@ Right motor feedrate \(speed\): 6000 mm/min
 Input Code:
 
 ```text
-M203 E9000:6000
+M203 E#:#
 ```
 
 ### 
@@ -193,7 +193,7 @@ Right motor acceleration: 3000 mm/sec^2
 Input Code:
 
 ```text
-M201 E2000:3000
+M201 E#:#
 ```
 
 
@@ -221,7 +221,7 @@ Right motor Jerk: 600 mm/min
 Input Code:
 
 ```text
-M566 E900:600
+M566 E#:#
 ```
 
 

@@ -6,8 +6,8 @@ Follow this step by step guide for successful printing with ABS-R.
 
 |  | First Layer | Printing |
 | :--- | :--- | :--- |
-| Bed Temperature | 70°C | 60°C |
-| Nozzle Temperature | 220°C | 235°C |
+| Bed Temperature | 75°C | 70°C |
+| Nozzle Temperature | 235°C | 235°C |
 | Retraction Distance | - | - |
 | Retraction Speed | - | - |
 

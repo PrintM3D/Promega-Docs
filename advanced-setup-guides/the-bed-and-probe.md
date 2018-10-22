@@ -17,7 +17,7 @@ Z-probes are extremely useful to zero the Z-axis. This is because the Z-probes t
 **Setting the Limit Switch Offset**
 
 1. Home the printer again, just to ensure you do not crash the printer throughout this process.
-2. Print head to the center of the build plate by sending the command `G1 X200 Y200`
+2. Print head to the center of the build plate by sending the command `G1 X187 Y154`
 3. Heat up the bed to the preferred printing temperature. You can do this by sending the command `M140 Snnn` where `nnn` is your temperature in °C. You can always look up the recommended bed temperatures for specific materials online. For PLA, a bed temperature of 50°C will work well. For ABS-R, a bed temperature of 60°C is recommended. 
 4. Wait until the heated bed has reached temperature before continuing.
 5. Set the Z-probe offset to 0 by entering the command `G31 P999 X-40 Y28.5 Z0`. This will make it easier to gauge the distance between the Z-probe and the nozzle in the following steps.

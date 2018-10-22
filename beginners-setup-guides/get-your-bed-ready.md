@@ -71,7 +71,7 @@ Repeat until all positions are clamped.
 ### Send the extruder toward center
 
 ```text
-G1 X200 Y200
+G1 X187 Y154
 ```
 
 #### Minor G-code Lesson
@@ -267,7 +267,7 @@ Click close.
 #### Move Bed Away
 
 ```text
-G1 X200 Y200 Z100
+G1 X187 Y154 Z100
 ```
 
 ### 

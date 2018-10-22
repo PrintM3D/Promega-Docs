@@ -17,7 +17,7 @@ Exercise caution if you attempt to fit your head underneath the bed. The frame c
 
 * Nylon Zip tie \(1x\)
 
-## How to Remove
+## How to Uninstall
 
 ### All Versions
 

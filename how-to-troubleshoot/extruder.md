@@ -12,7 +12,7 @@ Only left or right side of my extruder keeps stripping when extruding.
 
 ### Solution
 
-#### Wall-E may be tightened, skewed.
+#### Wall-E may be tightened, in a skewed position.
 
 Make sure both ports have filament inserted.
 
@@ -78,13 +78,19 @@ M906; Displays current motor settings.
 M350; Displays microstepping settings. 
 ```
 
-Expected Settings:
+_**Compound Mixing**_ Expected Settings:
 
 ```text
-E Motor Steps: E: 1443.200:1443.200:####:####
-Motor Current: E:350:350:####:####
-Microstepping: E:128:128:####:####
+E Motor Steps: E195.0:191.5:####:####
+Motor Current: E400:400:####:####
+Microstepping: E128:128:####:####
 ```
 
+_**Single K'Tana**_ Expected Settings:
 
+```text
+E Motor Steps: E198.82:197.00:####:####
+Motor Current: E400:400:####:####
+Microstepping: E128:128:####:####
+```
 

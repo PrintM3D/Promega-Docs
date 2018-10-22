@@ -6,7 +6,13 @@ Before you start printing or moving any component of the ProMega, we recommend h
 
 ![](../.gitbook/assets/promegacoordinateaxes.jpg)
 
-In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](../getting-started-1/setup-your-network.md#the-web-interface). **Positive Z is down and negative Z is up!**
+In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](../getting-started-1/setup-your-network.md#the-web-interface). 
+
+{% hint style="info" %}
+**Positive Z is DOWN**
+
+**Negative Z is UP**
+{% endhint %}
 
 The origin of this coordinate frame is in the top-front-left corner of the printer. This can be seen at the intersection of the three red axes of the 3D printer in the image above.
 

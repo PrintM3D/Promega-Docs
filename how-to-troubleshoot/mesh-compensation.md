@@ -49,6 +49,10 @@ Mesh grid compensation is NOT disabled. It is shifted, holistically.
 
 Your Bed Switch's Height Offset parameter not calibrated.
 
+OR
+
+Skipping of bed caused the Height Offset to change.
+
 Follow the [Setup Bed Probe](../beginners-setup-guides/get-your-bed-ready.md) guide.
 
 If you notice any skipping of the bed since the last time mesh compensation probing \(G29\) was preformed, follow the[ Read The Map](../beginners-setup-guides/get-your-bed-ready.md#map-the-bed) guide.
