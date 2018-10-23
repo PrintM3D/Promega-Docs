@@ -78,6 +78,7 @@
   * [Duet Web Console \(DWC\)](how-to-troubleshoot/duet-web-console-dwc.md)
   * [Z Probe](how-to-troubleshoot/z-probe.md)
   * [Mesh Compensation](how-to-troubleshoot/mesh-compensation.md)
+  * [Bed](how-to-troubleshoot/bed.md)
   * [Heater](how-to-troubleshoot/heater.md)
   * [Extruder](how-to-troubleshoot/extruder.md)
   * [Homing](how-to-troubleshoot/homing.md)

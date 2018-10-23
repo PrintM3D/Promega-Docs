@@ -1,6 +1,14 @@
 # Cable Chain
 
-## What is a Cable Chain?
+## What is a Cable Chain? <a id="tools"></a>
+
+## Tools
+
+* Small Flathead Screwdriver
+
+## Additional Hardware <a id="additional-hardware"></a>
+
+_**None**_
 
 ## How To Open
 
@@ -18,5 +26,7 @@ Use a small flat-head screwdriver. Push in and then angle out.
 
 ![](../../.gitbook/assets/img_1024.JPG)
 
+## How To Close
 
+Press the links back to its original position. You will here a click, once its secured.
 
