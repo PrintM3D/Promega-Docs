@@ -94,3 +94,16 @@ Motor Current: E400:400:####:####
 Microstepping: E128:128:####:####
 ```
 
+## Clogging: No Extrusion
+
+### Problem
+
+The extruder is not skipping. And you think there's a ****_**clog**_.
+
+  
+Definition of a Clog: Cold filament is bonded into the nozzle. You have no way to move the filament, either through the motor or by hand. 
+
+### Solution
+
+
+

@@ -12,11 +12,19 @@ If you are a more experienced 3D printer user: [Advanced Guides](advanced-setup-
 
 ## **Other Resources:**
 
-[Firmware/Software](https://github.com/PrintM3D?tab=repositories)  
-[Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)  
-[Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)  
-[Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)  
+[Firmware/Software](https://github.com/PrintM3D?tab=repositories)
+
+[Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)
+
+[Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)
+
+[Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)
+
 [Promega Printed Part Model \(STL\) Files](https://drive.google.com/drive/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
+
+[Public Google Drive](https://drive.google.com/open?id=1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
+
+* Houses all iterations \(including beta\) of SD Cards, Slicer, and Printed Part. 
 
 ## Contributing
 
