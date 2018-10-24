@@ -146,7 +146,7 @@ Switch to the smaller 0.1 mm step when you get close to the nozzle
 
 ### Record Z offset
 
-![](../.gitbook/assets/z-offset.PNG)
+![](../.gitbook/assets/z-offset%20%281%29.PNG)
 
 ### More Code Inputs
 
