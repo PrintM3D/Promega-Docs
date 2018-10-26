@@ -59,9 +59,13 @@ Turn off board.
 
 Disconnect both the nozzle and cold section fan mount \(extruder side\).
 
-Slide the Cold Section 
+Slide the Cold Section down.
+
+
 
 Unscrew both M3 screws.
+
+
 
 Remove the nozzle fans from the fan mount
 

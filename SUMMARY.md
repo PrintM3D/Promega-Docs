@@ -74,6 +74,7 @@
   * [Z-Probe Calibration & Software Bed Leveling](repair-and-maintenance/z-probe-calibration-and-software-bed-leveling.md)
   * [Screw & Tool List](repair-and-maintenance/screw-and-tool-list.md)
   * [Temperature Calibration](repair-and-maintenance/temperature-calibration.md)
+  * [Unclogging The Nozzle](repair-and-maintenance/unclogging-the-nozzle.md)
 * [How To Troubleshoot](how-to-troubleshoot/README.md)
   * [Network Connection](how-to-troubleshoot/network-connection.md)
   * [Duet Web Console \(DWC\)](how-to-troubleshoot/duet-web-console-dwc.md)

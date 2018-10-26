@@ -28,7 +28,7 @@ Extrude again for 400 mm \(minimum\). Look for a grinding.
 
 If still skipping, continue reading. 
 
-#### There may be artifacts in your filament path.
+#### There may be artifacts or clogging in your filament path.
 
 Remove the Wall-E. Follow the [Uninstall Extruder](../repair-and-maintenance/install-uninstall/extruder.md#how-to-uninstall) guide.
 
@@ -37,6 +37,8 @@ Remove the plastic insert: [K'Tana](../documentation/mechanical-systems/single-k
 Look for artifacts.
 
 ![](../.gitbook/assets/img_1025.JPG)
+
+If it's a clog, follow the [Unclogging Nozzle](../repair-and-maintenance/unclogging-the-nozzle.md) guide.
 
 ## Skipping: No Extrusion. All Skipping.
 
@@ -58,7 +60,9 @@ Remove the plastic insert: [K'Tana](../documentation/mechanical-systems/single-k
 
 Look for artifacts.
 
-![](../.gitbook/assets/img_1025.JPG)
+![\#1 is a clog. \#2 is an artifact.](../.gitbook/assets/img_1025.JPG)
+
+If it's a clog, follow the [Unclogging Nozzle](../repair-and-maintenance/unclogging-the-nozzle.md) guide.
 
 ## Skipping: Extrudes, but Skips
 
@@ -78,6 +82,8 @@ M906; Displays current motor settings.
 M350; Displays microstepping settings. 
 ```
 
+#### Let's check the results with ones below.
+
 _**Compound Mixing**_ Expected Settings:
 
 ```text
@@ -93,17 +99,6 @@ E Motor Steps: E198.82:197.00:####:####
 Motor Current: E400:400:####:####
 Microstepping: E128:128:####:####
 ```
-
-## Clogging: No Extrusion
-
-### Problem
-
-The extruder is not skipping. And you think there's a ****_**clog**_.
-
-  
-Definition of a Clog: Cold filament is bonded into the nozzle. You have no way to move the filament, either through the motor or by hand. 
-
-### Solution
 
 
 
