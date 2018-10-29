@@ -1,6 +1,6 @@
 # Fans
 
-## What are Fans?
+## What are the Fans?
 
 On the Promega you will find two different fans.
 
@@ -51,25 +51,53 @@ Do not attempt to start the guide with a hot extruder. Wait for the hot end\(s\)
 
 ### Additional Hardware
 
-* _**NONE**_
+_**NONE**_
 
 ### How To Uninstall Fan Mount
 
 Turn off board.
 
-Disconnect both the nozzle and cold section fan mount \(extruder side\).
+Move the bed all the way down. Let it rest on the limit switch. 
+
+{% hint style="warning" %}
+Do not place a significant amount of weight on the bed. It could skip your bed.
+{% endhint %}
+
+Disconnect the heater and PT1000 \(extruder side\).
+
+
+
+Disconnect the nozzle fan and cold section fan cables \(extruder side\).
+
+
+
+Unscrew the Wall-E. 
+
+
+
+Remove the Wall-E from the chassis. 
+
+{% hint style="info" %}
+Parts inside the Wall-E may fall out. Be careful not to lose them.
+{% endhint %}
+
+
 
 Slide the Cold Section down.
 
+![](../../.gitbook/assets/slide-down.jpg)
 
+Unscrew the M3 screws.
 
-Unscrew both M3 screws.
-
-
+![](../../.gitbook/assets/m3-fan-screw.jpg)
 
 Remove the nozzle fans from the fan mount
 
+
+
 Slide the Cold Section Fan out of the fan mount. 
+
+
 
 ### How To Install Fan Mount
 

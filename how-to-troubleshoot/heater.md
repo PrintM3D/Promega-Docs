@@ -22,7 +22,15 @@ Heater starts rising in temperature. Then the Duet Web Control \(DWC\) throws a 
 
 ### Solution
 
-You need to tune your heater.
+#### Your Promega may have been placed in a drafty region.
+
+Drafty locations \(e.g. near a ceiling fan\) may cause the heaters \(both bed and/or extruder\) to perform unexpectedly.
+
+We recommend you enclose the Promega.
+
+
+
+#### You may need to tune your heater.
 
 Let the heater cool to room temperature.
 
