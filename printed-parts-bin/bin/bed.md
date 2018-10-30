@@ -2,9 +2,11 @@
 
 ## Exception:
 
-* Z Bottom Belt Clamp: Housed here.
+_Z Bottom Belt Clamp: Housed here._
 
 ## Bed Terminal Cover:
+
+![](../../.gitbook/assets/img_1366.JPG)
 
 ### Current
 
@@ -32,6 +34,8 @@
 
 ## Z Slider:
 
+![](../../.gitbook/assets/img_1363.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/051296\_b4-z-slider\_rv7\_1.STL" caption="051296\_B5 Z Slider" %}
@@ -42,6 +46,8 @@
 
 ## Z Top Belt Clamp:
 
+![](../../.gitbook/assets/img_1362.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/051402\_c1-z-top-belt-clamp.STL" caption="051402-C1 Z Top Belt Clamp" %}
@@ -49,4 +55,6 @@
 ### Legacy
 
 {% file src="../../.gitbook/assets/051402\_a2-z-top-belt-clamp.STL" %}
+
+
 

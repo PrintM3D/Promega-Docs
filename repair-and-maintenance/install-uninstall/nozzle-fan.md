@@ -65,15 +65,15 @@ Do not place a significant amount of weight on the bed. It could skip your bed.
 
 Disconnect the heater and PT1000 \(extruder side\).
 
-
+![](../../.gitbook/assets/heater-and-pt1000-wires.jpg)
 
 Disconnect the nozzle fan and cold section fan cables \(extruder side\).
 
-
+![The nozzle fan connector](../../.gitbook/assets/img_1369.JPG)
 
 Unscrew the Wall-E. 
 
-
+![](../../.gitbook/assets/walle-screws.jpg)
 
 Remove the Wall-E from the chassis. 
 
@@ -81,7 +81,7 @@ Remove the Wall-E from the chassis.
 Parts inside the Wall-E may fall out. Be careful not to lose them.
 {% endhint %}
 
-
+![](../../.gitbook/assets/remove-walle.jpg)
 
 Slide the Cold Section down.
 
@@ -93,15 +93,19 @@ Unscrew the M3 screws.
 
 Remove the nozzle fans from the fan mount
 
-
+![](../../.gitbook/assets/remove-nozzle-fans.jpg)
 
 Slide the Cold Section Fan out of the fan mount. 
 
+![](../../.gitbook/assets/remove-cold-section.jpg)
 
+### 
 
 ### How To Install Fan Mount
 
 Disconnect the heater and PT1000 \(extruder side\).
+
+![](../../.gitbook/assets/heater-and-pt1000-wires.jpg)
 
 Unscrew the Wall-E. 
 
@@ -111,6 +115,8 @@ Remove the Wall-E from the chassis.
 Parts inside the Wall-E may fall out. Be careful not to lose them.
 {% endhint %}
 
+
+
 Line up the Wall-E onto the Fan Mount.
 
 Screw in both M3 screws onto the Fan Mount. 
@@ -119,11 +125,17 @@ Screw in both M3 screws onto the Fan Mount.
 Aligning the Wall-E to the Fan Mount may be a bit tricky, as it may slip. 
 {% endhint %}
 
+![](../../.gitbook/assets/m3-fan-screw%20%281%29.jpg)
+
 Check for any gaps.
+
+![](../../.gitbook/assets/nozzle-fan-gaps.jpg)
 
 If you have gaps, slowly unscrew and clamp \(with your hands\). The gap should start close.
 
 Once its closed, tighten the screws down.
+
+![](../../.gitbook/assets/no-fan-mount-gap.jpg)
 
 ## Version: Legacy
 

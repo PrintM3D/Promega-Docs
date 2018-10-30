@@ -20,11 +20,15 @@ If you are a more experienced 3D printer user: [Advanced Guides](advanced-setup-
 
 [Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)
 
-[Promega Printed Part Model \(STL\) Files](https://drive.google.com/drive/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
+#### [Public Google Drive](https://drive.google.com/open?id=1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
 
-[Public Google Drive](https://drive.google.com/open?id=1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
+{% hint style="info" %}
+Houses all iterations of:
 
-* Houses all iterations \(including beta\) of SD Cards, Slicer, and Printed Part. 
+* SD Cards
+* Slicer
+* Printed Part. 
+{% endhint %}
 
 ## Contributing
 
