@@ -2,7 +2,9 @@
 
 ## What is the Filtration System?
 
-![](../../.gitbook/assets/img_1045%20%281%29.JPG)
+This is the filtration system.
+
+![](../../.gitbook/assets/filtration-system%20%281%29.jpg)
 
 A blower fan pulls air from the printer's inside.
 

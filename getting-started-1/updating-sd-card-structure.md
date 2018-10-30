@@ -32,6 +32,22 @@ This option is not recommended, but it will allow you to get the latest configur
 
 ![Downloading from Github](../.gitbook/assets/s8aq28iyeh4lw9ww-howtodownloadgithub.png)
 {% endtab %}
+
+{% tab title="Downloading Pre-Release" %}
+## Downloading Pre-Release
+
+Go to the [Public M3D Google Drive](https://drive.google.com/drive/u/0/mobile/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w?usp=sharing).
+
+![](../.gitbook/assets/public-google-drive-root.PNG)
+
+Click _**ProMega**_.
+
+Click _**Public SD Release**_.
+
+Browse through the releases. Choose one.
+
+![](../.gitbook/assets/sd-release-list.PNG)
+{% endtab %}
 {% endtabs %}
 
 ## Extracting the Folder

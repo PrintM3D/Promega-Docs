@@ -1,4 +1,10 @@
-# Slider
+# Sliders
+
+## What are the Sliders?
+
+This is a Slider.
+
+![](../../.gitbook/assets/img_1388.JPG)
 
 ## Warning
 

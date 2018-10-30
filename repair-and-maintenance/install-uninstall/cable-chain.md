@@ -1,6 +1,10 @@
 # Cable Chain
 
-## What is a Cable Chain? <a id="tools"></a>
+## What is the Cable Chain? <a id="tools"></a>
+
+This is the cable chain.
+
+![The Cable Chain](../../.gitbook/assets/cable-chain.jpg)
 
 ## Tools
 

@@ -1,5 +1,11 @@
 # Z Axis
 
+## What is the Z Limit Switch Holder?
+
+This is the Z Limit Switch Holder.
+
+![](../../../.gitbook/assets/img_1390.JPG)
+
 ## Warning
 
 Exercise caution if you attempt to fit your head underneath the bed. The frame could potentially cause lacerations.  

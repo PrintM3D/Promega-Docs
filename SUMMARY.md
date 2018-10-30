@@ -63,7 +63,7 @@
       * [X Axis](repair-and-maintenance/install-uninstall/limit-switch-holder/untitled.md)
       * [Y Axis](repair-and-maintenance/install-uninstall/limit-switch-holder/y-axis.md)
       * [Z Axis](repair-and-maintenance/install-uninstall/limit-switch-holder/z-axis.md)
-    * [Slider](repair-and-maintenance/install-uninstall/slider.md)
+    * [Sliders](repair-and-maintenance/install-uninstall/slider.md)
     * [Belt Clamps](repair-and-maintenance/install-uninstall/belt-clamps.md)
     * [CoreXY](repair-and-maintenance/install-uninstall/corexy.md)
     * [Fans](repair-and-maintenance/install-uninstall/nozzle-fan.md)

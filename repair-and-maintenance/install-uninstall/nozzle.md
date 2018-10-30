@@ -1,5 +1,29 @@
 # Nozzle
 
+## What is the Nozzle?
+
+There are four types of nozzles.
+
+### Single K'Tana
+
+![](../../.gitbook/assets/img_1386.JPG)
+
+### High Temperature \(HT\) Single K'Tana 
+
+![](../../.gitbook/assets/img_1385.JPG)
+
+### Compound Mixing
+
+![](../../.gitbook/assets/img_1384%20%281%29.JPG)
+
+### High Temperature \(HT\) Compound Mixing
+
+![](../../.gitbook/assets/img_1384.JPG)
+
+{% hint style="info" %}
+For each nozzle type, there are differing nozzle sizes \(e.g. 1 mm, 0.5 mm, 0.35 mm\)
+{% endhint %}
+
 ## Warning
 
 Follow the steps listed in the guide _**closely**_. You will be working with heated hot-ends. Use appropriate tools.

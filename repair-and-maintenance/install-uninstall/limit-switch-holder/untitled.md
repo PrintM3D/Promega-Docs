@@ -1,5 +1,11 @@
 # X Axis
 
+## What is the X Limit Switch Holder?
+
+This is the X Limit Switch Holder.
+
+![](../../../.gitbook/assets/x-limit-switch-holder.jpg)
+
 ## Warning
 
 Exercise caution if you attempt to fit your head underneath the bed. The frame could potentially cause lacerations.  

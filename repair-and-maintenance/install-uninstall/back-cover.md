@@ -1,8 +1,10 @@
 # Back Cover
 
-## What is a Back Cover
+## What is the Back Cover?
 
-![A black sheet metal user to cover the rear contents of the ProMega.](../../.gitbook/assets/image10.jpg)
+This is the back cover.
+
+![](../../.gitbook/assets/back-cover.jpg)
 
 ## How To Install
 

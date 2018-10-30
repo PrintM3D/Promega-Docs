@@ -37,6 +37,8 @@ you can turn the fans on or off.
 
 ### General Fan Location
 
+This are the fans.
+
 ![Promega Fan Location](../../.gitbook/assets/img_1042.JPG)
 
 ### Warning
