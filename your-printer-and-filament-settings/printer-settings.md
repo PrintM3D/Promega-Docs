@@ -278,7 +278,7 @@ G92 Z#
 
 ### PID Parameters
 
-For Compound:
+#### For Compound:
 
 Proportional value \(Kp\): 22.1
 
@@ -290,7 +290,7 @@ Maximum PWM: 1
 
 
 
-For K'Tana:
+#### For K'Tana:
 
 Proportional value \(Kp\): 10.7
 
