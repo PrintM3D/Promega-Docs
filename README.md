@@ -1,24 +1,72 @@
 # Welcome!
 
-Welcome to the User Manual for the M3D Promega 3D Printer. A feature-packed, expandable, industrial 3D printer designed for manufacturing, assembly and design operations. Fully enclosed in a 20" all-metal frame, the 15.3"-cubed build volume makes printing just about anything possible. Please feel free to add suggestions to any of the guides by creating a pull-request or issue on [GitHub](https://github.com/PrintM3D/Promega-Docs/issues). This manual is hosted in Github.com via Gitbook.com.
+Welcome to the  M3D Promega's User Manual.
 
-If you are a complete beginner to 3D printing and just got the Promega, please start at the [Beginner Guides](beginners-setup-guides/).
+![](.gitbook/assets/promega.png)
+
+## Features
+
+### Expandable
+
+There's a bunch of add-ons.
+
+{% tabs %}
+{% tab title="Compound Printing" %}
+
+{% endtab %}
+
+{% tab title="Dual Printing" %}
+
+{% endtab %}
+
+{% tab title="Quad Printing" %}
+
+{% endtab %}
+
+{% tab title="High Temp Printing" %}
+
+{% endtab %}
+
+{% tab title="Glass Beds" %}
+
+{% endtab %}
+{% endtabs %}
+
+Feel free to browse the [part store](https://store.printm3d.com/collections/parts) for more.
+
+### 20" All Metal Frame
+
+Fully enclosed in a 20" all-metal frame.
+
+### 15.3" Cubic Build Volume
+
+15.3"-cubed build volume makes printing just about anything possible.
+
+### Open Source
+
+Both the [Duet3D electronics](https://www.duet3d.com/) and the [Promega parts](documentation/) are open-sourced.
+
+## Where To Start
+
+Please start at the [Beginner Guides](beginners-setup-guides/).
 
 If you are a more experienced 3D printer user: [Advanced Guides](advanced-setup-guides/). This guide will get you set-up and walk you through your first print.
 
-## **Q&A Promega Users**
+## **Other Resources**
 
-[Submit Issue](https://github.com/PrintM3D/Promega/issues). Allows you to search for existing issues to upvote them and submit a new issue if you do not find one.
+### Duet3D Board
 
-## **Other Resources:**
+#### [Firmware/Software](https://github.com/PrintM3D?tab=repositories)
 
-[Firmware/Software](https://github.com/PrintM3D?tab=repositories)
+#### [Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)
 
-[Duet Maestro](https://duet3d.dozuki.com/c/Duet_2_Maestro)
+#### [Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)
 
-[Duet GCodes](https://duet3d.dozuki.com/Wiki/GCode)
+### Promega Parts Store
 
-[Promega Parts Store](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)
+#### [Linked Here!](https://store.printm3d.com/collections/parts/printer-model_m3d-promega)
+
+### Open Source 
 
 #### [Public Google Drive](https://drive.google.com/open?id=1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w)
 
@@ -30,11 +78,23 @@ Houses all iterations of:
 * Printed Part. 
 {% endhint %}
 
-## Contributing
+### **Q&A Promega Users**
+
+[Submit Issue](https://github.com/PrintM3D/Promega/issues). Allows you to search for existing issues to upvote them. 
+
+Submit a new issue if you do not find one.
+
+### Contributing
+
+Please feel free to add suggestions to any of the guides by creating a pull-request or issue on [GitHub](https://github.com/PrintM3D/Promega-Docs/issues). This manual is hosted in Github.com via Gitbook.com.
 
 The main way to collaborate to the guides is to become a collaborator. But sometimes you simply want to submit a small contribution, without becoming a regular collaborator.
 
 On GitHub, one can use the popular _Pull Request_ feature. To do so, you would clone [https://github.com/PrintM3D/Promega-Docs](https://github.com/PrintM3D/Promega-Docs), make changes on your own copy, and submit back your changes by submitting a _Pull Request_ to M3D. Then we will review the changes accordingly.
 
-Thank you
+
+
+#### Let's Get Started!
+
+
 
