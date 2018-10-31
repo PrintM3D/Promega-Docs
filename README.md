@@ -12,15 +12,21 @@ There's a bunch of add-ons.
 
 {% tabs %}
 {% tab title="Compound Printing" %}
-
+![](.gitbook/assets/compound-diagram.png)
 {% endtab %}
 
 {% tab title="Dual Printing" %}
+  
 
+
+![](.gitbook/assets/ktana-diagram.png)
 {% endtab %}
 
 {% tab title="Quad Printing" %}
+  
 
+
+![](.gitbook/assets/quad-diagram.webp)
 {% endtab %}
 
 {% tab title="High Temp Printing" %}
@@ -28,7 +34,7 @@ There's a bunch of add-ons.
 {% endtab %}
 
 {% tab title="Glass Beds" %}
-
+  
 {% endtab %}
 {% endtabs %}
 
