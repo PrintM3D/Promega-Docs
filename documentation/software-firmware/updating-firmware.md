@@ -12,15 +12,30 @@ In order to find out if you want to update the firmware on the Duet Maestro you 
 
 ## Upgrade: Via the Web Control
 
-1. Download the desired firmware version from DC42's github page. This will be a _.bin_ or binary file called _DuetMaestroFirmware.bin_.
-2. Download the _iap4s.bin_ file, this is necessary in order to update the firmware.
-3. Go to the settings tab of the Duet Web Console and find the _Upload File\(s\)_ button. Note: this is not for uploading prints. Files uploaded here will be stored in the /_sys_ directory of the microSD card. Upload the _iap4s.bin_ and _DuetMaestroFirmware.bin_ files.
+Download the desired firmware version from DC42's github page. 
 
-   ![aosmza6ID0m8KJ7A-uploadsysfiles.png](../../.gitbook/assets/aosmza6id0m8kj7a-uploadsysfiles.png)
+* _DuetMaestroFirmware.bin_
+* _iap4s.bin_
 
-4. Once both files are uploaded successfully, go to the _G-code Console_. Send the command `M997 S0`. This will begin the process of upgrading Duet firmware.
-5. When the firmware upgrade is completed, you can visit the _Settings_ tab in order to ensure that the _Firmware Version_ has been updated to the preferred version. 
-6. If you prefer, you can now delete the _iap4s.bin_ and _DuetMaestroFirmware.bin_ files from the _sys/_ directory.
+{% hint style="info" %}
+iap4s.bin is not readily part of new.
+{% endhint %}
+
+Go to the settings tab of the Duet Web Console and find the _Upload File\(s\)_ button. 
+
+{% hint style="warning" %}
+This is not for uploading prints.
+{% endhint %}
+
+Files uploaded here will be stored in the _sys/_ directory of the microSD card. Upload the _iap4s.bin_ and _DuetMaestroFirmware.bin_ files.
+
+![aosmza6ID0m8KJ7A-uploadsysfiles.png](../../.gitbook/assets/aosmza6id0m8kj7a-uploadsysfiles.png)
+
+Once both files are uploaded successfully, go to the _G-code Console_. Send the command `M997 S0`. This will begin the process of upgrading Duet firmware.
+
+When the firmware upgrade is completed, you can visit the _Settings_ tab in order to ensure that the _Firmware Version_ has been updated to the preferred version. 
+
+If you prefer, you can now delete the _iap4s.bin_ and _DuetMaestroFirmware.bin_ files from the _sys/_ directory.
 
 ## Upgrade: Via the USB cable
 
