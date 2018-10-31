@@ -28,7 +28,7 @@ To ensure that the printer homes correctly, we recommend moving the CoreXY gantr
 
 Move the coreXY gantry against the Y-limit switch, listen for the click of the limit switch. 
 
-![](../.gitbook/assets/hitting-y-limit-switch.1.gif)
+
 
 {% hint style="warning" %}
 Be careful not to move the extruder carriage past the limit switch tab.
