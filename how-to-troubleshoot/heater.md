@@ -45,7 +45,7 @@ M303 H# S260; Starts heater AUTO-TUNING Heater #. H# is the faulted heater's num
 
 Example: A fault on heater 2.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ```text
 M562; Removes the fault

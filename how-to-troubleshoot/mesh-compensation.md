@@ -109,7 +109,7 @@ Y Maximum: 380
 
 Duet Web Console \(DWC\) throws an error during a print and/or during operation of the printer involving  Heightmap.csv
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 ### Solution
 
