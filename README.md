@@ -48,9 +48,9 @@ Both the [Duet3D electronics](https://www.duet3d.com/) and the [Promega parts](d
 
 ## Where To Start
 
-Please start at the [Beginner Guides](beginners-setup-guides/).
+Please start with the [Beginner Guides](beginners-setup-guides/).
 
-If you are a more experienced 3D printer user: [Advanced Guides](advanced-setup-guides/). This guide will get you set-up and walk you through your first print.
+If the Beginner Guides aren't enough, try our [Advanced Guides](advanced-setup-guides/). 
 
 ## **Other Resources**
 
