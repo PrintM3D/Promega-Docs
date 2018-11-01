@@ -71,7 +71,7 @@ Repeat until all positions are clamped.
 ### Send the extruder toward center
 
 ```text
-G1 X200 Y200
+G1 X187 Y154
 ```
 
 #### Minor G-code Lesson
@@ -84,7 +84,7 @@ Y\#\#\# = Y position
 
 Z\#\#\# =  Z position
 
-### Turn On The Bed
+### Heat The Bed
 
 ```text
 M140 S60
@@ -106,16 +106,16 @@ M564 S0
 
 Wait for bed to reach its temperature.
 
-### Engage Bed Probe
+#### Engage Bed Probe
 
 ![DISENGAGED](../.gitbook/assets/disengaged-bed-probe.JPG)
 
 ![ENGAGED](../.gitbook/assets/engage-bed-probe.JPG)
 
-### Move Bed To Position
+#### Move Bed To Position
 
 ```text
-G1 Z30
+G1 Z15
 ```
 
 ### Probe
@@ -124,18 +124,16 @@ G1 Z30
 G30
 ```
 
-### Move Bed To Position
+### 
+
+#### Disengage Bed Probe
+
+
+
+#### Move Bed Closer
 
 ```text
-G1 Z30
-```
-
-### Disengage Bed Probe
-
-### Move Bed To Position
-
-```text
-G1 Z5
+G1 Z0
 ```
 
 ### Move Bed To Nozzle
@@ -148,7 +146,7 @@ Switch to the smaller 0.1 mm step when you get close to the nozzle
 
 ### Record Z offset
 
-![](../.gitbook/assets/z-offset.PNG)
+![](../.gitbook/assets/z-offset%20%281%29.PNG)
 
 ### More Code Inputs
 
@@ -161,13 +159,17 @@ G31 P999 X-40 Y28.5 Z###
 M564 S1
 ```
 
-### Move Bed To Position
+#### Move Bed To Position
 
 ```text
-G1 Z30
+G1 Z15
 ```
 
-### Engage Bed Probe \(Again\)
+### 
+
+#### Engage Bed Probe \(Again\)
+
+
 
 ### Probe \(Again\)
 
@@ -175,13 +177,11 @@ G1 Z30
 G30
 ```
 
-### Move Bed To Position
-
-```text
-G1 Z30
-```
+### 
 
 ### Disengage Bed Probe \(Again\)
+
+### 
 
 ### Check nozzle height
 
@@ -190,8 +190,6 @@ G1 Z0
 ```
 
 The bed should be about a paper sheet away from the nozzle.
-
-
 
 ### Save Into SD card.
 
@@ -225,7 +223,7 @@ Assumption: Your bed probe has been setup.
 
 ![NOT HOMED](../.gitbook/assets/not-homed.PNG)
 
-### Turn On The Bed
+### Heat The Bed
 
 ```text
 M140 S60
@@ -234,10 +232,20 @@ M140 S60
 ### Move Bed To Position
 
 ```text
-G1 Z30
+G1 Z15
 ```
 
-### Engage Bed Probe
+### 
+
+#### Engage Bed Probe
+
+
+
+### Probe
+
+```text
+G30
+```
 
 ### Read The Bed
 
@@ -252,17 +260,21 @@ Check for any signs of green.
 * There should be some green.
 * If not, your bed probe is NOT setup.
 
-![](../.gitbook/assets/heightmap.PNG)
+![Example: Proper Use of Mesh Compensation](../.gitbook/assets/heightmap.PNG)
 
 Click close.
 
-### Move Bed To Position
+#### Move Bed Away
 
 ```text
-G1 Z100
+G1 X187 Y154 Z100
 ```
 
+### 
+
 ### Disengage Bed Probe
+
+
 
 You are ready to print.
 

@@ -16,34 +16,37 @@ After the z-slider the belts go to the pulley. If you look on the underside of t
 
 ## Normal Belts
 
-1. Loop the belt through the Z-slider as shown below. The inside of the Z-slider contains bearings that allow the belt to smoothly slide as it is being driven.
+Loop the belt through the Z-slider as shown below. The inside of the Z-slider contains bearings that allow the belt to smoothly slide as it is being driven.
 
-![OqMwNRXw0qV4gD19-z-slidernormalbeltrouting.jpg](../.gitbook/assets/oqmwnrxw0qv4gd19-z-slidernormalbeltrouting.jpg)
+![Belt-Toothed Idler Mating](../.gitbook/assets/oqmwnrxw0qv4gd19-z-slidernormalbeltrouting.jpg)
 
-1. After routing the belt through the Z-slider the belt must go around the pulley as shown in the image above.
-2. The belt is then routed back through the Z-slider. The belt should nest comfortably inside the 15x15 aluminum extrusion channel.
-3. The tops and bottoms can now be fastened. Following the [Repairing Broken Belt Clamps](install-uninstall/belt-clamps.md) guide covers installation of the belt clamps. 
-4. To tension the belt system follow [Z-belt Tensioning](belt-tensioning.md#z-assembly) guide.
+After routing the belt through the Z-slider the belt must go around the pulley as shown in the image above.
+
+The belt is then routed back through the Z-slider. The belt should nest comfortably inside the 15x15 aluminum extrusion channel.
+
+The tops and bottoms can now be fastened. Following the [Repairing Broken Belt Clamps](install-uninstall/belt-clamps.md) guide covers installation of the belt clamps. 
+
+To tension the belt system follow [Z-belt Tensioning](belt-tensioning.md#z-assembly) guide.
 
 ## Flipped Belts
 
-1. Loop the belts through the Z-slider. The flat of the belt must be riding the bearing.
+Loop the belts through the Z-slider. The flat of the belt must be riding the bearing.
 
-   ![83OeD59MTRCgTWXb-beltthroughslider.jpg](../.gitbook/assets/83oed59mtrcgtwxb-beltthroughslider.jpg)
+![](../.gitbook/assets/belts.jpg)
 
-2. Once the belt is through the Z-slider, flip the belt 180 degrees so the teeth can properly mesh with the pulley. Remember to cross the belt as well, if you are routing the belt from the top of the z-slider it should go around the bottom of the pulley.
+Once the belt is through the Z-slider, flip the belt 180 degrees so the teeth can properly mesh with the pulley. Remember to cross the belt as well, if you are routing the belt from the top of the z-slider it should go around the bottom of the pulley.
 
-   ![jogb2QyIeEkVYuEh-zsliderfirstbeltflip.jpg](../.gitbook/assets/jogb2qyieekvyueh-zsliderfirstbeltflip.jpg)
+![](../.gitbook/assets/flipped-z-belt.jpg)
 
-3. When the belt is around the pulley, flip the belt 180 degrees again. **Flip the belt in the right direction!** If you rotate in the wrong direction it will cause the belt teeth to mesh together instead of the flat of the belt. It should look like the image below. **Notice how the two belt flats face each other!**
+When the belt is around the pulley, flip the belt 180 degrees again. **Flip the belt in the right direction!** If you rotate in the wrong direction it will cause the belt teeth to mesh together instead of the flat of the belt. It should look like the image below. **Notice how the two belt flats face each other!**
 
-   ![nnHr65wsjpu4U49E-zsliderflippedtwoflips.jpg](../.gitbook/assets/nnhr65wsjpu4u49e-zsliderflippedtwoflips.jpg)
+![](../.gitbook/assets/belts-face-flat.jpg)
 
-   This is not what the flipped belt should look like, notice how the belts mesh together.
+This is not what the flipped belt should look like, notice how the belts mesh together.
 
-   ![oIgKAaD3FkbqXHrd-wrongflippedbelt.jpg](../.gitbook/assets/oigkaad3fkbqxhrd-wrongflippedbelt.jpg)
+![](../.gitbook/assets/incorrect-belts.jpg)
 
-4. The final result should look like this:
+The final result should look like this:
 
-   ![DDE3y3wrPz1HE5CH-properflippedbelt.jpg](../.gitbook/assets/dde3y3wrpz1he5ch-properflippedbelt.jpg)
+![](../.gitbook/assets/final-zbelt-results.jpg)
 

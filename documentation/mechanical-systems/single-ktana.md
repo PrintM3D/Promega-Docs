@@ -2,15 +2,16 @@
 
 ## Front Components
 
-![](../../.gitbook/assets/s.-walle-front-components.PNG)
+![](../../.gitbook/assets/front-components-single.PNG)
 
 | Balloon Number | Name | Quantity |
 | :--- | :--- | :--- |
-| 5 | Single K'tana Wall-E | 1 |
-| 15 | M4 x 0.7 mm Nut | 2 |
+| 5 | Single K'Tana Wall-E | 1 |
 | 16 | M3 x 12 mm Screw | 2 |
 | 18 | M4 x 8 mm Screw | 3 |
 | 23 | Cold Section Fan \(24V, 8.5 CFM\) | 1 |
+| 37 | Fan Mount | 1 |
+| 40 | Nozzle Fans \(Pair\) | 1 |
 
 ## Back Components
 

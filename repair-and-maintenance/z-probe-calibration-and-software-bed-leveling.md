@@ -12,7 +12,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 4. Wait until the heated bed has reached temperature before continuing. 
 5. Set the Z-probe offset to 0 by entering the command `G31 P999 X-40 Y28.5 Z0`. This will make it easier to gauge the distance between the Z-probe and the nozzle in the following steps. 
 6. Run the command `G29 S2`. This clears any active bed leveling compensation. This is **very** important as it will conflict with your updated Z-probe offset and induce a 0.1 - 0.3mm error depending on the magnitude of your bed leveling compensation at that point. 
-7. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%282%29.gif) 
+7. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%283%29.gif) 
 8. Check whether the Z-probe is functioning correctly. This is a great step to perform before using your Z-probe in order to prevent crashes. Press your Z-probe limit switch and observe the change in value from 0 to 1000 in the Duet Web Console _Machine Status_ table in the _Z-Probe_ box. If the value does not change the Z-probe is wired or configured wrong, do not continue to the next step!  ![](../.gitbook/assets/zprobemachinestatus.png) 
 9. Move the bed towards the nozzle by sending the command `G1 Z20`. When you send the command `G30` the bed will move slowly and precisely to the Z-probe, if you send `G30` while the bed is at `Z100` or greater you will have to wait for a long time for the Z-probe to trigger.
 10. Run the command `G30`. This will move the bed toward the z-probe until the limit switch triggers.
@@ -29,7 +29,7 @@ To find out the z-offset of the limit switch to the nozzle, follow the steps bel
 18. Enter the command `G31 P999 X-40 Y28.5 Znnn` where `nnn` is your Z-probe offset.
 19. Enter the command `M564 S1` in order to re-enable your axes limits.
 20. Move the bed away from the nozzle `G1 Z20`.
-21. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%281%29.gif) 
+21. Deploy your Z-probe!  ![](../.gitbook/assets/deployingtheprobe%20%282%29.gif) 
 22. Send the command `G30`.
 23. Retract your Z-probe!
 24. Move the bed back up to the nozzle as described in the steps above. Your Z value should be 0 when the bed is touching the nozzle. If it is not you might need to tune the Z-probe offset or repeat the process.

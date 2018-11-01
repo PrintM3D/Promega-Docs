@@ -1,5 +1,25 @@
 # Setup Your Electronics
 
+## Check Your Power Supply's Input Voltage
+
+{% hint style="warning" %}
+Failure to do so will DAMAGE the power supply. 
+{% endhint %}
+
+There are two input wall voltages: 115V or 230V. Choose the appropriate settings. 
+
+{% embed url="https://www.worldstandards.eu/electricity/plug-voltage-by-country/" %}
+
+### How To Switch Between Voltages
+
+The switch, used to flip between 115V and 230V, is located on the bottom part of the power supply.
+
+![](../.gitbook/assets/img_1018.JPG)
+
+Use a flat head to manually slide the switch. The current state of the switch is labeled.
+
+![](../.gitbook/assets/img_1015.JPG)
+
 ## Your SD Card
 
 ### Accessing the microSD

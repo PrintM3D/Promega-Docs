@@ -1,10 +1,14 @@
 # Frame
 
+For all printed part iterations, click [here](https://drive.google.com/drive/u/0/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w).
+
 ## Exception:
 
 * Z Bottom Belt Clamp: Housed inside "Bed".
 
 ## Bed & Power Switch Holder:
+
+![](../../.gitbook/assets/img_1364.JPG)
 
 ### Current
 
@@ -15,6 +19,8 @@
 {% file src="../../.gitbook/assets/051172\_b1-bed-\_-power-switch-holder.STL" %}
 
 ## Magnet Holder:
+
+![](../../.gitbook/assets/img_1361.JPG)
 
 ### Current
 
@@ -38,6 +44,8 @@
 
 ## X Limit Switch Holder:
 
+![](../../.gitbook/assets/img_1360.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/051166\_c1-x-limit-switch-holder.STL" %}
@@ -48,6 +56,8 @@
 
 ## Y Limit Switch Holder:
 
+![](../../.gitbook/assets/img_1365.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/051168\_b2-y-limit-switch-holder.STL" %}
@@ -57,6 +67,8 @@
 {% file src="../../.gitbook/assets/051168\_b1-y-limit-switch-holder.STL" %}
 
 ## Z Limit Switch Holder:
+
+![](../../.gitbook/assets/img_1358.JPG)
 
 ### Current
 

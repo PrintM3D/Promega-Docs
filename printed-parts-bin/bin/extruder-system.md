@@ -1,5 +1,7 @@
 # Extruder System
 
+For all printed part iterations, click [here](https://drive.google.com/drive/u/0/folders/1cmnAcQU7NjgBqAub60Pz7tJyY-e5qH1w).
+
 ## Bed Limit Housing:
 
 ### Current
@@ -22,6 +24,8 @@
 
 ## Extruder Dampener:
 
+![](../../.gitbook/assets/img_1343.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/058212\_a1-extruder-dampener.STL" %}
@@ -31,6 +35,8 @@
 * _**NONE**_
 
 ## Nozzle Fan Guide:
+
+![](../../.gitbook/assets/img_1345.JPG)
 
 ### Current
 
@@ -44,6 +50,8 @@
 
 ## Plastic Insert \(Mixing Compound\):
 
+![](../../.gitbook/assets/img_1348.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/058124\_a3-plastic-insert-mixing-compound.STL" %}
@@ -54,6 +62,8 @@
 
 ## Plastic Insert \(Single K'tana\):
 
+![](../../.gitbook/assets/img_1351.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/058122\_a5-plastic-insert-single-ktana.STL" %}
@@ -63,6 +73,8 @@
 * _**NONE**_
 
 ## Cable Harness \(Front, Base\):
+
+![](../../.gitbook/assets/img_1367.JPG)
 
 ### Current
 
@@ -80,6 +92,8 @@
 
 ## Cable Harness \(Front, Cover\):
 
+![](../../.gitbook/assets/img_1346.JPG)
+
 ### Current
 
 {% file src="../../.gitbook/assets/058304\_a3-front-cable-harness-cover.STL" %}
@@ -91,6 +105,8 @@
 {% file src="../../.gitbook/assets/058304\_a1-front-cable-harness-cover.STL" %}
 
 ## Cable Harness \(Rear, Base\):
+
+![](../../.gitbook/assets/img_1347.JPG)
 
 ### Current
 

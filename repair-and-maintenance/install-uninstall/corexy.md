@@ -1,6 +1,14 @@
+---
+description: Work in Progress
+---
+
 # CoreXY
 
-Note: Work in Progress
+## What is the CoreXY?
+
+This is the CoreXY \(belt\).
+
+![](../../.gitbook/assets/corexy-belts.jpg)
 
 ## Belt Routing
 

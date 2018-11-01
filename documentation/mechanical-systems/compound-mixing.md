@@ -4,7 +4,7 @@
 
 ## Front Components
 
-![](../../.gitbook/assets/m.-walle-front-components.PNG)
+![](../../.gitbook/assets/front-components-mixing%20%282%29.PNG)
 
 | Balloon Number | Name | Quantity |
 | :--- | :--- | :--- |
@@ -12,7 +12,9 @@
 | 16 | M3 x 12 mm Screw | 2 |
 | 18 | M4 x 8 mm Screw | 3 |
 | 23 | Cold Section Fan \(24V, 8.5 CFM\) | 1 |
-| 25 | Mixing Compound Wall-E | 1 |
+| 25 | Compound Mixing Wall-E | 1 |
+| 37 | Fan Mount | 1 |
+| 40 | Nozzle Fans \(Pair\) | 1 |
 
 ## Back Components
 

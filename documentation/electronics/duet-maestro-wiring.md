@@ -20,6 +20,8 @@ The image above displays the ports found on the Duet Maestro and their functions
 
 ![Duet Maestro Promega Wiring Diagram](../../.gitbook/assets/eegr4vx3jeacoiyn-guideswiringdiagram.png)
 
+![](../../.gitbook/assets/detailed-maestro-wiring-guide.PNG)
+
 Each text in the textbox of the first image represents the text found on each cable near the connector. Not all cables have text, but they will have some other feature that identifies them. Read the list, Notes, below for a further explanation on the unmarked wires. Each textbox color represents the cable assembly that the wires are a part of. White represents the cables going up towards the extruder assembly. Red, the cables to the Z and power supply. Blue, the limit switch wires and purple, the wires to the power supply.
 
 ![Wiring Label](../../.gitbook/assets/xuyunhhtrjxntxgo-wiringlabel.jpg)

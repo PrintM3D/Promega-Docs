@@ -1,6 +1,20 @@
 # Extruder
 
-The Promega has two extruder heads: the K'Tana and the Compound nozzle. The compound nozzle accepts two filaments as input and prints through one nozzle by mixing the two filaments. The K'Tana has two separate filament inputs and two seperate nozzles to print from. In order to switch between the two tools, you will have to perform a series of mechanical and software changes.
+## What is the Extruder?
+
+The Promega is compatible with two extruder types: 
+
+### Single K'Tana Extruder 
+
+![](../../.gitbook/assets/img_1383.JPG)
+
+The K'Tana has two separate filament inputs and two separate nozzles to print from.
+
+### Compound Mixing Extruder
+
+![](../../.gitbook/assets/img_1382.JPG)
+
+The compound nozzle accepts two filaments as input and prints through one nozzle by mixing the two filaments. 
 
 ## Warning
 
@@ -55,11 +69,11 @@ _**NONE**_
 7. Plug the wires in according to the diagram below. Plug in the left side cables before the right side. Use needlenose pliers and a flathead screwdriver to carefully plug in the cables into their housing. !\[gN4Sz33QK3kbeWMV-K'tanaportwires.jpg\]\(\[../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/gN4Sz33QK3kbeWMV-K'tanaportwires.jpg\]\(../.gitbook/assets/gallery/2018-06-Jun/scaled-840-0/gN4Sz33QK3kbeWMV-K'tanaportwires.jpg\)\) ![5u20ltlC8ww9m7Uf-compoundnowires.jpg](../../.gitbook/assets/5u20ltlc8ww9m7uf-compoundnowires.jpg)
 8. The wiring portion of changing extruders is now complete. Look at the pictures below to see the final result for a mounted compound or K'tana extruder head.
 
-### Compound Extruder Head
+### Compound Extruder
 
 ![Compound Extruder Wiring](../../.gitbook/assets/kxvpxvg2vfyx0xbf-compoundfinalwiring.jpg)
 
-### K'tana Extruder Head
+### K'tana Extruder
 
 ![K&apos;tana Wiring](../../.gitbook/assets/5v6t4stev6wvjoyg-finalktanawiring.jpg)
 
