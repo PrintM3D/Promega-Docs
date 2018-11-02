@@ -14,23 +14,48 @@ This indicates a broken Z-probe or a problem with the Z-probe wiring.
 
 The limit switch has an extension cable that extends into the cable chain as it goes to the Duet Board. It is possible that the Z-probe become disconnected from the extension cable during printer use.
 
-1. Turn off the printer
-2. Open the cable chain segments until you find the connection of the Z-probe limit switch cable to the extension cable. Read [this guide](../repair-and-maintenance/install-uninstall/cable-chain.md#how-to-open) for more instructions on how to open the cable chain.  ![](../.gitbook/assets/zprobeconnector%20%281%29.jpg) 
-3. Make sure the cable is properly plugged in. Polarity does not matter as it is a switch.
-4. You can apply glue to the connector to ensure that the connector stays in place. Also make sure that the cable overall has enough slack for the gantry to move around the entire coreXY plane.
+#### Let's start.
+
+Turn off the printer.
+
+Open the cable chain segments until you find the connection of the Z-probe limit switch cable to the extension cable.
+
+{% hint style="info" %}
+ Read [this guide](../repair-and-maintenance/install-uninstall/cable-chain.md#how-to-open) for more instructions on how to open the cable chain.
+{% endhint %}
+
+ ![](../.gitbook/assets/zprobeconnector%20%281%29.jpg) 
+
+Make sure the cable is properly plugged in. 
+
+{% hint style="info" %}
+Polarity does not matter as it is a switch.
+{% endhint %}
+
+You can apply glue to the connector to ensure that the connector stays in place. 
+
+Make sure that the cable overall has enough slack for the gantry to move around the entire CoreXY plane.
 
 #### Z-probe IR Probe Wiring Problem
 
 A connection problem has been identified in some of the IR probe connectors. This is easy to fix with the following procedure.
 
-1. Turn off the printer
-2. Take out the nozzle fan duct in order to take out the IR probe board. This is optional but it will give you more room to perform the following steps.
-3. Unplug the connector from the IR board.
-4. Take the contact of the white signal cable out of the connector. You will notice that this contact has a U shape on the end. This is meant to properly contact the pin on the IR board, but it does not. Crimp this U so that the tips come closer together.  ![](../.gitbook/assets/z-probecable.jpg) 
-5. When inserting the white cable back in the connector it might help to apply a little bit of superglue to keep it in place.
-6. Plug the connector back in the IR board.
-7. Put the fan duct and IR board back in their place.
-8. Test the IR Z-probe.
+#### Let's start.
+
+Turn off the printer.
+
+Unplug the connector from the IR board.
+
+Take the contact of the white signal cable out of the connector. You will notice that this contact has a U shape on the end. This is meant to properly contact the pin on the IR board, but it does not. Crimp this U so that the tips come closer together.  
+ ![](../.gitbook/assets/z-probecable.jpg) 
+
+When inserting the white cable back in the connector it might help to apply a little bit of superglue to keep it in place.
+
+Plug the connector back in the IR board.
+
+Put the fan duct and IR board back in their place.
+
+Test the IR Z-probe.
 
 ## Error: Z-probe Triggered Before Move
 
@@ -46,9 +71,11 @@ This indicates that the firmware has detected a triggering Z-probe value before 
 
 ### Solution
 
-1. Test that the Z-probe value in the Duet Web Console is toggling correctly.
-2. Ensure that the Z-probe is properly connected.
-3. Ensure that the Z-probe is properly configured with the `M558` command.
+Test that the Z-probe value in the Duet Web Console is toggling correctly.
+
+Ensure that the Z-probe is properly connected.
+
+Ensure that the Z-probe is properly configured with the `M558` command.
 
 ## Error: Z-probe Not Triggered During Move
 
@@ -64,7 +91,13 @@ This error is actually a fail safe, the printer is preventing what it presumes i
 
 ### Solution
 
-1. Disable axes limits with the command `M564 S0`
-2. Make sure that the Z-probe value on the Duet Web Console changes when the Z-probe is supposed to be triggered.
-3. Ensure that the printer never reaches a value less than 0 in the Z, during a probe move. You can do this by sending the command `G92 Z50` while the printer is less than 50mm away from the nozzle. **Warning: Travelling to a small Z-value after you do this will crash the printer!**
+Disable axes limits with the command `M564 S0`
+
+Make sure that the Z-probe value on the Duet Web Console changes when the Z-probe is supposed to be triggered.
+
+Ensure that the printer never reaches a value less than 0 in the Z, during a probe move. You can do this by sending the command `G92 Z50` while the printer is less than 50mm away from the nozzle.
+
+{% hint style="warning" %}
+Travelling to a small Z-value after you do this will crash the printer!
+{% endhint %}
 
