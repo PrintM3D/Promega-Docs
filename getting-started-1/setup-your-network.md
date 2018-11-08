@@ -97,7 +97,7 @@ Continue to the step below.
 {% endtab %}
 {% endtabs %}
 
-**Network Bridging**
+### **Network Bridging**
 
 If you are unable to connect your ProMega to your internal network it is possible to use the ethernet cable to connect the printer directly to your computer. In order to do this, complete the _Connecting to the Promega via SD: Static IP_ section, remember the static IP you give the printer, but instead of connecting the ethernet cable to your network, connect it to your computer and follow the guide below.
 

@@ -27,6 +27,7 @@
   * [The Bed & Probe](advanced-setup-guides/the-bed-and-probe.md)
   * [Bed Leveling & Probing](advanced-setup-guides/bed-leveling-and-probing.md)
   * [Tuning The Z Homing Procedure](advanced-setup-guides/tuning-the-z-homing-procedure.md)
+  * [Bypass Bed Leveling \(Temporary\)](advanced-setup-guides/bypass-bed-leveling-temporary.md)
   * [Software Layers](advanced-setup-guides/software-layers.md)
   * [What is Slicing?](advanced-setup-guides/what-is-slicing.md)
   * [Preparing The Print](advanced-setup-guides/preparing-the-print.md)
@@ -86,8 +87,6 @@
   * [Homing](how-to-troubleshoot/homing.md)
   * [Common Troubleshooting](how-to-troubleshoot/common-troubleshooting/README.md)
     * [Help! My Extruders Are Backwards](how-to-troubleshoot/common-troubleshooting/help-my-extruders-are-backwards.md)
-* [Community Guides](community-guides/README.md)
-  * [Sample Page](community-guides/community-guide-template.md)
 * [Changelog](changelog.md)
 * [Your Printer's 3D Parts](printed-parts-bin/README.md)
   * [Latest Parts](printed-parts-bin/bin/README.md)
@@ -95,4 +94,10 @@
     * [Extruder System](printed-parts-bin/bin/extruder-system.md)
     * [Bed](printed-parts-bin/bin/bed.md)
   * [Promega 1.24 or earlier](printed-parts-bin/conversion-details.md)
+
+## M3D Community
+
+* [How To Contribute](m3d-community/how-to-contribute.md)
+* [Add-Ons](m3d-community/untitled.md)
+* [Slicer Settings](m3d-community/slicer-settings.md)
 

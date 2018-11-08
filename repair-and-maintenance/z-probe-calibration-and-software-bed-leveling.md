@@ -22,7 +22,7 @@ Home the printer again, just to ensure you do not stall the printer throughout t
 Print head to the center of the build plate by sending the command
 
 ```text
-G1 X200 Y200
+G1 X187 Y154
 ```
 
 Heat up the bed to the preferred printing temperature. You can do this by sending the command `M140 Snnn` where `nnn` is your temperature in °C. You can always look up the recommended bed temperatures for specific materials online. 
@@ -57,7 +57,7 @@ It will induce a 0.1 - 0.3 mm error.
 
 Deploy your Z-probe!
 
-  ![](../.gitbook/assets/deployingtheprobe%20%283%29.gif) 
+![](../.gitbook/assets/deployingtheprobe%20%286%29.gif)
 
 Check whether the Z-probe is functioning correctly. 
 
@@ -71,7 +71,7 @@ Press your Z-probe limit switch and observe the change in value from 0 to 1000 i
 If the value does not change the Z-probe is wired or configured wrong, Do Not continue to the next step!
 {% endhint %}
 
-![](../.gitbook/assets/zprobemachinestatus.png) 
+![Z Probe Is Not Triggered](../.gitbook/assets/zprobemachinestatus%20%282%29.png)
 
 Move the bed towards the nozzle by sending the command `G1 Z20`. When you send the command `G30` the bed will move slowly and precisely to the Z-probe, if you send `G30` while the bed is at `Z100` or greater you will have to wait for a long time for the Z-probe to trigger.
 
@@ -85,7 +85,7 @@ Retract the Z-probe.
 
 Jog the bed up slowly toward the nozzle using the negative Z buttons in _Machine Control_ on the Duet Web Console. Read the next step!
 
-![Z81QrJdADnqOrI0d-MachineControl.PNG](../.gitbook/assets/z81qrjdadnqori0d-machinecontrol%20%282%29.PNG)
+![](../.gitbook/assets/assets-2f-lh1zpqujrjmm5ql5c-2f-lh1za_0ze3gc48iotmt-2f-lh1zhml0in2ue80mdrt-2fz81qrjdadnqori0d-machine.PNG)
 
 As you are moving the bed up towards the nozzle you will encounter an axis limit. These axes limits are set for the X, Y and Z axes and will stop you from moving past a certain coordinate. This will make it harder to stall the printer. However, in this case we know what we are doing so we can disable the axes limits. Send the command `M564 S0` to disable the axis limits. To learn more about this command visit the [RepRap G-code wiki](https://reprap.org/wiki/G-code#M564:_Limit_axes).
 
@@ -101,7 +101,7 @@ Move the bed away from the nozzle `G1 Z20`.
 
 Deploy your Z-probe!
 
-  ![](../.gitbook/assets/deployingtheprobe%20%282%29.gif) 
+![](../.gitbook/assets/deployingtheprobe-1.gif)
 
 Send the command `G30`.
 
@@ -135,7 +135,7 @@ Wait for the mesh probing to complete. This could take a while as it probes over
 
 Once the leveling completes, it will generate the _heightmap.csv_ file in the _sys/_ folder on the microSD card. It will also display the heightmap on the Duet Web Console. This is a great tool to observe and visualize any error in the levelness of your bed. Remember that this graph is inflated **massively** and represents a 400mm by 400mm area**.** A height difference of  ± 1mm between the corners of the print bed is expected. Below you can see heightmaps. The one on the left is a normal heightmap, the one on the right is a good heightmap \(courtesy of @talrynn\(John\) on discord\). With mesh bed leveling compensation, there should be no difference in print quality or ability.  
 
-![](../.gitbook/assets/heightmapvisual.PNG) ![](../.gitbook/assets/goodheightmapvisual%20%281%29.png) 
+![](../.gitbook/assets/goodheightmapvisual%20%282%29.png)
 
 Bed leveling compensation will be automatically enabled once bed leveling completes. It is important to **remember to disable bed leveling compensation whenever you are finding constants and offsets on the Z axis**. Otherwise the bed leveling compensation will conflict with the offset you obtain. If you want to disable bed leveling compensation send the command `G29 S2` , to enable bed leveling compensation after disabling it, send the command `G29 S1`
 
