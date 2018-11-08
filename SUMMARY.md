@@ -97,7 +97,9 @@
 
 ## M3D Community
 
+* [Active Community Support](m3d-community/active-community-support.md)
 * [How To Contribute](m3d-community/how-to-contribute.md)
-* [Add-Ons](m3d-community/untitled.md)
+* [Guides](m3d-community/untitled/README.md)
+  * [Ruler Shortcut](m3d-community/untitled/ruler-shortcut.md)
 * [Slicer Settings](m3d-community/slicer-settings.md)
 
