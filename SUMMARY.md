@@ -38,6 +38,8 @@
   * [ABS-R Filament](your-printer-and-filament-settings/abs-r-filament.md)
   * [PLA Filament](your-printer-and-filament-settings/pla-filament.md)
   * [Filament Extrusion Rate](your-printer-and-filament-settings/filament-extrusion-rate.md)
+  * [How To Mix](your-printer-and-filament-settings/how-to-mix.md)
+  * [How To Properly Apply Elmer's Glue](your-printer-and-filament-settings/how-to-properly-apply-elmers-glue.md)
 * [Documentation](documentation/README.md)
   * [Software/Firmware](documentation/software-firmware/README.md)
     * [SD Card Structure](documentation/software-firmware/sd-card-structure.md)
@@ -102,4 +104,7 @@
 * [Community Guides](m3d-community/untitled/README.md)
   * [Ruler Shortcut](m3d-community/untitled/ruler-shortcut.md)
 * [Community Slicer Settings](m3d-community/slicer-settings.md)
+* [Add-Ons](m3d-community/add-ons/README.md)
+  * [Modified Printed Parts](m3d-community/add-ons/modified-printed-parts.md)
+  * [Gearbox](m3d-community/add-ons/gearbox.md)
 
