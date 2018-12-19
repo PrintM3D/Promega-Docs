@@ -13,5 +13,3 @@ Now that you have completed the Getting Started guides. You are ready to go. Con
 * [Repair Guides](../repair-and-maintenance/): The chapter that can fix all your problems \(hopefully\).
 * [Maintenance Guides](../repair-and-maintenance/): Maintain the printer!
 
-
-

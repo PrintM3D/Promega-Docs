@@ -3,12 +3,12 @@
 ## Check Your Power Supply's Input Voltage
 
 {% hint style="warning" %}
-Failure to do so will DAMAGE the power supply. 
+Failure to do so will DAMAGE the power supply.
 {% endhint %}
 
-There are two input wall voltages: 115V or 230V. Choose the appropriate settings. 
+There are two input wall voltages: 115V or 230V. Choose the appropriate settings.
 
-{% embed url="https://www.worldstandards.eu/electricity/plug-voltage-by-country/" %}
+{% embed url="https://www.worldstandards.eu/electricity/plug-voltage-by-country/" caption="" %}
 
 ### How To Switch Between Voltages
 
@@ -37,6 +37,4 @@ You can plug the microSD card into the microSD card reader included with your Pr
 On the microSD card you will find numerous introductory files and a video. Review these materials!
 
 Whenever you are done changing files on the microSD card it is best to safely eject the card and insert it back into the board. It is best to remove and insert the microSD card when the board is powered off. Continue to the Network setup guide with the button below.
-
-## 
 

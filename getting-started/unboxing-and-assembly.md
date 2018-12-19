@@ -2,7 +2,7 @@
 
 ## Before Opening
 
-Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Promega was damaged in shipping. In this box you will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them to ensure you keep all parts. Keep the Promega's box intact in case you need to transport the printer in the future. 
+Check the outside of the packaging for any significant amount of damage that might have occurred in shipping. We recommend taking pictures of the box in case the Promega was damaged in shipping. In this box you will find various small items in different packages. Please thoroughly check all wrapping and padding before discarding them to ensure you keep all parts. Keep the Promega's box intact in case you need to transport the printer in the future.
 
 **Warning: The Promega's frame can be sharp. Please take care when moving the printer in this procedure.**
 
@@ -71,11 +71,11 @@ The spoolholders should be placed on the back of the printer. Two M4 T20 Torx Co
 Follow this section to attach the feet to the printer. You will need a T20 Torx screwdriver.
 
 1. The base of the printer has four holes intended for the feet of the Promega.
-2. Carefully flip the printer on it's front in order to get access to the bottom of the printer.  
+2. Carefully flip the printer on it's front in order to get access to the bottom of the printer.
 
    ![](../.gitbook/assets/wheretoscrewonfeet.jpg)
 
-3. Take the M4 bolts out of the bag and screw them into the feet with a T20 Torx tool.  ![](../.gitbook/assets/screwinfoot%20%281%29.jpg) ![](../.gitbook/assets/screwthroughfoot.jpg) 
+3. Take the M4 bolts out of the bag and screw them into the feet with a T20 Torx tool. ![](../.gitbook/assets/screwinfoot%20%281%29.jpg) ![](../.gitbook/assets/screwthroughfoot.jpg)
 4. You can now attach the feet to the base of the Promega through the holes in the picture in step 1. Tighten the feet down with the included M4 lock-nuts.
 
 ## Attaching the Glass Bed
@@ -86,11 +86,11 @@ Attaching the glass bed clamps to the glass bed can be tricky. Using a flathead 
 
    ![36HsyBxyn58yAkSI-clamponflathead.jpg](../.gitbook/assets/36hsybxyn58yaksi-clamponflathead.jpg)
 
-2. Use the flathead screwdriver to open the clamp and slide one side on the bed as shown. 
+2. Use the flathead screwdriver to open the clamp and slide one side on the bed as shown.
 
    ![ER1AuRHXemFVxfVP-halfmountedclamp.jpg](../.gitbook/assets/er1aurhxemfvxfvp-halfmountedclamp.jpg)
 
-3. Once you have one side on, remove the flathead screwdriver and simply slide on the clamp 
+3. Once you have one side on, remove the flathead screwdriver and simply slide on the clamp
 
    ![gu5WeuO3pjG0H88H-slideonclamps.gif](../.gitbook/assets/gu5weuo3pjg0h88h-slideonclamps.gif)
 
@@ -114,11 +114,9 @@ This section will walk you through installing your top, side and front windows o
 
 ### Front Window
 
-The front window has four small screw heads that lock onto small magnets located on the front of the Promega. The front window can be identified by the 4 small black screws sticking out of it. Face the screws toward the frame and simply stick it on the Promega. 
+The front window has four small screw heads that lock onto small magnets located on the front of the Promega. The front window can be identified by the 4 small black screws sticking out of it. Face the screws toward the frame and simply stick it on the Promega.
 
 ![](../.gitbook/assets/frontwindowattach.gif)
-
-
 
 ![](../.gitbook/assets/front_window.jpg)
 
@@ -140,5 +138,5 @@ The side windows can be identified by the fact that they are made of thinner pla
 
 ![](../.gitbook/assets/attachingsides.jpg)
 
-Continue on to [Mechanical Check](mechanical-check.md), the next chapter in the [Getting Started](./) guide.
+Continue on to [Mechanical Check](https://github.com/PrintM3D/Promega-Docs/tree/441f6d1929bd0af86b0e007c0fc46eecd5dc06c2/getting-started/mechanical-check.md), the next chapter in the [Getting Started](./) guide.
 
