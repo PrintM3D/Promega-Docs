@@ -91,7 +91,7 @@ A text file will also be present on the SD card. This file simply makes it easie
 2. Backup your current SD card onto your computer. This can be done by copying the folders listed above into a seperate folder onto your computer. This will make it easier to switch back to the other extruder head in the future as you will not have to spend as long reconfiguring your printer.
 3. Delete the files on the microSD card.
 4. Copy the downloaded files from the PrintM3D GitHub Repository onto the SD card.
-5. Open the _config.g_ file in the _sys/_ folder and configure your network settings. You can also use your backed up SD card image that you copied in step 3 to obtain your network settings. For more help on configuring you network use the [Network Setup](../../getting-started-1/setup-your-network.md) guide.
+5. Open the _config.g_ file in the _sys/_ folder and configure your network settings. You can also use your backed up SD card image that you copied in step 3 to obtain your network settings. For more help on configuring you network use the [Network Setup]() guide.
 6. Once you have finished configuring your network, eject the card and insert it into the Duet's microSD card slot.
 
 ## Testing

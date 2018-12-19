@@ -1,12 +1,12 @@
 # Homing The Printer
 
-Before you start printing or moving any component of the Promega, we recommend homing the printer. Follow the steps below in order to home your printer. Prior to homing your printer check that the gantry and bed are able to move freely and access the limit switch. This guide assumes you have connected to the Promega as outlined in [Network Setup](../getting-started-1/setup-your-network.md).
+Before you start printing or moving any component of the Promega, we recommend homing the printer. Follow the steps below in order to home your printer. Prior to homing your printer check that the gantry and bed are able to move freely and access the limit switch. This guide assumes you have connected to the Promega as outlined in [Network Setup]().
 
 ### Printer Axes
 
 ![](../.gitbook/assets/promegacoordinateaxes.jpg)
 
-In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](../getting-started-1/setup-your-network.md#the-web-interface). 
+In order to control the Promega it is important to understand the axes of the printer and their orientation. As you can see in the image above the X axis spans across the front of the printer from left to right if you are facing the front of the printer. The Y axis is pointing from the front to the back and the z-axis is pointing down. Remember these axes directions as you jog the printer with the _Machine Control_ tab in the [Duet Web Console](). 
 
 {% hint style="info" %}
 **Positive Z is DOWN**

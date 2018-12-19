@@ -1,7 +1,3 @@
----
-description: Under Construction
----
-
 # Unclogging The Nozzle
 
 Slide your Cold Section Fan half-way down.

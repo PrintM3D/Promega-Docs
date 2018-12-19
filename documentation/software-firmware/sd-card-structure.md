@@ -1,6 +1,6 @@
 # SD Card Structure
 
-One of the first steps of setting up your printer is getting access to and understanding the files stored on the microSD card. This guide will cover the basic structure of the files on the SD card. Follow the [Accessing Your SD Card](../../getting-started-1/setup-your-electronics.md#accessing-the-microsd) guide for more assistance on how to get to the files located on the microSD card.
+One of the first steps of setting up your printer is getting access to and understanding the files stored on the microSD card. This guide will cover the basic structure of the files on the SD card. Follow the [Accessing Your SD Card]() guide for more assistance on how to get to the files located on the microSD card.
 
 ## File Structure
 
@@ -20,7 +20,7 @@ As mentioned before, the _sys/_ folder contains all sorts of system files. The m
 Below is a list of files with the _machine_ prefix. **This prefix indicates that they should be opened and can be changed to your preferences**.
 
 * _A Instructions.txt:_ This file contains a further explanation and instructions of the files on the SD card.
-* _machine\_access.g_: This file contains G-code commands to properly setup the network settings. Open and change this file in order to allow the Duet Maestro to connect to your local network. Follow the [Network Setup](../../getting-started-1/setup-your-network.md) guide in order to setup your network.
+* _machine\_access.g_: This file contains G-code commands to properly setup the network settings. Open and change this file in order to allow the Duet Maestro to connect to your local network. Follow the [Network Setup]() guide in order to setup your network.
 * _machine\_axisdimensions.g_: This file contains G-code commands to initialize the minimum and the maximum values of the coordinate axes. Change the values in this file in order to allow your gantry to move to the absolute limits of your buildspace. Use caution when changing the axes limits.
 * _machine\_axissteps.g_: The axis steps per millimeter for the stepper motors are placed here. Changing these values should not be necessary as they are already properly configured.
 * _machine\_bedmesh.g_: This file initializes the bed leveling mesh.

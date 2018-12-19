@@ -63,7 +63,7 @@ Next,
 2. Look for a folder named _Printer Setup_
 3. Ensure the three **macros files** are contained within. 
 
-If any of these files are missing, review the instructions at [Updating SD Card Structure](../getting-started-1/updating-sd-card-structure.md) to update your printer, then return to this page to tune the Z-homing procedure.
+If any of these files are missing, review the instructions at [Updating SD Card Structure]() to update your printer, then return to this page to tune the Z-homing procedure.
 
 ### Step 2: Z Probe Location Calibration
 
@@ -246,7 +246,7 @@ Currently, this procedure is equivalent to steps 6 through 10 of the automated p
 
 Ideally whenever you home the printer and send the command `G1 X0 Y0 Z0` \(telling the printer to go to \(0,0,0\)\) the print bed will touch the nozzle. However, as outlined above, the relative distance between the bed and the nozzle varies depending on your setup. Follow the steps below to update your _machine\_zendstop.g_ file.
 
-1. Verify your printer configuration is up to date before completing this procedure. In particular, make sure the file _machine\_zendstop.g_ is present on the SD card. To verify: in the web interface, choose _Settings_ and then _System Editor_. Scroll down and ensure _machine\_zendstop.g_ is present. If it is not, first review the instructions at [Updating SD Card Structure](../getting-started-1/updating-sd-card-structure.md) to update your printer, then return to this page to tune the Z-homing procedure.
+1. Verify your printer configuration is up to date before completing this procedure. In particular, make sure the file _machine\_zendstop.g_ is present on the SD card. To verify: in the web interface, choose _Settings_ and then _System Editor_. Scroll down and ensure _machine\_zendstop.g_ is present. If it is not, first review the instructions at [Updating SD Card Structure]() to update your printer, then return to this page to tune the Z-homing procedure.
 2. Home the printer if you have not already done so \(see [Homing the Printer](../beginners-setup-guides/homing-the-printer.md)\).
 3. Send the command `G29 S2` to disable bed leveling. Bed leveling can conflict with your homing value.
 4. Move the printer to a height of Z = +10 mm with the command `G1 Z10`

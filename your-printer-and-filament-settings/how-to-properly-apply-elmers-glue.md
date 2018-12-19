@@ -1,7 +1,3 @@
----
-description: Under Construction
----
-
 # How To Properly Apply Elmer's Glue
 
 A guide on how to apply Elmer's Glue properly.

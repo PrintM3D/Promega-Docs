@@ -1,7 +1,3 @@
----
-description: Under Construction.
----
-
 # Extruder
 
 ## Grinding: One Side Keeps Grinding.

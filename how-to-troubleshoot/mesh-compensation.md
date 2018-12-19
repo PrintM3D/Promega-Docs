@@ -1,7 +1,3 @@
----
-description: Under Construction.
----
-
 # Mesh Compensation
 
 ## My Bed Is Too Low or High

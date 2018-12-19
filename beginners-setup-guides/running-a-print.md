@@ -1,6 +1,6 @@
 # Running A Print
 
-Running a print is best done using the Duet Web Console. To connect to your Duet via a network, visit the [Network Setup](../getting-started-1/setup-your-network.md#network-setup) guide. For an introduction on the Duet Web Console visit the [Accessing Web Interface](../getting-started-1/setup-your-network.md#the-web-interface) guide.
+Running a print is best done using the Duet Web Console. To connect to your Duet via a network, visit the [Network Setup]() guide. For an introduction on the Duet Web Console visit the [Accessing Web Interface]() guide.
 
 This guide assumes you have properly configured your printer with all the previous guides. That means:
 

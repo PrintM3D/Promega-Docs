@@ -1,7 +1,3 @@
----
-description: Thanks to Shep.
----
-
 # Ruler Shortcut
 
 ## Synopsis

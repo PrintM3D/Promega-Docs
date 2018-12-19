@@ -1,7 +1,3 @@
----
-description: Work in Progress
----
-
 # CoreXY
 
 ## What is the CoreXY?

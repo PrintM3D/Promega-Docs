@@ -1,7 +1,3 @@
----
-description: Under Construction
----
-
 # Network Connection
 
 This a complete troubleshooting procedure used to determine the issue behind any connection issues to Duet Web Control \(DWC\).
@@ -167,7 +163,7 @@ Your SD Card is not being read.
 
 Make sure the SD Card still works, by verifying you can still see the SD Card's content through your computer.
 
-If you cannot, you need a new SD Card. Refer to [Updating SD Card](../getting-started-1/updating-sd-card-structure.md) for repopulating your new card.
+If you cannot, you need a new SD Card. Refer to [Updating SD Card]() for repopulating your new card.
 
 If you can, we recommend reformatting the SD Card \(follow official Duet3D [microSD guidelines](https://duet3d.dozuki.com/Wiki/SD_Card)\).
 

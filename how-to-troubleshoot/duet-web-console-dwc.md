@@ -14,7 +14,7 @@ This indicates that the web pages of the Duet web server can not be loaded from 
 
 * Reboot the Duet Maestro board with the microSD card properly fitted inside.
 * Reformat the microSD card.
-* [Update the microSD card files.](../getting-started-1/updating-sd-card-structure.md)
+* [Update the microSD card files.]()
 * [Update the Duet Web Firmware.](../documentation/software-firmware/updating-firmware.md)
 
 ## Frequent Disconnects from the Duet Web Console
@@ -29,7 +29,7 @@ When working with the Duet Web Console there are frequent disconnects with the D
 
 * Ensure that your computer has a proper connection to the local network. It is possible that the Duet is not disconnected from the network but your computer is.
 * Ensure that the Duet has a proper connection to your local network.
-* [Try configuring a static IP address](../getting-started-1/setup-your-network.md#changing-the-network-settings-via-sd). It is possible that the router is continuously changing the IP address of your Promega.
+* [Try configuring a static IP address](). It is possible that the router is continuously changing the IP address of your Promega.
 * Go to _Settings &gt; General_ on the Duet Web Console and increase the _Status Update Interval_ and _Maximum Number of AJAX Retries_.
 
 
