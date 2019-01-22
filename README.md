@@ -8,33 +8,41 @@ Welcome to the  M3D Promega's User Manual.
 
 ### Expandable
 
-There's a bunch of add-ons.
+The Promega is expandable, meaning you can customize it to suit your needs. These are 4 possible extruder configurations.
 
 {% tabs %}
 {% tab title="Compound Printing" %}
+The Compound nozzle is a dual mixing nozzle, which takes in two filaments and either prints one at a time or mixes them together. 
+
+A standard Promega will come with this extruder.
+
 ![](.gitbook/assets/compound-diagram.png)
 {% endtab %}
 
 {% tab title="Dual Printing" %}
   
+The K'Tana hot end is two, independent nozzles for dual printing. 
 
+K'Tana nozzles are seamless, long nozzles that include a thin-wall heat break to reduce energy consumption and eliminate leaks.
 
 ![](.gitbook/assets/ktana-diagram.png)
 {% endtab %}
 
 {% tab title="Quad Printing" %}
   
+The Quad extruder takes in four filaments and can either print one at a time or mix for blended colors.
 
+You can create beautiful color prints using our CMYK color-calibrated mixing filament.
 
 ![](.gitbook/assets/quad-diagram.webp)
 {% endtab %}
 
 {% tab title="High Temp Printing" %}
+Our high-temp extruder add-on allows you to extrude materials up to 350 C. 
 
-{% endtab %}
+This upgrade is ideal for printing high-temp materials such as PEEK, if you are producing small prints. 
 
-{% tab title="Glass Beds" %}
-  
+For larger prints, you may need a more robust system upgrade. If you are interested in this, please fill out this [form](https://airtable.com/shrPYVe4EY4mXUM4e).
 {% endtab %}
 {% endtabs %}
 
