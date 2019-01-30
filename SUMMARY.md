@@ -106,4 +106,5 @@
 * [Add-Ons](m3d-community/add-ons/README.md)
   * [Modified Printed Parts](m3d-community/add-ons/modified-printed-parts.md)
   * [Gearbox](m3d-community/add-ons/gearbox.md)
+  * [Quad](m3d-community/add-ons/quad.md)
 
