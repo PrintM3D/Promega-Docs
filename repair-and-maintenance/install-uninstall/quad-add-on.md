@@ -29,37 +29,55 @@ _**NONE**_
 
 #### Remove Wall-E
 
-{% embed url="https://youtu.be/GTZwyyznwsQ" caption="" %}
+\(Unfasten Cover\)
 
+{% embed url="https://www.youtube.com/watch?v=GTZwyyznwsQ&t=1s" %}
 
+\(Remove Wall-E\)
 
-{% embed url="https://youtu.be/GTZwyyznwsQ" %}
+{% embed url="https://youtu.be/royd-Td-Lmw" caption="Note: The plastic part \(inside the Wall-E\) fell during removal. " %}
 
+#### Remove Cable Chain
 
+{% embed url="https://youtu.be/Q8EUlI4kuD4" %}
 
-Unscrew Gantry Belt Clamp
+#### Unfasten Gantry Belt Clamp
 
-\[remove belt too\]
+{% embed url="https://youtu.be/VqGK6qcCMn8" %}
 
-Remove X Axis System
+#### Remove X Axis System
 
-Remove Left Gantry Idler Holders
+{% embed url="https://youtu.be/bmPePS8jyVc" %}
 
-Remove Extruder
+#### Remove Extruder
 
-Prep Promega-Quad Adapter
+{% embed url="https://youtu.be/HNqaTdfDCok" %}
 
-Install Promega-Quad Adapter
+#### Prep Promega-Quad Adapter
 
-\[install gantry holder\]
+{% embed url="https://youtu.be/HQ3qw7pvMn0" %}
+
+#### Install Promega-Quad Adapter
+
+{% embed url="https://youtu.be/rw6SntHdPPg" %}
 
 \[Make sure sliding well\]
 
-Prep Cable Chain & Duet Board
+#### Prep Cable Chain
+
+{% embed url="https://youtu.be/Iu5SqmuvGWc" %}
+
+#### Prep Duet Maestro
+
+{% embed url="https://youtu.be/rAeKsvmrjq4" %}
 
 \[double check wiring\]
 
-Install X Axis System
+#### Install X Axis System
+
+{% embed url="https://youtu.be/zAK7kCCi-Oc" %}
+
+
 
 Install belts
 
