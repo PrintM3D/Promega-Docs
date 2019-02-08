@@ -1,7 +1,3 @@
----
-description: Guide
----
-
 # Quad
 
 ## XYZ Calibration
