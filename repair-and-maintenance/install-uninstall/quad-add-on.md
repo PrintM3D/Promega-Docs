@@ -6,8 +6,6 @@ description: Under Construction
 
 ## What is the Quad Add-On?
 
-
-
 ## Tools
 
 * M3 Screwdriver
@@ -31,9 +29,11 @@ _**NONE**_
 
 #### Remove Wall-E
 
-{% youtube src="https://youtu.be/GTZwyyznwsQ" %}{% endyoutube %}
+{% embed url="https://youtu.be/GTZwyyznwsQ" caption="" %}
 
 
+
+{% embed url="https://youtu.be/GTZwyyznwsQ" %}
 
 
 
@@ -49,7 +49,7 @@ Remove Extruder
 
 Prep Promega-Quad Adapter
 
-Install Promega-Quad Adapter 
+Install Promega-Quad Adapter
 
 \[install gantry holder\]
 
@@ -61,7 +61,7 @@ Prep Cable Chain & Duet Board
 
 Install X Axis System
 
-Install belts 
+Install belts
 
 \[loosen XY motors\]
 
@@ -77,11 +77,7 @@ Install cable chain
 
 Connect Quad
 
-
-
 #### Plug-in Power Supply
-
-
 
 ### Additional Software Changes
 
@@ -93,13 +89,11 @@ Download the Promega Source File.
 
 Delete ALL content in SD Card.
 
-Go to .../Downloads/promega-devel/Promega-devel/SD Card Structure/Quad. 
+Go to .../Downloads/promega-devel/Promega-devel/SD Card Structure/Quad.
 
 Copy ALL and paste into SD Card.
 
 ![](../../.gitbook/assets/quad_download.PNG)
-
-
 
 Ready For Printing.
 
