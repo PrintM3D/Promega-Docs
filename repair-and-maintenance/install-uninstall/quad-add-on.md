@@ -31,7 +31,7 @@ _**NONE**_
 
 #### Remove Wall-E
 
-{% embed url="https://youtu.be/GTZwyyznwsQ" %}
+{% youtube src="https://youtu.be/GTZwyyznwsQ" %}{% endyoutube %}
 
 
 
