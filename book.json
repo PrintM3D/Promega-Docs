@@ -2,4 +2,6 @@
   "plugins": [
     "google-drive-video"
   ]
+  
+  "plugins": ["youtube"]
 }
