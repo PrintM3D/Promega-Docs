@@ -2,7 +2,7 @@
 description: Under Construction
 ---
 
-# Quad Add-On
+# Install
 
 ## What is the Quad Add-On?
 

@@ -57,7 +57,6 @@
 * [Repair & Maintenance](repair-and-maintenance/README.md)
   * [Install/Uninstall](repair-and-maintenance/install-uninstall/README.md)
     * [Back Cover](repair-and-maintenance/install-uninstall/back-cover.md)
-    * [Quad Add-On](repair-and-maintenance/install-uninstall/quad-add-on.md)
     * [Filtration System](repair-and-maintenance/install-uninstall/filtration-system.md)
     * [Cable Chain](repair-and-maintenance/install-uninstall/cable-chain.md)
     * [Extruder](repair-and-maintenance/install-uninstall/extruder.md)
@@ -96,6 +95,12 @@
     * [Extruder System](printed-parts-bin/bin/extruder-system.md)
     * [Bed](printed-parts-bin/bin/bed.md)
   * [Promega 1.24 or earlier](printed-parts-bin/conversion-details.md)
+
+## Quad
+
+* [Setup Guide](quad/repair-and-maintenance/README.md)
+  * [Install](quad/repair-and-maintenance/quad-add-on.md)
+  * [Calibration](quad/repair-and-maintenance/calibration.md)
 
 ## M3D Community
 
