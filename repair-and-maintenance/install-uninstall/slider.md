@@ -84,7 +84,23 @@ If you are performing more than one slider replacement, you may find it benefici
 
 * Definition of "Loose" : Partially unscrewed or Completely unscrewed.
 
-### Version: TBD
+### Version: Standard
+
+#### Install Slider
+
+{% embed url="https://youtu.be/06qg5LW\_yFY" %}
+
+#### Tighten Belt
+
+{% embed url="https://youtu.be/KBpaaLvIYxQ" %}
+
+#### Tighten Slider
+
+{% embed url="https://youtu.be/WLPDVCSwb9U" %}
+
+
+
+
 
 
 

@@ -321,6 +321,36 @@ Tools:
 
 
 
+## Additional Electrical Changes
+
+#### Jumpers need to be re-positioned. 
+
+Before:
+
+![](../../.gitbook/assets/before-jumper-image.jpg)
+
+After:
+
+![](../../.gitbook/assets/after-jumper-image.jpg)
+
+#### Fans need to be reconfigured.
+
+Two Methods:
+
+Change Fan Connections **\(Recommended\)**
+
+
+
+Swap Crimps \(Advanced\)
+
+{% hint style="danger" %}
+#### Proceed at own risk. Similar changes are done in-house by trained personnel for assembled Promega-Quads.
+
+Make sure Promega is OFF during reconfiguration.
+{% endhint %}
+
+{% embed url="https://youtu.be/YA3u8R11ZE4" %}
+
 ## Additional Software Changes
 
 Go to [GitHub](https://github.com/PrintM3D/Promega)
