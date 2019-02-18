@@ -2,7 +2,7 @@
 description: >-
   Your Promega has probably had a long journey to arrive at your front door.
   Follow this guide to ensure that your Promega arrived in one piece and is
-  ready to print. First of all, check for any nuts an
+  ready to print.
 ---
 
 # Check Your Printer
@@ -29,9 +29,9 @@ If your CoreXY belt system is loose follow the [Belt Tensioning Guide](../repair
 
 ### Z-sliders
 
-The Z-sliders are 3D printed parts that allow the Z-platform to ride along the four aluminum extrusion on the corners. Check that the Z-sliders are properly seated on the aluminum extrusion. 
+The Z-sliders are 3D printed parts that allow the Z-platform to ride along the four aluminum extrusion on the corners. Check that the Z-sliders are properly seated on the aluminum extrusion.
 
-![](../.gitbook/assets/20180611_164841.jpg) 
+![](../.gitbook/assets/20180611_164841.jpg)
 
 ### Lifting the Bed
 
