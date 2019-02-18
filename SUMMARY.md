@@ -4,6 +4,7 @@
 * [Getting Started](getting-started/README.md)
   * [Critical Warnings & Information](getting-started/critical-warnings-and-information.md)
   * [Unboxing & Assembly](getting-started/unboxing-and-assembly.md)
+  * [Check Your Printer](getting-started/check-your-printer.md)
   * [Setup Your Electronics](getting-started/setup-your-electronics.md)
   * [Setup Your Network](getting-started/setup-your-network.md)
   * [Updating SD Card Structure](getting-started/updating-sd-card-structure.md)
