@@ -138,5 +138,5 @@ The side windows can be identified by the fact that they are made of thinner pla
 
 ![](../.gitbook/assets/attachingsides.jpg)
 
-Continue on to [Mechanical Check](https://github.com/PrintM3D/Promega-Docs/tree/441f6d1929bd0af86b0e007c0fc46eecd5dc06c2/getting-started/mechanical-check.md), the next chapter in the [Getting Started](./) guide.
+Continue on to [Mechanical Check](check-your-printer.md), the next chapter in the [Getting Started](./) guide.
 
