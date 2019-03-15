@@ -68,15 +68,15 @@ For all printed part iterations, click [here](https://drive.google.com/drive/u/0
 
 ## Y Limit Housing XL:
 
-![](../../.gitbook/assets/y-limit-housing-xl-v2_2.JPG)
+![](../../.gitbook/assets/y-limit-housing-xl-v2_2.jpg)
 
 ### Current
 
-{% file src="../../.gitbook/assets/y-limit-housing-xl-v2_2.STL" %}
+{% file src="../../.gitbook/assets/y-limit-housing-xl-v2_2.stl" %}
 
 ### Legacy
 
-{% file src="../../.gitbook/assets/y-limit-housing-xl-v2_1.STL" %}
+{% file src="../../.gitbook/assets/y-limit-housing-xl-v2_1.stl" %}
 
 ## Z Limit Switch Holder:
 
