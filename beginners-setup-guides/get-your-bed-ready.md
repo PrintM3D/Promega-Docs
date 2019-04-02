@@ -213,6 +213,10 @@ Done.
 
 ## Map The Bed
 
+{% hint style="info" %}
+Also known as: _**Bed Compensation**_
+{% endhint %}
+
 ### Note:
 
 Assumption: Your bed probe has been setup. 
