@@ -72,11 +72,11 @@ For all printed part iterations, click [here](https://drive.google.com/drive/u/0
 
 ### Current
 
-{% file src="../../.gitbook/assets/y-limit-housing-xl-v2_2.stl" %}
+{% file src="../../.gitbook/assets/y-limit-housing-xl-v2\_2.stl" %}
 
 ### Legacy
 
-{% file src="../../.gitbook/assets/y-limit-housing-xl-v2_1.stl" %}
+{% file src="../../.gitbook/assets/y-limit-housing-xl-v2\_1.stl" %}
 
 ## Z Limit Switch Holder:
 

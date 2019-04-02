@@ -15,6 +15,14 @@ Read the [Accessing Your SD Card](setup-your-electronics.md#accessing-the-micros
 Read the [SD Card Structure](../documentation/software-firmware/sd-card-structure.md) guide for more explanation on the files and directories on the SD card.
 
 {% tabs %}
+{% tab title="Downloading Directly from the Repository" %}
+## Downloading Directly from Repository
+
+This option is not recommended, but it will allow you to get the latest configuration files, regardless of official release. This is not the recommended option. Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository.
+
+![Downloading from Github](../.gitbook/assets/s8aq28iyeh4lw9ww-howtodownloadgithub.png)
+{% endtab %}
+
 {% tab title="Downloading Official Release" %}
 ## Downloading Official Release
 
@@ -23,14 +31,6 @@ This is the recommended option.
 Go to the [M3D GitHub Promega Repository Releases](https://github.com/PrintM3D/Promega/releases) and download the latest release. Download the _.zip_ folder for the extruder head that you currently have mounted. The Promega can come with either the K'tana \(two nozzles\) or the compound \(1 nozzle\).
 
 ![Downloading the Latest Release](../.gitbook/assets/wheretoinstallnewsdstuff.png)
-{% endtab %}
-
-{% tab title="Downloading Directly from the Repository" %}
-## Downloading Directly from Repository
-
-This option is not recommended, but it will allow you to get the latest configuration files, regardless of official release. This is not the recommended option. Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository.
-
-![Downloading from Github](../.gitbook/assets/s8aq28iyeh4lw9ww-howtodownloadgithub.png)
 {% endtab %}
 
 {% tab title="Downloading Pre-Release" %}
