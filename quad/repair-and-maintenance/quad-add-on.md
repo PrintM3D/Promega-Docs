@@ -187,6 +187,12 @@ Tools:
 * T10 Screwdriver
 {% endhint %}
 
+{% hint style="info" %}
+The holes used to fasten the X Axis System shown below:
+{% endhint %}
+
+![Left Gantry Slider \(symmetric for the right side\) ](../../.gitbook/assets/screw-hole-left-gantryslider.png)
+
 
 
 #### Loosen Motors
@@ -331,11 +337,17 @@ After:
 
 ![](../../.gitbook/assets/after-jumper-image.jpg)
 
+
+
 ### Fans need to be reconfigured.
 
 Two Methods:
 
 Change Fan Connections **\(Recommended\)**
+
+{% embed url="https://youtu.be/x\_1gCOkPz-A" %}
+
+\*\*\*\*
 
 Swap Crimps \(Advanced\)
 
