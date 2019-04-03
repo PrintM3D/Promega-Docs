@@ -18,7 +18,7 @@ Read the [SD Card Structure](../documentation/software-firmware/sd-card-structur
 {% tab title="Downloading Directly from the Repository" %}
 ## Downloading Directly from Repository
 
-This option is not recommended, but it will allow you to get the latest configuration files, regardless of official release. This is not the recommended option. Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository.
+This option is not always recommended, but it will allow you to get the latest configuration files, regardless of official release. Once you have found and opened the [M3D Github ProMega Repository](https://github.com/PrintM3D/Promega). Press the _Clone or download_ button circled below and then click _Download ZIP_. This will download a _.zip_ file of the repository.
 
 ![Downloading from Github](../.gitbook/assets/s8aq28iyeh4lw9ww-howtodownloadgithub.png)
 {% endtab %}
