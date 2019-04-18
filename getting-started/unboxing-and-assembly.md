@@ -32,31 +32,23 @@ Check the outside of the packaging for any significant amount of damage that mig
 ## Items Included
 
 1. microSD Card + microSD Card Reader
-2. Optional: Motor Extension Cable
-
-   ![q1NeIH9spvvUXWTW-20180702\_183204.jpg](../.gitbook/assets/q1neih9spvvuxwtw-20180702_183204.jpg)
-
-3. PC Plug
-
-   ![UChagSELhY0GuuYX-pcplug.jpg](../.gitbook/assets/uchagselhy0guuyx-pcplug.jpg)
-
-4. Spool Holders
+2. Spool Holders
 
    ![F4z9qTNZghp1gmOv-spoolholders.jpg](../.gitbook/assets/f4z9qtnzghp1gmov-spoolholders.jpg)
 
-5. Windows \(Optional: Glass Bed\)
+3. Windows \(Optional: Glass Bed\)
 
    ![1u0t2bROqhGPsdIC-windows.jpg](../.gitbook/assets/1u0t2broqhgpsdic-windows.jpg)
 
-6. Rubber Feet x4
+4. Rubber Feet x4
 
    ![2qXoyZvaLOUZ7UlG-fee.jpg](../.gitbook/assets/2qxoyzvalouz7ulg-fee.jpg)
 
-7. microUSB Cable
+5. microUSB Cable
 
    ![M3KZuhI3zMNt4ZCL-microUSBcable.jpg](../.gitbook/assets/m3kzuhi3zmnt4zcl-microusbcable.jpg)
 
-8. Optional: Glass Bed Clamps x4
+6. Optional: Glass Bed Clamps x4
 
    ![XmjCKMnSzdgnN53G-glassbedclamps.jpg](../.gitbook/assets/xmjckmnszdgnn53g-glassbedclamps.jpg)
 

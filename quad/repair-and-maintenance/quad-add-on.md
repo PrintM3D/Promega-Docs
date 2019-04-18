@@ -359,6 +359,26 @@ Make sure Promega is OFF during reconfiguration.
 
 {% embed url="https://youtu.be/YA3u8R11ZE4" caption="" %}
 
+
+
+### Plug In Motor Cables
+
+Location of Motor Cable Connections on Board:
+
+![](../../.gitbook/assets/motor-port-locations.jpg)
+
+When plugging in motor cables, match the dots:
+
+![Left-side: Port 1, Right-side: Port 0](../../.gitbook/assets/e-motor-port0-1-connections.jpg)
+
+![Left-side: Port 3, Right-side: Port 2](../../.gitbook/assets/e-motor-port2-3-connections.jpg)
+
+{% hint style="warning" %}
+CAREFULLY & FULLY plug in the motor cables into their designated spots. 
+
+The pictures above are partially plugged in \(for sake of seeing the markings\). 
+{% endhint %}
+
 ## Additional Software Changes
 
 Go to [GitHub](https://github.com/PrintM3D/Promega)
